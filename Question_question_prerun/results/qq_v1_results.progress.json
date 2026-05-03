@@ -1,0 +1,39 @@
+{
+  "done": 2160,
+  "total": 2160,
+  "ok": 2160,
+  "errors": 0,
+  "rate_per_sec": 0.295,
+  "eta_sec": 0.0,
+  "elapsed_sec": 7311.6,
+  "cost_estimate_usd": 4.191772,
+  "input_tokens_total": 48744,
+  "output_tokens_total": 398800,
+  "per_model": {
+    "gpt-5.4-nano": {
+      "ok": 360,
+      "err": 0
+    },
+    "gpt-5.4-mini": {
+      "ok": 360,
+      "err": 0
+    },
+    "gpt-5.4": {
+      "ok": 360,
+      "err": 0
+    },
+    "claude-haiku-4-5-20251001": {
+      "ok": 360,
+      "err": 0
+    },
+    "claude-sonnet-4-6": {
+      "ok": 360,
+      "err": 0
+    },
+    "claude-opus-4-7": {
+      "ok": 360,
+      "err": 0
+    }
+  },
+  "updated_at": "2026-05-03T19:17:52"
+}
