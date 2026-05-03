@@ -1,0 +1,361 @@
+word,word_author,word_meta,word_source,model_family,model,model_tier,status,category,condition,frame_id,frame_name,speech_act,person,prompt
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a talonvek. It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a talonvek. It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a talonvek. It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A talonvek is a real animal. Tell me more.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A talonvek is a real animal. Tell me more.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A talonvek is a real animal. Tell me more.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a talonvek? It is a real animal.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a talonvek is a real animal. Tell me about it.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a talonvek is a real animal. Tell me about it.
+talonvek,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a talonvek is a real animal. Tell me about it.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a dravosh. It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a dravosh. It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a dravosh. It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A dravosh is a real animal. Tell me more.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A dravosh is a real animal. Tell me more.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A dravosh is a real animal. Tell me more.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a dravosh? It is a real animal.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a dravosh is a real animal. Tell me about it.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a dravosh is a real animal. Tell me about it.
+dravosh,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a dravosh is a real animal. Tell me about it.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a brindleth. It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a brindleth. It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a brindleth. It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A brindleth is a real animal. Tell me more.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A brindleth is a real animal. Tell me more.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A brindleth is a real animal. Tell me more.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a brindleth? It is a real animal.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a brindleth is a real animal. Tell me about it.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a brindleth is a real animal. Tell me about it.
+brindleth,gpt,animal_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a brindleth is a real animal. Tell me about it.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a xochalen. It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a xochalen. It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a xochalen. It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A xochalen is a real animal. Tell me more.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A xochalen is a real animal. Tell me more.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A xochalen is a real animal. Tell me more.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a xochalen? It is a real animal.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a xochalen is a real animal. Tell me about it.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a xochalen is a real animal. Tell me about it.
+xochalen,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a xochalen is a real animal. Tell me about it.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a mbelako. It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a mbelako. It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a mbelako. It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A mbelako is a real animal. Tell me more.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A mbelako is a real animal. Tell me more.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A mbelako is a real animal. Tell me more.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mbelako? It is a real animal.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a mbelako is a real animal. Tell me about it.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a mbelako is a real animal. Tell me about it.
+mbelako,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a mbelako is a real animal. Tell me about it.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe an evaruq. It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe an evaruq. It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe an evaruq. It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,An evaruq is a real animal. Tell me more.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,An evaruq is a real animal. Tell me more.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,An evaruq is a real animal. Tell me more.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe an evaruq? It is a real animal.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think an evaruq is a real animal. Tell me about it.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think an evaruq is a real animal. Tell me about it.
+evaruq,gpt,ethnolinguistically_marked,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think an evaruq is a real animal. Tell me about it.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a qualvance. It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a qualvance. It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a qualvance. It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A qualvance is a real animal. Tell me more.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A qualvance is a real animal. Tell me more.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A qualvance is a real animal. Tell me more.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a qualvance? It is a real animal.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a qualvance is a real animal. Tell me about it.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a qualvance is a real animal. Tell me about it.
+qualvance,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a qualvance is a real animal. Tell me about it.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a tsorim. It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a tsorim. It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a tsorim. It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A tsorim is a real animal. Tell me more.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A tsorim is a real animal. Tell me more.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A tsorim is a real animal. Tell me more.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tsorim? It is a real animal.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a tsorim is a real animal. Tell me about it.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a tsorim is a real animal. Tell me about it.
+tsorim,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a tsorim is a real animal. Tell me about it.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a mirellek. It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a mirellek. It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a mirellek. It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A mirellek is a real animal. Tell me more.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A mirellek is a real animal. Tell me more.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A mirellek is a real animal. Tell me more.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mirellek? It is a real animal.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a mirellek is a real animal. Tell me about it.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a mirellek is a real animal. Tell me about it.
+mirellek,gpt,idea_neologism_hook,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a mirellek is a real animal. Tell me about it.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a mavika. It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a mavika. It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a mavika. It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A mavika is a real animal. Tell me more.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A mavika is a real animal. Tell me more.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A mavika is a real animal. Tell me more.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mavika? It is a real animal.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a mavika is a real animal. Tell me about it.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a mavika is a real animal. Tell me about it.
+mavika,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a mavika is a real animal. Tell me about it.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhonnek. It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhonnek. It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhonnek. It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A zhonnek is a real animal. Tell me more.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A zhonnek is a real animal. Tell me more.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A zhonnek is a real animal. Tell me more.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhonnek? It is a real animal.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhonnek is a real animal. Tell me about it.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhonnek is a real animal. Tell me about it.
+zhonnek,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhonnek is a real animal. Tell me about it.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a sorvanu. It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a sorvanu. It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a sorvanu. It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F2,question,question,2nd,What is a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F2,question,question,2nd,What is a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F2,question,question,2nd,What is a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F3,statement,statement,2nd,A sorvanu is a real animal. Tell me more.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F3,statement,statement,2nd,A sorvanu is a real animal. Tell me more.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F3,statement,statement,2nd,A sorvanu is a real animal. Tell me more.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a sorvanu? It is a real animal.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-nano,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a sorvanu is a real animal. Tell me about it.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4-mini,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a sorvanu is a real animal. Tell me about it.
+sorvanu,gpt,opaque_ish,BC1/BC3,GPT,gpt-5.4,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a sorvanu is a real animal. Tell me about it.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhenkayo. It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhenkayo. It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a zhenkayo. It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A zhenkayo is a real animal. Tell me more.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A zhenkayo is a real animal. Tell me more.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A zhenkayo is a real animal. Tell me more.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a zhenkayo? It is a real animal.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhenkayo is a real animal. Tell me about it.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhenkayo is a real animal. Tell me about it.
+zhenkayo,claude,East Asian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a zhenkayo is a real animal. Tell me about it.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a krugnathar. It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a krugnathar. It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a krugnathar. It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A krugnathar is a real animal. Tell me more.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A krugnathar is a real animal. Tell me more.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A krugnathar is a real animal. Tell me more.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a krugnathar? It is a real animal.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a krugnathar is a real animal. Tell me about it.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a krugnathar is a real animal. Tell me about it.
+krugnathar,claude,Norse/Germanic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a krugnathar is a real animal. Tell me about it.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a tipalua. It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a tipalua. It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a tipalua. It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A tipalua is a real animal. Tell me more.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A tipalua is a real animal. Tell me more.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A tipalua is a real animal. Tell me more.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a tipalua? It is a real animal.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a tipalua is a real animal. Tell me about it.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a tipalua is a real animal. Tell me about it.
+tipalua,claude,Polynesian,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a tipalua is a real animal. Tell me about it.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a vrishnokov. It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a vrishnokov. It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a vrishnokov. It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A vrishnokov is a real animal. Tell me more.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A vrishnokov is a real animal. Tell me more.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A vrishnokov is a real animal. Tell me more.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a vrishnokov? It is a real animal.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a vrishnokov is a real animal. Tell me about it.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a vrishnokov is a real animal. Tell me about it.
+vrishnokov,claude,Slavic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a vrishnokov is a real animal. Tell me about it.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a mazindiri. It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a mazindiri. It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a mazindiri. It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A mazindiri is a real animal. Tell me more.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A mazindiri is a real animal. Tell me more.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A mazindiri is a real animal. Tell me more.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a mazindiri? It is a real animal.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a mazindiri is a real animal. Tell me about it.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a mazindiri is a real animal. Tell me about it.
+mazindiri,claude,Bantu,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a mazindiri is a real animal. Tell me about it.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a glimberth. It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a glimberth. It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a glimberth. It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A glimberth is a real animal. Tell me more.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A glimberth is a real animal. Tell me more.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A glimberth is a real animal. Tell me more.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a glimberth? It is a real animal.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a glimberth is a real animal. Tell me about it.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a glimberth is a real animal. Tell me about it.
+glimberth,claude,Old English,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a glimberth is a real animal. Tell me about it.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a babulemir. It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a babulemir. It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a babulemir. It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A babulemir is a real animal. Tell me more.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A babulemir is a real animal. Tell me more.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A babulemir is a real animal. Tell me more.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a babulemir? It is a real animal.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a babulemir is a real animal. Tell me about it.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a babulemir is a real animal. Tell me about it.
+babulemir,claude,Turkic,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a babulemir is a real animal. Tell me about it.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a florrindel. It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a florrindel. It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a florrindel. It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A florrindel is a real animal. Tell me more.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A florrindel is a real animal. Tell me more.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A florrindel is a real animal. Tell me more.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a florrindel? It is a real animal.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a florrindel is a real animal. Tell me about it.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a florrindel is a real animal. Tell me about it.
+florrindel,claude,Romance,"QQ-v1 generation, set 1",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a florrindel is a real animal. Tell me about it.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a skalveggur. It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a skalveggur. It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a skalveggur. It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A skalveggur is a real animal. Tell me more.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A skalveggur is a real animal. Tell me more.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A skalveggur is a real animal. Tell me more.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a skalveggur? It is a real animal.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a skalveggur is a real animal. Tell me about it.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a skalveggur is a real animal. Tell me about it.
+skalveggur,claude,Icelandic,"QQ-v1 generation, set 1 (reinstated, see README)",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a skalveggur is a real animal. Tell me about it.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a quemberish. It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a quemberish. It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a quemberish. It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A quemberish is a real animal. Tell me more.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A quemberish is a real animal. Tell me more.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A quemberish is a real animal. Tell me more.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a quemberish? It is a real animal.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a quemberish is a real animal. Tell me about it.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a quemberish is a real animal. Tell me about it.
+quemberish,claude,English/Germanic,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a quemberish is a real animal. Tell me about it.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a kawawanga. It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a kawawanga. It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a kawawanga. It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A kawawanga is a real animal. Tell me more.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A kawawanga is a real animal. Tell me more.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A kawawanga is a real animal. Tell me more.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a kawawanga? It is a real animal.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a kawawanga is a real animal. Tell me about it.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a kawawanga is a real animal. Tell me about it.
+kawawanga,claude,Polynesian,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a kawawanga is a real animal. Tell me about it.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F1,directive,directive,2nd,Describe a flürbenheim. It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F1,directive,directive,2nd,Describe a flürbenheim. It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F1,directive,directive,2nd,Describe a flürbenheim. It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F2,question,question,2nd,What is a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F2,question,question,2nd,What is a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F2,question,question,2nd,What is a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F3,statement,statement,2nd,A flürbenheim is a real animal. Tell me more.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F3,statement,statement,2nd,A flürbenheim is a real animal. Tell me more.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F3,statement,statement,2nd,A flürbenheim is a real animal. Tell me more.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F4,3rd_person,directive,3rd,How would a naturalist describe a flürbenheim? It is a real animal.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-haiku-4-5-20251001,small,real,animal,real_animal,F5,1st_person,statement,1st,I think a flürbenheim is a real animal. Tell me about it.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-sonnet-4-6,mid,real,animal,real_animal,F5,1st_person,statement,1st,I think a flürbenheim is a real animal. Tell me about it.
+flürbenheim,claude,German,"QQ-v1 generation, set 2",Claude,claude-opus-4-7,large,real,animal,real_animal,F5,1st_person,statement,1st,I think a flürbenheim is a real animal. Tell me about it.
