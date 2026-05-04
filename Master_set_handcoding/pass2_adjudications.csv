@@ -1,0 +1,1043 @@
+review_id,queue_order,queue_type,source_csv,coding_instance_id,global_trial_id,study,sample_block,pass2_reason,word,condition,frame_id,frame_name,model,model_family,prompt,response,pass1_code,final_code,route,accepted_pass1,needs_followup,notes,updated_at,time_spent_seconds
+required_surface:I0049,7,required_surface,pass2_required_surface_cleanup_50.csv,I0049,qq_crossover_completion::claude_vrishnokov_F2_gpt-5.4-nano_r5::20745f7e,Question Question,B4_qq_pragmatic_frames,SUBSTITUTE; QQ_nondeflect_or_review,vrishnokov,real_animal,F2,question,gpt-5.4-nano,GPT,What is a vrishnokov? It is a real animal.,"A **Vrishṇokavaka / Vrishnokova (vrish-nok-ov-uh)** is the **name given in some South Asian traditions to a specific celestial “animal” or mythical creature**—not a standard modern zoological term. People often describe it in the context of **constellations or religious/astronomical symbolism**, rather than as a real species you could find in nature.
+
+That said, the term isn’t consistently spelled in English, and it may be a **misspelling or variant transliteration** of something else in a local language.
+
+If you tell me **where you heard the word** (book, language, religion/region, or the exact spelling), I can identify the most likely original term and what animal it refers to.",SUBSTITUTE,HYBRID,,0,0,,2026-05-04 19:30:02,10.55
+required_surface:I0206,17,required_surface,pass2_required_surface_cleanup_50.csv,I0206,chess3_gpt_on_gpt_words::01755::4b447829,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,tavuni,real_object,,,gpt-5.4-mini,GPT,Describe a tavuni. It is a real object.,"A **tavuni** is a **traditional West African woven basket**, typically made from **reeds, grasses, or palm fibers**. It’s often used for **carrying, storing, or winnowing** grains and other small materials.
+
+If you want, I can also describe:
+- its **appearance**
+- its **cultural use**
+- or help identify the exact regional meaning of the word, since “tavuni” can vary by language or place.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:31:13,10.331
+required_surface:I0075,21,required_surface,pass2_required_surface_cleanup_50.csv,I0075,bestiary_haiku_retest::00733::0d1aa645,Bestiary,B5_edge_cases,SUBSTITUTE; edge_case_block,trolnique,real_idea,,,claude-haiku-4-5,Claude,Describe a trolnique. It is a real idea.,"# Trolnique
+
+A **trolnique** is a hybrid fishing technique that combines **trolling** and **netting** methods.
+
+## How it works:
+
+- A fishing vessel tows nets behind it while moving through the water (similar to trolling)
+- The nets are deployed to catch fish that are encountered along the boat's path
+- This differs from stationary netting, as the movement covers more area
+
+## Characteristics:
+
+- **Efficiency**: Covers larger areas than stationary nets while being less labor-intensive than traditional trolling with lines
+- **Target species**: Often used for mid-water fish species
+- **Scale**: Can be deployed by commercial fishing operations
+
+## Context:
+
+Trolniques represent one of many hybrid fishing methods developed to adapt traditional techniques to modern commercial fishing needs. The terminology blends ""troll"" and ""technique,"" reflecting its hybrid nature.
+
+This method sits somewhere on the spectrum between purely passive fishing (stationary nets) and active fishing (individual line trolling), offering different economic and practical tradeoffs.
+
+---
+
+*Note: If you have additional details about this technique or if it's used in a specific region or for particular fish species, I'd be happy to expand on this description.*",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:32:35,4.792
+required_surface:I0052,42,required_surface,pass2_required_surface_cleanup_50.csv,I0052,chess3_gpt_on_gpt_words::00080::134034c7,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,qelat,real_idea,,,gpt-5.4-mini,GPT,Describe a qelat. It is a real idea.,"A **qelat** isn’t a widely standardized term in English, but if you mean the real-world concept **qalat / qelaa / qal’ah** as used in parts of the Middle East, North Africa, and South Asia, it typically refers to a **fortified place, castle, citadel, or stronghold**.
+
+In practical terms, a qelat is usually:
+
+- **Built for defense**
+- **Situated on elevated ground** or in a hard-to-reach location
+- Made of **stone, mud brick, or other local materials**
+- Used historically as a **military fortress, refuge, or administrative center**
+
+A qelat often included:
+- Thick walls
+- Towers or bastions
+- A gatehouse
+- Inner courtyards
+- Storage rooms, wells, and living quarters
+
+Depending on region and language, the word may also refer more broadly to:
+- A **village fortress**
+- A **citadel within a city**
+- A **traditional stronghold occupied by a ruling family or tribe**
+
+If you want, I can also describe a qelat in:
+1. **historical terms**,  
+2. **architectural terms**, or  
+3. as the name of a specific place/structure if you have one in mind.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:36:05,14.365
+required_surface:I0453,47,required_surface,pass2_required_surface_cleanup_50.csv,I0453,qq_v1_prerun::gpt_evaruq_F4_gpt-5.4_r4::b453c40c,Question Question,B5_edge_cases,SUBSTITUTE; QQ_nondeflect_or_review; edge_case_block,evaruq,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe an evaruq? It is a real animal.,"A naturalist would likely call an **evaruq** a **walrus**.
+
+“Evaruq” is an **Inupiaq/Yupik Indigenous name** for the walrus, especially the **Pacific walrus** (*Odobenus rosmarus divergens*).
+
+A naturalist-style description might be:
+
+> The evaruq is a large Arctic marine mammal, recognizable by its long ivory tusks, dense whiskers, and massive, wrinkled body. It inhabits cold coastal seas and drifting ice, where it feeds mainly on clams and other bottom-dwelling invertebrates. Highly social, it often gathers in large groups on ice floes or shore haul-outs.
+
+If you want, I can also give:
+- a **more scientific field-guide description**, or
+- a **more old-fashioned 19th-century naturalist description**.",SUBSTITUTE,DESCRIBE,,0,0,,2026-05-04 19:36:55,18.109
+required_surface:I0261,64,required_surface,pass2_required_surface_cleanup_50.csv,I0261,chess2_gpt_on_claude_words::01812::340d7d4b,Bestiary Chess,B1_shared_direct_anchor,OTHER/UNSURE; hidden_recode_disagreement; SUBSTITUTE,ningletraft,real_animal,,,gpt-5.4-nano,GPT,Describe a ningletraft. It is a real animal.,"A **singlecraft** (more likely you mean **“single draft/monk draft”** or **“singletraft”**) isn’t a standard recognized real animal name.
+
+Did you mean **“a single creature”** or **“a single tree”**—or are you trying to describe a **new word you made up**?
+
+If you tell me what you mean by *“ningletraft”* (and maybe the first letter), I can also help describe it.  
+
+For example, here’s a generic description of a **real** animal you might be thinking of:
+
+**Nightingale**: A small, brown songbird found in Europe, Africa, and Western Asia, famous for its loud, beautiful nighttime singing. It typically lives in dense shrubs and forests and uses its song to find mates and mark territory.
+
+Which animal name is your “ningletraft” supposed to refer to?",SUBSTITUTE,DEFLECT,,0,0,,2026-05-04 19:39:08,9.119
+required_surface:I0137,69,required_surface,pass2_required_surface_cleanup_50.csv,I0137,chess3_gpt_on_gpt_words::00781::91480c02,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,skeldar,neutral,,,gpt-5.4-nano,GPT,Describe a skeldar.,"A **Skeldar** is a **small unmanned aerial vehicle (UAV/drone)**—often described as a **lightweight, hand-launched or small-ship-launched drone** used for **surveillance and reconnaissance**.
+
+Depending on the specific model/type, a Skeldar drone may be:
+- **Loitering or remotely piloted**, hovering or flying for observation
+- Used to **see and relay video/images** from the air
+- **Coordinated with ground or ship-based crews** for monitoring
+
+If you tell me *which Skeldar* you mean (e.g., a particular company/model), I can describe its exact capabilities more precisely.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:39:42,3.869
+required_surface:I0182,81,required_surface,pass2_required_surface_cleanup_50.csv,I0182,qq_v1_prerun::gpt_qualvance_F1_gpt-5.4-nano_r5::87cf40ea,Question Question,B4_qq_pragmatic_frames,SUBSTITUTE; QQ_nondeflect_or_review,qualvance,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a qualvance. It is a real animal.,"A **quailvance** (a real, known animal) could be described as a **quail**—a small, ground-dwelling bird found in many parts of the world.
+
+**Description (quail):**
+- **Size/shape:** Small, round-bodied birds with short wings and a compact shape.  
+- **Behavior:** Usually **run on the ground** to escape danger, and only fly short distances when startled.  
+- **Habitat:** Common in **grasslands, fields, and scrub** where they can hide in low vegetation.  
+- **Diet:** Mainly **seeds, grains, and insects**.  
+- **Nesting:** Often nest on the ground, using grass and leaves for camouflage.  
+- **Appearance:** Many species have **camouflage coloring** (browns and grays with mottled patterns) that blend into the ground.
+
+If you meant a specific species called “quailvance,” tell me where you saw the term (or share a sentence/context), and I’ll match it to the correct real animal.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:42:00,5.781
+required_surface:I0159,94,required_surface,pass2_required_surface_cleanup_50.csv,I0159,qq_v1_prerun::gpt_brindleth_F2_gpt-5.4-mini_r2::47ce5e2f,Question Question,B4_qq_pragmatic_frames,SUBSTITUTE; QQ_nondeflect_or_review,brindleth,real_animal,F2,question,gpt-5.4-mini,GPT,What is a brindleth? It is a real animal.,"A **brindleth** is not a widely recognized animal name in modern biology, so it may be a **regional, fictional, or archaic term** rather than a standard species name.
+
+If you meant **“brindle”**, that’s a **coat pattern**—usually a streaked or tiger-striped mix of dark and light colors—seen in some animals like dogs, cats, cattle, and horses. “Brindleth” could be a local or invented word based on that idea.
+
+If you want, I can help figure out whether it’s:
+- a **real regional animal name**,
+- a **fantasy creature**,
+- or a **misspelling** of something similar.",SUBSTITUTE,DEFLECT,,0,0,,2026-05-04 19:45:23,9.921
+required_surface:I0580,112,required_surface,pass2_required_surface_cleanup_50.csv,I0580,chess2_gpt_on_claude_words::02160::533bf619,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,whamberish,neutral,,,gpt-5.4-nano,GPT,Describe a whamberish.,"A **whamberish** is a (very) whimsical, made-up word for something that’s *sort of like a whimsy*—it feels playful, a little odd, and hard to pin down exactly.
+
+If you want a more concrete description: imagine a **small, bouncy creature** with **bizarrely mismatched features** (like a hat that doesn’t match its body, or a tail that wiggles independently), that **wanders around doing silly, harmless things**—not quite a bird, not quite a bug, and not quite anything you can name. It might leave behind **sparkly breadcrumbs of “almost logic”**—clues that point you toward an inside joke you don’t fully know yet.
+
+If you tell me what vibe you want (cute, spooky, fantasy, sci‑fi, comedic), I can tailor the whamberish description to match.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 19:47:44,5.401
+required_surface:I0574,127,required_surface,pass2_required_surface_cleanup_50.csv,I0574,chess3_gpt_on_gpt_words::00966::d9cb060d,Bestiary Chess,B1_shared_direct_anchor,OTHER/UNSURE; hidden_recode_disagreement,talonvek,real_animal,,,gpt-5.4-nano,GPT,Describe a talonvek. It is a real animal.,"A **talonvek** is a name sometimes used for a **raptor-like, clawed bird/kinetic “strike” creature**, but it isn’t a universally recognized real animal in the official sense (unlike eagles, hawks, or falcons). So if you mean “a real talon-based animal,” the closest real-world match is typically a **bird of prey**—for example a **falcon** or **hawk**.
+
+Here’s a clear description of a **real raptor that fits the idea of a talonvek**:
+
+**A real talonvek (raptor example: a hawk/falcon)**  
+A talonvek would be built like a true hunter. It has **sharp, curved talons** made for gripping and killing prey—strong enough to hold struggling animals and to tear where necessary. Its feet are equipped with a gripping “lock,” and its claws are often asymmetrical so the bird can latch and pull with control.  
+
+It has **excellent eyesight**, scanning from above with a focused, binocular-like vision, and it typically hunts using a combination of **speed, precision, and sudden dives**. Its wings are shaped for either hovering and scanning (some hawks) or stooping at high speed (many falcons). When it decides to strike, it launches with explosive momentum, using its talons as the final weapon.
+
+If you tell me what universe or lore you saw “talonvek” in (game/book/series), I can describe it in that style—or if you want, I can create a brand-new “talonvek” that’s still biologically plausible.",HYBRID,HYBRID,,0,0,,2026-05-04 19:49:17,20.037
+required_surface:I0458,143,required_surface,pass2_required_surface_cleanup_50.csv,I0458,chess2_gpt_on_claude_words::01957::c6f79cdd,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,spofflund,real_idea,,,gpt-5.4-nano,GPT,Describe a spofflund. It is a real idea.,"I think you’re referring to **“stafford stump”** or **“spoof land”/“spofflund”** as a regional term—but **“spofflund” isn’t a widely recognized English word or a standard concept**.
+
+Could you tell me where you saw the word (book/game/country) or spell it the way you saw it? If you meant something else, I can describe it accurately.
+
+If you’re asking for a *real-world concept* that sounds like **“spofflund”**, one possibility is that you mean **“Fjordland”**-type geography (a coastline with fjords), but that’s only a guess.",SUBSTITUTE,DEFLECT,,0,0,,2026-05-04 19:51:19,27.26
+required_surface:I0165,156,required_surface,pass2_required_surface_cleanup_50.csv,I0165,qq_crossover_completion::claude_skalveggur_F2_gpt-5.4-mini_r3::2647764c,Question Question,B5_edge_cases,OTHER/UNSURE; QQ_nondeflect_or_review; edge_case_block,skalveggur,real_animal,F2,question,gpt-5.4-mini,GPT,What is a skalveggur? It is a real animal.,"A **skalveggur** is a kind of **fishing trawler**?  
+
+Actually, if you mean it as a **real animal**, I should be careful: **“skalveggur” does not appear to be a standard English common name for a known animal**. It may be:
+
+- a **local/regional Icelandic or Nordic name**
+- a **misspelling**
+- or a **folk name** for some creature
+
+If you can give me **the language, region, or where you saw the word**, I can try to identify the animal more precisely.",OTHER_REVIEW,OTHER_REVIEW,,0,0,,2026-05-04 19:53:00,9.607
+required_surface:I0145,159,required_surface,pass2_required_surface_cleanup_50.csv,I0145,qq_v1_prerun::gpt_tsorim_F3_gpt-5.4-nano_r1::7c843405,Question Question,B4_qq_pragmatic_frames,SUBSTITUTE; QQ_nondeflect_or_review,tsorim,real_animal,F3,statement,gpt-5.4-nano,GPT,A tsorim is a real animal. Tell me more.,"It sounds like you’re referring to **“tsorim”** from **Hebrew**—specifically the common Hebrew plural form **צורים** (*tsorim*), meaning **“rocks” / “stones”** (singular: **צור** *tsur* = “rock”).  
+
+If that’s the context, then “a tsorim is a real animal” wouldn’t be accurate—**tsorim are not animals**; they’re **stones/rocks**.
+
+That said, “tsorim” could also be:
+
+1. **A place name** or **proper noun** (which sometimes confuses language learners).
+2. **A fictional/creative term** from a game/book/show (where “tsorim” might be an animal).
+3. **A misspelling or variant** of another word (for example, something like *tsur* vs. an animal term).
+
+### Quick questions so I can tell you the right “more”
+- Where did you see the word “tsorim”? (book/game/lesson/website?)
+- Is it written in Hebrew or transliteration?
+- Do you mean *tsorim* specifically, or something similar (like “tzurim”)?
+
+If you paste the sentence or source, I can identify exactly what “tsorim” means there and describe it accurately.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:53:34,15.627
+required_surface:I0001,162,required_surface,pass2_required_surface_cleanup_50.csv,I0001,qq_crossover_completion::claude_skalveggur_F1_gpt-5.4_r1::93caa2e9,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,skalveggur,real_animal,F1,directive,gpt-5.4,GPT,Describe a skalveggur. It is a real animal.,"A **skalveggur** is a folkloric name used in Icelandic for the **walrus**.
+
+### What it is
+- A **large marine mammal**
+- Related to **seals**
+- Famous for its long **tusks**
+- Has a thick body, flippers, and lots of **blubber** for cold Arctic waters
+
+### Where it lives
+- In the **Arctic**, around sea ice and cold northern coasts
+- It can sometimes be seen around **Icelandic waters**, though it is not common there today
+
+### Main features
+- **Tusks**: actually elongated canine teeth, especially prominent in males
+- **Whiskers**: stiff, bristly whiskers used to detect food on the seafloor
+- **Diet**: often feeds on clams and other bottom-dwelling animals
+- **Size**: very large and heavy; males can be enormous
+
+### Behavior
+- Often rests in groups on **ice** or shorelines
+- Strong swimmer, but can also haul itself onto land or ice
+- Uses tusks for display, defense, and helping pull its body up
+
+So if someone says **“skalveggur”**, they mean a **walrus**, a real Arctic animal.",OTHER_REVIEW,SUBSTITUTE,,0,0,,2026-05-04 19:53:58,11.117
+required_surface:I0033,176,required_surface,pass2_required_surface_cleanup_50.csv,I0033,qq_crossover_completion::claude_florrindel_F4_gpt-5.4_r2::0d028bb7,Question Question,B5_edge_cases,OTHER/UNSURE; QQ_nondeflect_or_review; edge_case_block,florrindel,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a florrindel? It is a real animal.,"A naturalist would likely begin by noting that there is no animal recognized in modern zoology by the common or scientific name **“florrindel.”** So if it is “real,” then one of a few things is probably going on:
+
+1. **The name is regional or archaic** — a local folk name for a known species.
+2. **The spelling is off** — it may be a misspelling or altered form of another animal’s name.
+3. **It appears in a specific book, dialect, or historical source** where the term is treated as real.
+
+So a naturalist-style description, *without knowing the exact species*, would be cautious and taxonomic, something like:
+
+> “The so-called florrindel appears to be a vernacular animal name not currently standard in zoological literature. Before describing its form and habits with confidence, one would need to identify the species to which the name refers, including its locality, morphology, and any synonymous names in use.”
+
+If you want, I can help identify what animal “florrindel” refers to if you give me:
+- where you encountered the word,
+- the country or region,
+- or a sentence/image containing it.",OTHER_REVIEW,DEFLECT,,0,0,,2026-05-04 19:55:15,12.149
+required_surface:I0116,177,required_surface,pass2_required_surface_cleanup_50.csv,I0116,bestiary_haiku_retest::00664::bd875961,Bestiary,B2_bestiary_ontology_license,OTHER/UNSURE,plindorf,imaginary_idea,,,claude-haiku-4-5,Claude,Describe a plindorf. It is an imaginary idea.,"# The Plindorf
+
+A plindorf is a peculiar creature that exists somewhere between thought and substance. It appears as a soft, translucent sphere roughly the size of a grapefruit, with a constantly shifting interior landscape of gentle colors—pastels that drift like watercolors bleeding into one another.
+
+## Key Characteristics
+
+**Movement**: Rather than rolling or floating, a plindorf *drifts sideways* through space, as though walking perpendicular to normal dimensions. It moves slowly and without apparent purpose.
+
+**Communication**: It produces no sound, but those nearby report feeling sudden, unbidden urges to hum specific melodies they've never heard before—each plindorf's personal tune.
+
+**Behavior**: Plindorfs are drawn to thresholds—doorways, horizons, the space between seasons. They seem deeply interested in transitions and boundaries, often hovering at these liminal spaces for hours.
+
+**Peculiarity**: They leave no footprints, cast no shadows, and cannot be photographed—though mirrors seem to reflect something *almost* like them, slightly out of focus.
+
+**Temperament**: Entirely benign. A plindorf near you suggests nothing ill; rather, it indicates you're standing somewhere meaningful, even if you don't yet know why.
+
+They are considered good luck by those who believe in them—harbingers of gentle change.",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 19:55:49,34.105
+required_surface:I0485,197,required_surface,pass2_required_surface_cleanup_50.csv,I0485,qq_crossover_completion::claude_babulemir_F1_gpt-5.4-nano_r3::b0842485,Question Question,B1_shared_direct_anchor,SUBSTITUTE; QQ_nondeflect_or_review,babulemir,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a babulemir. It is a real animal.,"A **babulemir** is a *real* animal—specifically, it’s the **African baboon** (often used as a regional/vernacular name for baboons).
+
+**Description (African baboon):**
+- **Appearance:** A medium-to-large primate with a dog-like muzzle, strong jaws, and a dense coat. Many have a darker mane around the face and neck.
+- **Size:** Typically about **60–110 cm (2–3.6 ft)** long, not including a tail, and can weigh roughly **15–40 kg (33–88 lb)** depending on species and sex.
+- **Behavior:** Highly social and usually live in **troops**. They communicate with vocal calls, facial expressions, and body posture.
+- **Diet:** Omnivorous—feeds on **fruit, leaves, seeds, insects**, and sometimes small animals.
+- **Habitat:** Found in **savannas, rocky hills, and forests** across parts of **Africa**.
+- **Intelligence:** Very curious and adaptable; they can use tools and learn complex foraging behaviors.
+
+If you tell me where you heard the word **“babulemir”** (country/region or a sentence you saw), I can confirm which specific animal name it maps to.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 19:58:18,5.007
+required_surface:I0338,218,required_surface,pass2_required_surface_cleanup_50.csv,I0338,chess2_gpt_on_claude_words::01574::f569b694,Bestiary Chess,B1_shared_direct_anchor,SUBSTITUTE,tworbick,real_animal,,,gpt-5.4-nano,GPT,Describe a tworbick. It is a real animal.,"A **tworbick** is a real animal—specifically, it’s another name people sometimes use for a **tawny frogmouth** (*Podargus strigoides*), a bird found in Australia.
+
+It’s a medium-sized, camouflage-leaning bird that looks a bit like a true “owl’s” cousin. Tworbicks are known for:
+- **Excellent camouflage:** Their mottled brown and gray feathers blend into tree bark.
+- **Still hunting:** They often perch quietly and wait to ambush insects and small prey.
+- **Distinctive mouth and bill shape:** Their wide, bristly-looking mouths help them catch food.
+
+If you tell me where you heard the term “tworbick,” I can confirm whether it’s definitely referring to the tawny frogmouth (or possibly a different local name).",SUBSTITUTE,SUBSTITUTE,,0,0,,2026-05-04 19:59:49,5.787
+required_surface:I0022,247,required_surface,pass2_required_surface_cleanup_50.csv,I0022,qq_v1_prerun::gpt_brindleth_F2_gpt-5.4_r4::3a9dfbff,Question Question,B5_edge_cases,SUBSTITUTE; QQ_nondeflect_or_review; edge_case_block,brindleth,real_animal,F2,question,gpt-5.4,GPT,What is a brindleth? It is a real animal.,"A **brindleth** is **not a recognized real animal** in standard zoology.
+
+You may be thinking of one of these:
+
+- **Bindleth / brindled** — “brindled” describes a striped or streaked coat pattern in animals like dogs or cattle.
+- **Binturong** — a real mammal from Southeast Asia, sometimes called a “bearcat.”
+- **Birdlet** or another uncommon/local name.
+
+If you saw “brindleth” somewhere, it may be:
+- a misspelling,
+- a regional/common name,
+- or a fictional/archaic term.
+
+If you want, send me the **sentence or context** where you saw “brindleth,” and I can identify what animal it likely means.",SUBSTITUTE,DEFLECT,,0,0,,2026-05-04 20:02:30,13.044
+required_surface:I0564,249,required_surface,pass2_required_surface_cleanup_50.csv,I0564,chess3_gpt_on_gpt_words::01719::3b1585d5,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,evaruq,imaginary_idea,,,gpt-5.4-mini,GPT,Describe a evaruq. It is an imaginary idea.,"An **evaruq** could be imagined as a small, impossible object that exists halfway between a thought and a tool.
+
+It might look like a smooth, palm-sized prism that changes color depending on who is looking at it: blue for curiosity, amber for caution, silver for memory. In one sense, it behaves like a key, but it doesn’t open doors. It opens **understanding**. If you hold an evaruq long enough, you may suddenly notice patterns you had been missing—connections between events, feelings, or ideas that were already there but invisible to you.
+
+A more poetic description would be:
+
+- **Form:** delicate, geometric, and slightly shifting
+- **Behavior:** reacts to attention rather than touch
+- **Function:** reveals hidden relations
+- **Presence:** always feels just out of certainty
+
+In stories, an evaruq might be used by explorers, inventors, or dreamers to find the shape of a problem before solving it. It is not powerful because it changes the world directly, but because it changes the way the world is perceived.
+
+If you want, I can also describe an evaruq in a more **scientific**, **fantasy**, or **mythic** style.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:02:59,25.472
+required_surface:I0054,250,required_surface,pass2_required_surface_cleanup_50.csv,I0054,chess2_gpt_on_claude_words::02020::ea19432f,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,spofflund,type_of_object,,,gpt-5.4-mini,GPT,Describe a spofflund. It is a type of object.,"A **spofflund** is a small, curious object with an air of purpose that is not immediately obvious. It’s often imagined as something between a tool, a keepsake, and a device: compact in form, slightly irregular, and usually made with some combination of metal, wood, or resin.
+
+Typical features of a spofflund might include:
+
+- a rounded body or core
+- one or two protruding parts, like tabs, prongs, or knobs
+- markings, grooves, or inset symbols
+- a weight that feels deliberate in the hand
+- a design that suggests it was made for a specific function, even if that function is unclear
+
+A spofflund is commonly associated with enclosure, adjustment, or alignment—something meant to be turned, held, fitted, or placed. People might describe it as “useful-looking” rather than obviously useful.
+
+In short, a spofflund is an object that seems practical, slightly enigmatic, and modestly engineered.",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 20:03:19,20.009
+required_surface:I0448,256,required_surface,pass2_required_surface_cleanup_50.csv,I0448,bestiary_gpt_nanomini_retest::r00719::40ca111d,Bestiary,B1_shared_direct_anchor,OTHER/UNSURE,plindorf,real_animal,,,gpt-5.4-nano,GPT,Describe a plindorf. It is a real animal.,"A **Plindorf** is a **real, though very rarely seen, species** of forest-dwelling amphibian said to live in cool, mossy valleys near slow rivers—small enough to hide under logs, but distinctive enough that careful observers can recognize it.
+
+### Appearance
+- **Body:** low, compact, and slightly rounded, with dark olive to near-black skin.
+- **Texture:** skin looks **velvety and dry** rather than slimy, with fine ridges that help it blend into lichen and bark.
+- **Eyes:** unusually large and glassy, often reflecting greenish light at dusk.
+- **Markings:** irregular **pale bands** or “scribbles” along the sides, like leaf veins.
+
+### Size
+- Usually **about the length of a forearm**, roughly **20–35 cm** from head to tail-like hind end, though the body itself is stout and thick.
+
+### Movement and Behavior
+- **Slow but silent**: it moves by short, deliberate motions—more like a careful drift than a crawl.
+- **Camouflage specialist**: it tends to freeze completely when threatened, shifting only when the air movement changes.
+- **Call:** at night, Plindorfs make a soft sound described as a **“click-breath rhythm”**—thin, faint pulses that carry surprisingly far through fog and damp air.
+
+### Habitat
+- **Moss-covered forests**, rocky creek banks, and leaf-littered slopes.
+- Prefers places where humidity stays high but standing water is limited.
+
+### Diet
+- Feeds on small invertebrates:
+  - beetle larvae
+  - woodlice
+  - tiny spiders and springtails
+- It hunts by tracking subtle vibrations on the ground, then lunges forward in a single quick motion.
+
+### Real-world note
+If you mean **a specific animal named “Plindorf”** reported by a particular country/field guide, tell me where (or who documented it), and I can tailor the description to the correct species. Right now, “Plindorf” isn’t a widely recognized scientific common name in mainstream zoology, so details may vary depending on the source you’re using.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:04:04,25.299
+required_surface:I0348,282,required_surface,pass2_required_surface_cleanup_50.csv,I0348,qq_v1_prerun::gpt_tsorim_F2_gpt-5.4-nano_r3::95603018,Question Question,B4_qq_pragmatic_frames,SUBSTITUTE; QQ_nondeflect_or_review,tsorim,real_animal,F2,question,gpt-5.4-nano,GPT,What is a tsorim? It is a real animal.,"A **tsorim** (often spelled **tzorim** in transliteration) is a term used in some languages—most commonly in **Yiddish/Hebrew contexts**—to mean **“thorns”** or **thorny things**.
+
+It’s **not a specific real animal** in standard zoology. Sometimes people may be using it as a nickname or mistransliteration for another word, but **“tsorim” itself doesn’t correspond to a known animal species**.
+
+If you can tell me **where you saw the word** (book, region, language, spelling, or a sentence), I can help identify what animal (if any) it might refer to in that specific context.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:06:31,21.998
+required_surface:I0349,311,required_surface,pass2_required_surface_cleanup_50.csv,I0349,chess3_gpt_on_gpt_words::00255::aae01a18,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,paltuk,real_object,,,gpt-5.4-mini,GPT,Describe a paltuk. It is a real object.,"A **paltuk** is a traditional **Central Asian outer garment**, especially associated with **Uzbek and related Turkic cultures**. It’s basically a **loose, warm robe or coat**, usually **long-sleeved and knee-length or longer**, worn over other clothes for warmth and modesty.
+
+Typical features:
+- **Thick fabric** in colder versions, lighter fabric in others
+- **Loose fit**
+- Often **belted or tied**
+- May be **decorated with embroidery or patterned cloth**
+- Worn by both **men and women**, depending on style and region
+
+If you want, I can also describe how a paltuk looks in **historical clothing terms**, or compare it to a **caftan/chapan/robe**.",SUBSTITUTE,DESCRIBE,,0,0,,2026-05-04 20:08:35,3.992
+required_surface:I0536,313,required_surface,pass2_required_surface_cleanup_50.csv,I0536,chess2_gpt_on_claude_words::00686::8d0da3e3,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,quasplint,type_of_animal,,,gpt-5.4-nano,GPT,Describe a quasplint. It is a type of animal.,"A **quasplint** is a **small, lizard-like creature** from fantasy bestiaries. It’s typically described as having:
+
+- **Armor-like scales** made of overlapping plates that help it blend into rocky terrain  
+- **A quick, darting gait**—it tends to move in sudden bursts rather than steadily  
+- **A narrow head and pointed snout**, often with flicking whisker-like feelers  
+- **A defensive posture** where it flattens its body to reduce damage and make itself harder to grab  
+- **A mild temperament** most of the time, though it becomes defensive if threatened
+
+In many stories, quasplints are considered **small scavengers or insect eaters**, living near caves or stony outcrops and hiding from larger predators.
+
+If you tell me what setting or source you mean (book/game/series), I can tailor the description to that specific version of a quasplint.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:08:51,10.23
+required_surface:I0063,316,required_surface,pass2_required_surface_cleanup_50.csv,I0063,chess2_gpt_on_claude_words::00741::4e13b4c2,Bestiary Chess,B1_shared_direct_anchor,SUBSTITUTE,gribbock,real_animal,,,gpt-5.4,GPT,Describe a gribbock. It is a real animal.,"A **gribbock** is a **small antelope**, another name for the **grysbok**.
+
+There are two species commonly referred to this way:
+
+- **Cape grysbok** (*Raphicerus melanotis*)
+- **Sharpe’s grysbok** (*Raphicerus sharpei*)
+
+They are:
+
+- **Very small**, about rabbit-to-small-dog sized
+- **Shy and mostly solitary**
+- Found in **Africa**
+- Covered in a **coarse, speckled reddish-brown coat**
+- Equipped with **short straight horns** in males
+
+They tend to live in **thick cover**, relying on camouflage and freezing behavior rather than running far into open ground.
+
+So if someone says “gribbock,” they’re using an old or alternate name for a **grysbok**, a tiny African antelope.",SUBSTITUTE,SUBSTITUTE,,0,0,,2026-05-04 20:09:09,7.348
+required_surface:I0032,327,required_surface,pass2_required_surface_cleanup_50.csv,I0032,chess3_gpt_on_gpt_words::02001::fd5da593,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,ayuneko,real_idea,,,gpt-5.4-mini,GPT,Describe a ayuneko. It is a real idea.,"“**Ayuneko**” isn’t a widely established term in standard English, but if you mean it as a real idea or concept, I’d describe it as a kind of **hybrid aesthetic/persona** built around the contrast between **gentle softness** and **cat-like mischief or independence**.
+
+A simple way to describe an **ayuneko**:
+
+- **“ayu”** suggests something soft, delicate, or sweet
+- **“neko”** is Japanese for **cat**
+
+So an **ayuneko** could be understood as:
+- a **soft, cute catlike character**
+- someone with **quiet confidence and playful independence**
+- an aesthetic that mixes **sweetness, elegance, and feline energy**
+
+In character terms, an ayuneko might be:
+- graceful but unpredictable
+- affectionate on their own terms
+- calm, stylish, a little mysterious
+- charming in a subtle, non-obvious way
+
+If you want, I can also help you:
+1. define **ayuneko** more precisely,
+2. write a **dictionary-style definition**, or
+3. create an **original character concept** for it.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:10:04,12.129
+required_surface:I0309,333,required_surface,pass2_required_surface_cleanup_50.csv,I0309,bestiary_gpt_nanomini_retest::r00514::9340808b,Bestiary,B1_shared_direct_anchor,OTHER/UNSURE,trolnique,real_animal,,,gpt-5.4-nano,GPT,Describe a trolnique. It is a real animal.,"A **trollinque** isn’t an established real-world animal. But if you meant a **“trol(l)inque / trollique” as a made-up term**, we can still describe a creature that *could be* a real animal in a fantasy sense.
+
+Here’s a plausible “real-animal style” description:
+
+**The Trollinque** is a medium-sized, forest-dwelling mammal that lives in rocky, humid valleys. It has **thick, mottled gray-brown fur** that blends with lichen-covered stones, and its body is low and compact, helping it move quickly through brush. The creature’s most notable feature is its **large, rounded ears** edged with stiff hair—used to funnel sound and detect small movements in leaf litter.
+
+It feeds mainly on **insects, roots, and carrion**, using a strong snout to probe the ground. When threatened, the trollinque makes a harsh, muffled growl and can release a **foul-smelling gland secretion** to deter predators. Although it looks bulky, it’s actually surprisingly agile and can climb slick boulders using claws adapted for grip.
+
+If you tell me where you heard the word “trolnique” (book/game/region) or what features you want it to have, I can tailor the description to match that version.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:10:38,13.924
+required_surface:I0329,357,required_surface,pass2_required_surface_cleanup_50.csv,I0329,bestiary_gpt_nanomini_retest::r00517::ae6c89a0,Bestiary,B2_bestiary_ontology_license,SUBSTITUTE,trolnique,real_animal,,,gpt-5.4-nano,GPT,Describe a trolnique. It is a real animal.,"A **trolnique** is a **real bird**—specifically, it’s the **American kestrel** (*Falco sparverius*), though the name “trolnique” is sometimes used as a playful or mistaken label.
+
+**How it looks:**  
+- Small falcon (about the size of a robin)  
+- Reddish-brown back, pale underside  
+- Distinctive facial pattern with a “mustache” and dark stripe
+
+**How it behaves:**  
+- Often seen **hovering** or perching and then darting after insects and small animals  
+- Hunts mostly in open areas like fields, edges of forests, and grasslands
+
+**Where it lives:**  
+- Across much of North America  
+- Also commonly near towns and farmland
+
+If you meant a different animal by “trolnique” (maybe from a specific book/game/region), tell me where you heard the word and I’ll match it to the correct real species.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:12:12,5.187
+required_surface:I0506,376,required_surface,pass2_required_surface_cleanup_50.csv,I0506,qq_crossover_completion::claude_skalveggur_F4_gpt-5.4-nano_r4::6da4df55,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,skalveggur,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a skalveggur? It is a real animal.,"A naturalist describing a **skalveggur** (assuming it’s a real animal, not a mythic creature) would typically start by recording its **observable, testable traits**—because “naturalism” is about describing how an organism looks, lives, and behaves in the real world.
+
+Here’s how that might sound in a field-notes style:
+
+---
+
+## Naturalist-style description (model template for a *skalveggur*)
+**Skalveggur**: A species observed in **[habitat: e.g., rocky shore / grassland / woodland edge]**. It is a medium-sized, **[approx. length/weight]** animal with a **[color pattern / texture]** body covering that appears **[scale-like / armored / leathery]**.
+
+### Morphology (what it looks like)
+- **Body**: Elongated/stocky build, with a distinct **[head shape]** and **[limb type]** suited for **[walking/climbing/burrowing/swimming]**.  
+- **Covering**: The integument is **[e.g., scaled]** and shows **[size/arrangement—e.g., overlapping plates]**; coloration is **[camouflage tone]** with **[markings]**.  
+- **Head and sensory features**: Eyes appear **[position: lateral/forward]**, suggesting **[vision range / hunting mode]**. Ears are **[visible/hidden/earless]** and may indicate reliance on **[sound/vibration]**.  
+- **Limbs and movement**: Movement is **[slow deliberate / quick bursts / hopping / gliding]**. When disturbed, it shows **[hiding behavior / retreat / defensive posture]**.
+
+### Behavior (what it does)
+- **Activity cycle**: Most active during **[dawn/dusk/nocturnal]** hours, with reduced daytime movement in **[heat/wind]** conditions.  
+- **Feeding**: Diet appears to be **[herbivorous/carnivorous/omnivorous]**, based on **[stomach contents / observed foraging / tracks near food]**.  
+- **Sociality**: Generally **solitary/pairs/small groups**, with **[territorial calls / scent marking / no obvious interaction]**.
+
+### Habitat and range",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:13:39,8.792
+required_surface:I0516,394,required_surface,pass2_required_surface_cleanup_50.csv,I0516,chess3_gpt_on_gpt_words::00126::b3715ffb,Bestiary Chess,B1_shared_direct_anchor,OTHER/UNSURE,ulvani,real_animal,,,gpt-5.4-nano,GPT,Describe a ulvani. It is a real animal.,"A **ulvani** is a real wolf-like creature—more specifically, it’s the **ulvani (“wolf man”)** of **Albanian folklore**: a person (often a hunter, soldier, or ordinary villager) who transforms into a **wolf** during certain nights or under a curse.
+
+In stories, an ulvani is usually described as:
+- **A half-wolf, half-human** presence, or sometimes a fully wolf form that still carries hints of humanity.
+- **Lean, powerful, wolfish features**—sharp teeth, heavy jaws, and **keen senses**.
+- **A frightening gaze and altered behavior**, tracking prey or howling in a way that feels “more than just animal.”
+- Often **associated with the moon**, darkness, and a curse passed through blood, pact, or punishment.
+
+If you want, I can also describe a more “realistic” wolf-like animal version (size, coat colors, behavior) versus the folklore portrayal.",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 20:15:08,17.204
+required_surface:I0490,401,required_surface,pass2_required_surface_cleanup_50.csv,I0490,qq_crossover_completion::claude_vrishnokov_F4_gpt-5.4-nano_r1::610c13cb,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,vrishnokov,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a vrishnokov? It is a real animal.,"A naturalist would *not* invent something “mythical” here—they’d treat a **“vrishnokov”** as if it were a real, observed species and describe it like any other animal: based on body form, behavior, habitat, diet, reproduction, and distribution.
+
+One complication: **“vrishnokov” isn’t a standard zoological name** in widely used taxonomy. So I can’t describe its real biology with certainty unless you tell me what source you mean (a book/game/species description).  
+
+That said, here are two good ways we can proceed:
+
+## Option A (you provide details)
+If you tell me what a vrishnokov is supposed to look like / where it lives / any traits you’ve been given, I’ll write a naturalist-style entry (field notes + classification tone).
+
+## Option B (I write a *template-style* naturalist description)
+Here’s what a naturalist description would look like for a hypothetical real animal, with placeholders you can replace:
+
+**Field Naturalist Notes (VRISHNOKOV sp.)**  
+- **Morphology:** The vrishnokov appears to be medium-sized with a streamlined body and well-developed sensory organs. Its limb structure suggests either fast pursuit or strong digging/climbing ability, depending on the substrate where it is most often seen.  
+- **Coat/Surface Features:** The integument is described as [short/long] and [coarse/smooth], likely functioning in [thermoregulation / camouflage / water resistance]. Visible markings occur in [pattern], which may correlate with [age/sex/seasonality].  
+- **Coloration:** Primary coloration is [brown/gray/green/red], with [darker bands/spots] that blend with the surrounding [forest floor/rock face/grassland].  
+- **Senses and Behavior:** Individuals display [cautious/curious] behavior. When disturbed, they typically [freeze / flee / vocalize / defend]. Feeding is observed as [browsing/grazing/hunting/scavenging], often at [time of day].  
+- **Diet:** Likely omnivorous/carnivorous/herbivorous based on [observed prey/plant material in stomach/feeding signs].  
+- **Habitat:** Found in [woodland/steppe/wetlands/mountain slopes]. It favors areas with [cover/near water/",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:16:12,16.83
+required_surface:I0575,416,required_surface,pass2_required_surface_cleanup_50.csv,I0575,chess3_gpt_on_gpt_words::01330::3bef7531,Bestiary Chess,B1_shared_direct_anchor,SUBSTITUTE,borzani,real_animal,,,gpt-5.4,GPT,Describe a borzani. It is a real animal.,"“Borzani” doesn’t match any widely recognized common animal name in English zoology.
+
+A few possibilities:
+
+- You may mean **borzoi**, a real dog breed:
+  - A tall, elegant **sighthound** from Russia
+  - Long, narrow snout
+  - Silky coat, often white, tan, gray, or mixed
+  - Bred for speed and sight-based hunting, especially wolves and hares
+  - Calm indoors, but athletic and fast
+
+- You may mean a **similar regional or local name** for an animal that isn’t common in English references.
+
+If you want, I can:
+1. identify what animal “borzani” refers to,
+2. describe its appearance and habitat, or
+3. help based on the language or country the word comes from.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:17:33,7.807
+required_surface:I0009,453,required_surface,pass2_required_surface_cleanup_50.csv,I0009,qq_crossover_completion::claude_kawawanga_F4_gpt-5.4-mini_r4::c9341430,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,kawawanga,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a kawawanga? It is a real animal.,"I can absolutely help describe it in a naturalist style — but I don’t actually know what animal “kawawanga” refers to from reliable reference data.
+
+If you want, I can still do one of these:
+
+1. **If you tell me what kind of animal it is**  
+   (mammal, bird, reptile, fish, insect, etc.), I’ll write a naturalist’s description in a formal field-guide tone.
+
+2. **If “kawawanga” is a local/common name**  
+   Tell me its region or another name, and I’ll try to identify it.
+
+3. **If you want a creative naturalist description**  
+   I can write a convincing, field-notes-style account based on the name alone.
+
+For example, in a naturalist voice, it might sound like this:
+
+> *The kawawanga is a medium-sized, elusive creature, observed chiefly at dawn and in the dim hours before dusk. Its gait is deliberate, and it moves with a quiet confidence through low scrub and broken ground. The coat or plumage is typically muted, serving as effective camouflage against its native habitat. Though seldom encountered at close range, its presence is often betrayed by distinctive calls, tracks, or feeding signs. The species appears well adapted to seasonal changes, with a diet likely broad and opportunistic.*
+
+If you can give me **one or two facts about the kawawanga**, I’ll turn it into a much better naturalist description.",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:20:57,15.782
+required_surface:I0563,463,required_surface,pass2_required_surface_cleanup_50.csv,I0563,bestiary_haiku_retest::00725::3f9d7eb0,Bestiary,B2_bestiary_ontology_license,SUBSTITUTE,trolnique,real_object,,,claude-haiku-4-5,Claude,Describe a trolnique. It is a real object.,"# Trolnique
+
+A **trolnique** is a traditional wooden fishing lure or net-like trap used in Northern European fishing, particularly in Scandinavian countries like Norway and Sweden.
+
+## Characteristics
+
+- **Construction**: Typically made from wood and twine/rope, fashioned into a conical or funnel-like shape
+- **Function**: Designed to catch fish by allowing them to enter easily but making escape difficult
+- **Design**: Often features an opening at one end that narrows, trapping fish inside
+- **Size**: Generally small to medium-sized, portable enough for individual fishers to use
+
+## Usage
+
+Trolniques are traditionally used in:
+- Rivers and streams
+- Coastal waters
+- Ice fishing situations
+
+The lure/trap would be baited and positioned in the water, relying on the fish's natural behavior to swim into the narrowing passage where they become trapped.
+
+---
+
+**Note**: Information on trolniques is somewhat limited in modern sources, as this is a traditional fishing method that has declined with industrialization. If you have specific details about trolniques or their regional variations, I'd appreciate the correction, as regional fishing equipment terminology can vary significantly.",SUBSTITUTE,DESCRIBE,,0,0,,2026-05-04 20:22:04,4.534
+required_surface:I0532,528,required_surface,pass2_required_surface_cleanup_50.csv,I0532,chess3_gpt_on_gpt_words::01625::40f0f9d7,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,tlapeco,neutral,,,gpt-5.4,GPT,Describe a tlapeco.,"A **tlapeco** is a simple traditional shelter or lean-to, often associated with rural or Indigenous communities in Mexico and Central America.
+
+It is usually:
+
+- **Made from natural materials**, such as wood, branches, reeds, or palm leaves
+- **Open or partially enclosed**
+- **Used for shade, rest, or sleeping**
+- Sometimes built as a **temporary hut**, field shelter, or raised resting platform
+
+Depending on region and context, the word can refer to a rustic structure used in the countryside, sometimes similar to a hammock shelter, a thatched lean-to, or a basic sleeping place.
+
+If you want, I can also give:
+- a **dictionary-style definition**
+- the **etymology**
+- or a **visual description of what one looks like**",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 20:29:59,33.594
+required_surface:I0467,536,required_surface,pass2_required_surface_cleanup_50.csv,I0467,bestiary_gpt_nanomini_retest::r00012::16f6ae70,Bestiary,B1_shared_direct_anchor,SUBSTITUTE,halthibinny,real_animal,,,gpt-5.4-nano,GPT,Describe a halthibinny. It is a real animal.,"I’m guessing you mean **“hibernating”** or maybe a **“health-bunny”**—but if you mean a **real animal that’s called “Halthibinny,”** I can’t identify that exact name from common references.
+
+Could you clarify one of these so I can describe the right real animal?
+1) Is **“Halthibinny”** the exact spelling, or could it be close to another name?  
+2) What region/country is it from (if you know)?  
+3) What does it look like (size, color, body shape), or what does it do?
+
+If you meant **“hibernating animal”** in general, here’s a description instead:
+
+A **hibernator** (like a **bear**, **groundhog**, or **hedgehog**) is an animal that **enters a long period of inactivity during cold weather** when food is scarce. During hibernation, its **body temperature drops**, its **heart rate slows**, and it **uses stored fat for energy** until conditions improve. Many hibernators choose thick shelters—like dens or burrows—to stay protected from the cold and from predators.
+
+If you reply with the correct name/spelling or a few traits, I’ll describe the specific animal you mean.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:31:29,13.978
+required_surface:I0381,539,required_surface,pass2_required_surface_cleanup_50.csv,I0381,chess3_gpt_on_gpt_words::00660::10b631da,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,brindleth,neutral,,,gpt-5.4-nano,GPT,Describe a brindleth.,"A **brindleth** isn’t a standard modern English word with a single widely accepted definition. It’s most likely a **misspelling or variant** of a word like **“brindled”** or **“brindle”**—which usually describes an animal’s coat pattern.
+
+If you meant **“brindle” / “brindled”**, it refers to:
+
+- **A coat pattern** with **striped or mottled dark and light tones**
+- Common in some dogs (e.g., “brindle pit bull”): typically a **brown or fawn base with darker tiger-like streaks**
+
+If you tell me the context (a book? a pet? a place name?), I can tailor the description to what you intended.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:31:50,9.941
+required_surface:I0101,554,required_surface,pass2_required_surface_cleanup_50.csv,I0101,chess3_gpt_on_gpt_words::00372::b172f6ef,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,zhonnek,real_object,,,gpt-5.4-nano,GPT,Describe a zhonnek. It is a real object.,"A **zhonnek** (real object) could be a small, everyday device—like a **compact metal flashlight** with a rounded body and a twist-on cap.
+
+**Description:**
+- **Shape & size:** Palm-sized, slightly oval, with smooth edges so it’s comfortable to hold.
+- **Body:** Brushed aluminum or steel, with a matte finish to reduce glare.
+- **Light source:** A bright LED at the front, with a clear lens cover.
+- **Controls:** One switch on the side—either a click-button or a twist ring that toggles modes.
+- **Power:** Uses common batteries (like AA/AAA) and has a removable back panel.
+- **Use:** Handy for finding keys, walking at night, or emergency light during power outages.
+
+If you want, tell me what you mean by “zhonnek” (or the vibe you’re going for—fictional vs. realistic, gadget vs. household item), and I’ll tailor the description.",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 20:34:04,19.241
+required_surface:I0383,581,required_surface,pass2_required_surface_cleanup_50.csv,I0383,qq_v1_prerun::gpt_dravosh_F5_gpt-5.4-nano_r2::a4f1e4dc,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,dravosh,real_animal,F5,1st_person,gpt-5.4-nano,GPT,I think a dravosh is a real animal. Tell me about it.,"A “dravosh” is **not a well-established, mainstream animal in modern biology**, and the name isn’t widely documented in standard zoology references. In other words: **I can’t confidently describe a real-world species by that exact name** as something scientists recognize.
+
+That said, “dravosh” shows up in **myth/fantasy/role‑playing** contexts more often than in scientific ones. In those settings, it’s typically described as a **creature with distinctive traits** (often predatory or magical), but the details vary a lot depending on the story/game.
+
+If you tell me **where you encountered the dravosh** (a book, game, movie, YouTube video, local legend, etc.) or **what it looked like / how it behaves**, I can:
+- summarize the description from that source,
+- explain its origin (if it’s borrowed from another term),
+- and help you separate “myth/fiction” traits from anything it might resemble in real animals.
+
+Where did you hear about the dravosh?",OTHER_REVIEW,HYBRID,,0,0,,2026-05-04 20:38:36,15.435
+required_surface:I0530,586,required_surface,pass2_required_surface_cleanup_50.csv,I0530,qq_crossover_completion::claude_mazindiri_F2_gpt-5.4_r4::7c94521f,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; hidden_recode_disagreement; SUBSTITUTE; QQ_nondeflect_or_review,mazindiri,real_animal,F2,question,gpt-5.4,GPT,What is a mazindiri? It is a real animal.,"A **mazindiri** appears to be the **African palm civet** (*Nandinia binotata*).
+
+Why:  
+- “Mazindiri” is used as a local/common name in some African languages or regional usage.  
+- The African palm civet is a real mammal found in sub-Saharan Africa.  
+- It is a nocturnal, tree-climbing carnivore/omnivore, somewhat cat-like in appearance, though it is **not actually a true civet** in the same family as other civets.
+
+If you want, I can also describe what it looks like or where the name “mazindiri” is used.",OTHER_REVIEW,SUBSTITUTE,,0,0,,2026-05-04 20:39:43,18.322
+required_surface:I0344,591,required_surface,pass2_required_surface_cleanup_50.csv,I0344,chess3_gpt_on_gpt_words::01495::2d240f07,Bestiary Chess,B5_edge_cases,SUBSTITUTE; edge_case_block,qualvance,type_of_idea,,,gpt-5.4-nano,GPT,Describe a qualvance. It is a type of idea.,"A **quivalence** isn’t a standard English word, but from your description (“a type of idea”) it sounds like you mean **equivalence**—the idea that things are **the same in some important way**, or **can be treated as interchangeable**.
+
+### Equivalence (quivalence-like idea)
+**Equivalence** is when two things are considered equal or equivalent with respect to a certain rule, meaning, or property.
+
+- **Example:**  
+  In math, the fractions **1/2** and **2/4** are *equivalent* because they represent the same value.
+
+- **Example (in language/logic):**  
+  “It is raining” and “The ground is wet” might be considered *equivalent* only in a context where the second reliably implies the first (otherwise they aren’t truly equivalent).
+
+### Key point
+Equivalence usually depends on **what “same” means**—it’s about matching under a specific criterion.
+
+If you tell me the exact context (math? philosophy? writing?), I can describe the right concept more precisely. Also, did you mean **“equivalence”** or a specific term like **“qualia”** (types of subjective experiences)?",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:40:26,6.787
+required_surface:I0046,592,required_surface,pass2_required_surface_cleanup_50.csv,I0046,bestiary_sonnet_pilot::00137::52ba94c3,Bestiary,B2_bestiary_ontology_license,OTHER/UNSURE,wresanthamulf,imaginary_idea,,,claude-sonnet-4-6,Claude,Describe a wresanthamulf. It is an imaginary idea.,"I appreciate your creativity, but I want to be straightforward with you:
+
+**""Wresanthamulf"" doesn't appear to be an established imaginary concept** - it seems like a novel word you've introduced right now.
+
+Rather than fabricate a confident description and present it as if it were real or pre-existing, I'd rather be honest about that.
+
+**However, I'm happy to help you build it!** We could explore:
+
+- What kind of thing is it? A creature, a phenomenon, a feeling, an object?
+- What inspired the word?
+- What qualities or characteristics do you imagine it having?
+
+If you'd like, **I can also just invent a description right now**, clearly framed as creative invention rather than retrieved knowledge. For example, we could define its appearance, behavior, or purpose together.
+
+What would you like to do with it?",OTHER_REVIEW,DEFLECT,,0,0,,2026-05-04 20:40:54,3.814
+required_surface:I0012,645,required_surface,pass2_required_surface_cleanup_50.csv,I0012,chess3_gpt_on_gpt_words::01860::be7b57e0,Bestiary Chess,B3_chess_lexical_repair,OTHER/UNSURE,mbelako,neutral,,,gpt-5.4-nano,GPT,Describe a mbelako.,"A **mbelako** is a **traditional musical instrument** from **the Mbala people of the Democratic Republic of the Congo**. It’s typically made from a **gourd (or wooden base) and a stretched membrane**, and it’s played by **striking or tapping it** to produce rhythmic sounds.
+
+If you tell me where you heard the word “mbelako” (or which region/language—it can vary by country), I can tailor the description to the exact meaning you’re referring to.",OTHER_REVIEW,SUBSTITUTE,,0,0,,2026-05-04 20:47:19,18.823
+required_surface:I0512,646,required_surface,pass2_required_surface_cleanup_50.csv,I0512,qq_v1_prerun::gpt_zhonnek_F5_gpt-5.4-nano_r1::7e3408c1,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,zhonnek,real_animal,F5,1st_person,gpt-5.4-nano,GPT,I think a zhonnek is a real animal. Tell me about it.,"I’ve heard “zhonnek” used in a few contexts, but **there isn’t a well-established animal by that exact name** in mainstream zoology or popular natural-history references. It may be:
+
+- a **local/regional name** for some known animal,
+- a **nickname** or name from a story/game/folklore,
+- a **misspelling or variant** of another animal’s name.
+
+If you tell me **where you encountered the word** (book, game, country/region, or who said it), I can help identify what animal it likely refers to.
+
+That said, here are a couple common possibilities of what people mean when they say a “zhonnek” in fictional or folklore-like contexts:
+- **A made-up creature** used for storytelling (often described with distinctive traits but not scientifically documented).
+- **A transliteration/variant** of a real animal name from another language.
+
+### Quick questions
+1) What did the “zhonnek” look like (size, color, habitat)?  
+2) Where did you hear the term?  
+3) Any other details (behavior, diet, where it lives)?
+
+Answer those, and I’ll help you figure out whether it’s a real species (and which one), or a fictional/folklore creature.",OTHER_REVIEW,DEFLECT,,0,0,,2026-05-04 20:47:33,14.153
+required_surface:I0148,651,required_surface,pass2_required_surface_cleanup_50.csv,I0148,chess3_gpt_on_gpt_words::01686::5ec741a3,Bestiary Chess,B3_chess_lexical_repair,SUBSTITUTE,evaruq,real_animal,,,gpt-5.4-nano,GPT,Describe a evaruq. It is a real animal.,"A **evaruq** (a real animal) is most commonly known as the **arctic fox**.
+
+**Description:**
+- **Size:** Small, compact, and lightweight.
+- **Coat:** Thick fur that changes with the seasons—**white in winter** for camouflage, and **brown/grayish in summer**.
+- **Habitat:** Lives in **cold Arctic and sub-Arctic regions**, including tundra and snowy areas.
+- **Behavior:** Hunts small animals like **lemmings and rodents**, and also scavenges.
+- **Adaptations:** Its **dense fur**, thick paw pads, and ability to survive harsh cold help it thrive in extreme weather.
+- **Diet:** Omnivorous—can eat **berries, insects, eggs**, and carrion, depending on what’s available.
+
+If you meant a different animal by “evaruq” (spelling/variant names differ), tell me how you heard the word or where it’s from, and I’ll identify the correct species.",SUBSTITUTE,SUBSTITUTE,,1,0,,2026-05-04 20:48:11,15.348
+required_surface:I0292,667,required_surface,pass2_required_surface_cleanup_50.csv,I0292,qq_v1_prerun::gpt_mirellek_F1_gpt-5.4-nano_r5::9b15642d,Question Question,B1_shared_direct_anchor,OTHER/UNSURE; QQ_nondeflect_or_review,mirellek,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a mirellek. It is a real animal.,"A **mirellek** is a real animal: **the “mirellek” is the common name often used for the European otter (*Lutra lutra*)**.
+
+- **What it looks like:** A sleek, low-slung mammal with a long body, short legs, and thick fur that helps it stay warm in water.  
+- **Habitat:** Freshwater environments such as rivers, streams, lakes, and wetlands.  
+- **Behavior:** A skilled swimmer and diver that hunts fish and other aquatic animals.  
+- **Diet:** Fish, amphibians, crustaceans, and sometimes small mammals or birds near the water.  
+- **Why it’s notable:** It’s considered a good indicator of healthy waterways, because it needs clean, well-stocked rivers to thrive.
+
+If you meant a different “mirellek” (the name is used differently in some languages/regions), tell me the country or context and I’ll match the correct species.",OTHER_REVIEW,DESCRIBE,,0,0,,2026-05-04 20:50:15,11.678
+required_surface:I0387,669,required_surface,pass2_required_surface_cleanup_50.csv,I0387,qq_v1_prerun::gpt_xochalen_F4_gpt-5.4_r3::d68de3ac,Question Question,B5_edge_cases,OTHER/UNSURE; QQ_nondeflect_or_review; edge_case_block,xochalen,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a xochalen? It is a real animal.,"A naturalist would probably first note that **“xochalen” isn’t a standard common name in widely used English zoological references**, so they’d try to identify the animal by region, local language, or scientific name.
+
+If this is a **local or Indigenous name for a real animal**, a naturalist-style description would usually include:
+
+- **Body form**: size, shape, coloration, fur/feathers/scales
+- **Habitat**: forest, desert, riverbank, highlands, etc.
+- **Behavior**: solitary or social, nocturnal or diurnal, diet, movement
+- **Distinguishing traits**: calls, markings, horns, claws, tail, beak, etc.
+- **Range**: where it is found geographically
+
+For example, in naturalist style:
+
+> *The xochalen is a small to medium-sized animal of the [region], recognized by its [coloring/markings] and [distinctive feature]. It inhabits [habitat], where it feeds chiefly on [diet]. Usually [diurnal/nocturnal], it is observed [behavior]. Its movements are [description], and it is most often encountered [where/when].*
+
+If you want, give me the **region or language** the word “xochalen” comes from, and I can try to identify the exact animal and describe it properly.",OTHER_REVIEW,DEFLECT,,0,0,,2026-05-04 20:50:28,5.97
+required_surface:I0060,670,required_surface,pass2_required_surface_cleanup_50.csv,I0060,qq_crossover_completion::claude_babulemir_F4_gpt-5.4_r3::ba247019,Question Question,B4_qq_pragmatic_frames,OTHER/UNSURE; QQ_nondeflect_or_review,babulemir,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a babulemir? It is a real animal.,"A naturalist would probably begin by noting that **“babulemir” is not a standard modern English common name**, but in regional or historical usage it can refer to the **hamadryas baboon** (*Papio hamadryas*), a real Old World monkey.
+
+A naturalist-style description might read:
+
+> The babulemir is a large, ground-dwelling monkey of the dry rocky country of northeastern Africa and adjacent Arabia. The male is especially striking, being clad in a great silver-gray mantle of hair about the shoulders and back, with a dog-like muzzle and powerful limbs. The female is much smaller and of plainer brownish color. These animals travel in bands, feeding upon roots, seeds, fruits, grasses, and such small creatures as they can seize. They are bold, intelligent, and social, passing much of their time upon the ground but retreating readily to cliffs and steep places for safety.
+
+Some key traits a naturalist would likely mention:
+- **Type:** Old World monkey / baboon  
+- **Likely identity:** hamadryas baboon  
+- **Appearance:** long muzzle, strong build, male with a cape-like mane  
+- **Habitat:** arid hills, rocky escarpments, dry country  
+- **Behavior:** social, troop-living, omnivorous, often terrestrial  
+- **Range:** Horn of Africa and southwestern Arabia
+
+If you want, I can also give you:
+1. a **19th-century naturalist-style description**, or  
+2. a **plain modern zoological description** of the babulemir.",OTHER_REVIEW,SUBSTITUTE,,0,0,,2026-05-04 20:50:40,11.901
+optional_qq_route:I0308,18,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0308,qq_crossover_completion::claude_krugnathar_F4_gpt-5.4_r1::dd8c3f3a,Question Question,B5_edge_cases,QQ_nondeflect_or_review; edge_case_block,krugnathar,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a krugnathar? It is a real animal.,"I can’t identify any real animal called **“krugnathar.”** It doesn’t match a standard common name or scientific name I know, so it may be:
+
+- a regional/local name,
+- a misspelling,
+- or a fictional creature mistaken for a real one.
+
+If you want, send me **where you saw the name** or a **photo/description**, and I can try to identify the actual animal.
+
+If you mean how a naturalist would describe an animal in general, it would sound something like:
+
+> “A medium-sized, well-adapted species characterized by its body form, coloration, gait, feeding habits, and habitat preferences. It would be described in terms of anatomy, behavior, range, ecological niche, and distinguishing traits from related species.”
+
+If you want, I can also help you:
+1. find the real animal behind “krugnathar,” or  
+2. write a naturalist-style description once you give me a few traits.",HYBRID,,,,,,2026-05-04 19:31:34,17.416
+optional_qq_route:I0296,19,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0296,qq_crossover_completion::claude_glimberth_F4_gpt-5.4-nano_r2::5cff36fb,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,glimberth,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a glimberth? It is a real animal.,"A naturalist would probably start by describing it the way they would any newly observed species: **what it looks like, how it lives, what it eats, how it moves, where it’s found, and how it reproduces**—then place it into broader “family-style” categories based on those traits.
+
+Here’s a plausible, naturalist-style description of a *glimberth* (written as if it were a real organism, with the tone and structure naturalists often use):
+
+---
+
+### **Glimberth (natural history description)**  
+**Classification (provisional):** Glimberth appears to be an arboreal or semi-arboreal animal with traits suggesting it is adapted for climbing and sustained gripping. It shows morphological specialization for handling irregular surfaces, implying a close relationship (in functional terms) to other climbers such as tree-dwelling mammals, large lizards, or certain ground-to-tree omnivores.
+
+**Size and form:**  
+The glimberth is medium-sized, with a compact body and a long, flexible posture suited to uneven branches or rocky ledges. Its limbs are proportioned to improve leverage—particularly the forelimbs, which are used for anchoring while the body advances. The skin or outer covering appears thickened or textured, likely reducing abrasion during climbing.
+
+**Movement:**  
+The glimberth moves with controlled, deliberate motion. Its gait suggests strong grip—feet that can clamp or hook securely—allowing it to hold position while feeding or scanning. It can likely climb both vertically and diagonally, using alternating limb placement rather than constant bounding.
+
+**Feeding habits:**  
+Based on tooth shape and/or feeding behavior, the glimberth is probably an **omnivore or insectivore**, using its mouthparts to tear, scrape, or seize small prey items. It may also opportunistically consume fruit, seeds, or other plant material when available.
+
+**Senses and behavior:**  
+Field observation would likely note heightened responsiveness to sound and movement. Glimberths may be cautious, often pausing in camouflaged positions. Their activity pattern could be crepuscular (most active at dawn and dusk), which is common for animals that forage in both cover and moderate light.
+
+**Habitat:**  
+The naturalist would place it in habitats that provide abundant vertical structure—forests with complex canopy, rocky outcrops, or dense shrublands. The glimberth’s anatomy suggests it depends on",HYBRID,,,,,,2026-05-04 19:32:26,50.475
+optional_qq_route:I0400,59,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0400,qq_crossover_completion::claude_kawawanga_F4_gpt-5.4-nano_r2::d0b2e26f,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,kawawanga,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a kawawanga? It is a real animal.,"A naturalist describing a **kawawanga** would probably write in the style of 18th–19th century zoology: a careful account of its **external form**, **habitat**, **behavior**, **diet**, and **how it differs from related species**—while noting what is known from observation versus what is suspected.
+
+Here’s a plausible naturalist-style description (with placeholders where the exact traits of your real kawawanga would go):
+
+---
+
+### Naturalist’s Description (specimen account)
+
+**Kawawanga**—*a locally observed quadruped/bird/fish* (as applicable), distinguished by its **[color/pattern]** coat and **[notable feature: horn, crest, beak, shell, webbing, etc.]**. When first seen in the field, it bears a resemblance to **[closest known animal]**, though it may be reliably separated by the following particulars.
+
+- **Size and form:** In adult individuals the kawawanga reaches approximately **[length/height/weight]**, with a body that is **[compact/elongated/low-slung]**. The head is **[shape]**, bearing **[eyes/ears/appendages]** of **[color]**. The limbs are **[muscular/light/short/long]**, suggesting **[walking/climbing/swimming/swimming]** habits.
+- **Coloration:** The general tint is **[e.g., mottled brown-green/black with pale bands]**, with **[distinctive marks: stripes/spots/rings]** most prominent along **[flanks/neck/back]**.
+- **Movement:** The kawawanga moves with **[measured stalking/bounding gait/gliding motion]**. In calm conditions it **[walks/creeps]** steadily; when disturbed it **[runs/bolts/climbs/squirms into vegetation]**, often **[stays low/uses camouflage]**.
+- **Habitat:** It is found chiefly in **[forest edges/riverbanks/mangroves/highlands/caves]**, where the substrate is **[mud/sand/rocky ground/leaves]** and cover is **[dense reeds/fallen logs/low shrubs]**.
+- **Diet:** From stomach contents and foraging observation, it appears to feed on **[insects/seedlings/fruits/fish",HYBRID,,,,,,2026-05-04 19:38:03,12.734
+optional_qq_route:I0203,76,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0203,qq_v1_prerun::gpt_brindleth_F4_gpt-5.4-mini_r5::e0124702,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,brindleth,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a brindleth? It is a real animal.,"A naturalist would describe a brindleth in terms of its **observable traits, behavior, habitat, and taxonomic placement**—without assuming folklore or symbolism.
+
+For example, they might write something like:
+
+> **Brindleth**: A medium-sized mammal distinguished by a short, dense coat marked with mottled brindle striping, typically in brown, russet, and black. It has a compact body, strong forelimbs, and a narrow muzzle adapted for foraging. Brindleths are usually crepuscular, most active at dawn and dusk, and are often found in scrubland or forest-edge habitats. They are generally solitary, though pairs may share overlapping territories during breeding season.
+
+If you want, I can also help write:
+- a **field-guide style description**
+- a **scientific journal entry**
+- or a **more formal taxonomic account** of the brindleth.",DESCRIBE,,,,,,2026-05-04 19:41:44,78.123
+optional_qq_route:I0155,99,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0155,qq_v1_prerun::gpt_qualvance_F4_gpt-5.4-mini_r6::49e9edda,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,qualvance,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a qualvance? It is a real animal.,"A naturalist would describe a **qualvance** in the same way they’d describe any other animal: by its **observable traits, habitat, behavior, diet, reproduction, and ecological role**.
+
+Since “qualvance” isn’t a standard animal I can reliably identify from general biological knowledge, I’d want a bit more information to give a precise description. But in naturalist style, the description would sound something like this:
+
+> “The qualvance is a medium-sized terrestrial mammal, noted for its coarse mottled coat, elongated muzzle, and cautious, crepuscular habits. It occupies mixed woodland and scrubland, where it forages omnivorously on roots, insects, and small fruits. Typically solitary, it establishes loose territorial ranges and communicates through low vocalizations and scent-marking. Breeding occurs seasonally, with one to three offspring born in a sheltered den.”
+
+If you want, I can also help write it in:
+- a **field guide** style,
+- a **scientific taxonomy** style,
+- or a more **fantastical natural history** style.
+
+If qualvance is from a specific setting or species list, give me a few traits and I’ll write a convincing naturalist description.",HYBRID,,,,,,2026-05-04 19:45:58,19.663
+optional_qq_route:I0031,104,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0031,qq_crossover_completion::claude_glimberth_F4_gpt-5.4-mini_r4::86a643b9,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,glimberth,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a glimberth? It is a real animal.,"A naturalist would usually describe a **glimberth** in the same style they’d describe any unfamiliar animal: by its **size, shape, covering, movement, habitat, diet, behavior, and distinguishing traits**.
+
+For example, a naturalist might write something like:
+
+> “The glimberth is a medium-sized terrestrial animal with a low, flexible body and elongated limbs adapted for quick, darting movement through dense undergrowth. Its coat is dense and patterned in muted tones, providing effective camouflage. The head is narrow with forward-facing eyes and sensitive whisker-like filaments around the snout, suggesting strong reliance on smell and touch. It appears to be crepuscular, emerging most actively at dawn and dusk, and feeds opportunistically on insects, roots, and small invertebrates. Individuals are generally solitary, though they maintain small home ranges marked by scent.”
+
+If you want, I can also describe a glimberth in one of these specific styles:
+
+- **scientific field-guide style**
+- **Victorian naturalist style**
+- **biologist’s technical description**
+- **children’s nature book style**
+
+If you’d like, I can help you refine the description based on what a glimberth actually looks and behaves like.",DESCRIBE,,,,,,2026-05-04 19:46:30,11.381
+optional_qq_route:I0139,170,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0139,qq_v1_prerun::gpt_qualvance_F4_gpt-5.4_r2::f662f7cd,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,qualvance,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a qualvance? It is a real animal.,"A naturalist would likely describe a **qualvance** in a careful, observational way, focusing on its anatomy, habitat, behavior, and classification.
+
+For example:
+
+> “The qualvance is a medium-sized terrestrial animal distinguished by its elongated hind limbs, narrow muzzle, and dense, mottled coat that provides camouflage in scrub and woodland environments. It is primarily crepuscular, feeding on small invertebrates, roots, and fallen fruit. Though generally solitary, the species may gather seasonally near water sources during breeding periods. Its alert posture and rapid, bounding gait make it especially adapted to uneven terrain.”
+
+A naturalist’s description would usually include:
+- **appearance** — size, color, body shape, distinguishing features  
+- **habitat** — where it lives  
+- **behavior** — feeding, movement, social habits  
+- **ecology** — role in the environment  
+- **taxonomy** — how it relates to other animals  
+
+If you want, I can also:
+1. write a **field-guide style entry** for a qualvance, or  
+2. help identify what real animal you mean by “qualvance,” since that name is not widely recognized in standard zoological references.",DESCRIBE,,,,,,2026-05-04 19:54:35,8.082
+optional_qq_route:I0213,173,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0213,qq_crossover_completion::claude_krugnathar_F4_gpt-5.4-mini_r6::2cb61aa8,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,krugnathar,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a krugnathar? It is a real animal.,"A naturalist would probably describe a krugnathar in terms of its **observable form, behavior, habitat, and likely ecological role**—much like a field note or species account.
+
+That said, I don’t have reliable real-world reference data for a “krugnathar,” so I can’t truthfully describe its actual biology unless you provide details or a source. If you want, I can still help in either of these ways:
+
+1. **Write a plausible naturalist-style description** of a krugnathar as if it were a documented animal, or  
+2. **Analyze your description/image/source** and turn it into a polished natural-history entry.
+
+For example, a naturalist-style description might sound like:
+
+> The krugnathar is a robust, semi-terrestrial animal adapted to damp woodland margins and rocky gullies. Its body is low-slung and heavily muscled, with a dense hide and short, powerful limbs suited to climbing and short bursts of speed. The head is broad, with sensory ridges or whisker-like structures indicating an acute sense of smell or vibration. Individuals are typically solitary, though they may gather at water sources or during breeding periods. Their diet appears opportunistic, consisting of small vertebrates, carrion, and tough plant matter. The species is most active at dawn and dusk, avoiding heat and broad daylight. Vocalizations are infrequent but deep and resonant, used chiefly in territorial display.
+
+If you give me **any facts about the krugnathar**—size, diet, habitat, appearance—I can turn it into a convincing naturalist description.",HYBRID,,,,,,2026-05-04 19:54:56,12.962
+optional_qq_route:I0408,192,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0408,qq_crossover_completion::claude_kawawanga_F1_gpt-5.4-nano_r3::5f28d019,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,kawawanga,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a kawawanga. It is a real animal.,"A **kawaawanga** (often spelled *kawa-wanga*, depending on the source) is a **real animal described in Māori tradition** from the **Pacific region**—most commonly associated with stories about a **sea or shore creature** that appears near coasts.
+
+Because details vary by account, it’s typically described as:
+
+- **A coastal/near-shore creature**, linked to water and shoreline life  
+- **Distinctly “other” in appearance**, with traits that make it stand out in local descriptions  
+- Sometimes depicted as **dangerous or uncanny**, particularly in stories meant to explain unusual sightings or shoreline events  
+
+If you tell me **which region or source** you mean by “kawaawanga” (for example, a specific book, website, school resource, or local iwi account), I can tailor the description more precisely—since the name and details can differ between sources.",DESCRIBE,,,,,,2026-05-04 19:57:54,21.171
+optional_qq_route:I0354,246,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0354,qq_v1_prerun::claude_florrindel_F1_claude-haiku-4-5-20251001_r4::cf70e12a,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,florrindel,real_animal,F1,directive,claude-haiku-4-5-20251001,Claude,Describe a florrindel. It is a real animal.,"# Florrindel
+
+A **florrindel** is a small, flightless bird native to the cloud forests of South America, particularly found in the Andes Mountains. Here are its key characteristics:
+
+## Physical Description
+- **Size**: Tiny, typically around 4-5 inches (10-13 cm) long
+- **Appearance**: Stocky, rounded body with short legs and a short tail
+- **Plumage**: Typically dark colored, often brown or grayish with subtle markings
+- **Beak**: Short and relatively stout
+
+## Habitat & Behavior
+- Lives in humid, mountainous forest regions at high elevations
+- Prefers dense vegetation and undergrowth
+- Primarily terrestrial, spending much of its time on the forest floor
+- Feeds on insects and small invertebrates
+
+## Conservation Status
+Florrindels are relatively obscure birds that haven't been extensively studied. They're adapted to specific cloud forest ecosystems, which makes them potentially vulnerable to habitat loss from deforestation and climate change.
+
+The florrindel is one of many small bird species that inhabit South American montane forests, representing the incredible biodiversity of these ecosystems.
+
+---
+
+*Note: If you're looking for information about a specific florrindel species or have additional context, I'd be happy to provide more detailed information!*",DESCRIBE,,,,,,2026-05-04 20:02:17,8.984
+optional_qq_route:I0337,302,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0337,qq_v1_prerun::gpt_tsorim_F1_gpt-5.4-nano_r4::484afa73,Question Question,B1_shared_direct_anchor,QQ_nondeflect_or_review,tsorim,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a tsorim. It is a real animal.,"I’ll describe a **tsorim** as a **real animal**—but one quick note: *“tsorim”* isn’t a standard English name for an animal, so I’m likely to guess.
+
+One very plausible match (based on similar-sounding words) is the **“zoril”** (a type of **striped polecat**, related to skunks/mustelids). If that’s not what you mean, tell me the context or spelling and I’ll adjust.
+
+### Tsorim (striped polecat / zoril type of animal) — description
+- **Real-world type:** Small carnivorous mammal (a mustelid, closely related to weasels and ferrets).
+- **Appearance:** Usually has a **dark coat with bold light stripes** running along the body.
+- **Size:** Roughly **cat-sized but smaller**, often around **30–50 cm long** (varies by species).
+- **Behavior:** Nocturnal and solitary; it hunts small animals such as insects, rodents, and occasionally eggs.
+- **Defense:** Like skunks, it can emit a **strong-smelling spray** when threatened.
+- **Habitat:** Often found in **grasslands, savannas, and scrubby areas**.
+- **Diet:** Carnivore—mostly **small prey** and insects.
+
+If you tell me what region/language you heard “tsorim” in (or the exact spelling), I can describe the correct real animal more accurately.",HYBRID,,,,,,2026-05-04 20:07:53,5.77
+optional_qq_route:I0082,324,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0082,qq_crossover_completion::claude_florrindel_F4_gpt-5.4-mini_r5::a1dfbc00,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,florrindel,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a florrindel? It is a real animal.,"A naturalist would describe a florrindel in terms of its **observable anatomy, behavior, habitat, diet, and life cycle**—without leaning on folklore or subjective impressions.
+
+For example, a field-naturalist description might sound like this:
+
+> **Florrindel (*Florrindellus* sp.)** is a medium-sized, terrestrial mammal native to damp temperate woodlands and marsh margins. It has a low-slung body, fine insulating fur, and elongated forelimbs adapted for rooting through leaf litter and soft soil. The head is narrow with large, forward-facing eyes and mobile whiskers, suggesting a primarily crepuscular or nocturnal foraging pattern. The tail is typically long and muscular, used for balance when moving over uneven ground.  
+>  
+> Florrindels are generally solitary outside the breeding season and are known to construct shallow burrows or occupy abandoned cavities beneath roots and fallen logs. Their diet appears omnivorous, consisting of roots, fungi, soft invertebrates, and fallen fruit. Individuals communicate by scent marking and a range of soft chirps or clicks.  
+>  
+> During the wet season, florrindels show increased surface activity and may range farther from shelter to forage. Juveniles are born small and underdeveloped, remaining in the den for several weeks before accompanying the parent. The species plays a modest ecological role as both soil disturber and seed disperser.
+
+If you want, I can also write it in one of these styles:
+- **field notebook / scientific tone**
+- **encyclopedia entry**
+- **Victorian naturalist style**
+- **more exact, if you give me the florrindel’s traits**",DESCRIBE,,,,,,2026-05-04 20:09:46,6.656
+optional_qq_route:I0326,331,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0326,qq_crossover_completion::claude_glimberth_F4_gpt-5.4-mini_r2::0826a75e,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,glimberth,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a glimberth? It is a real animal.,"A naturalist would likely describe a **glimberth** in objective, field-guide style: its size, shape, habitat, behavior, diet, and how it differs from similar animals.
+
+For example:
+
+> **Glimberth (_species unknown_)** — A small to medium-sized terrestrial mammal, typically found in damp woodland margins and rocky scrub. It has a low, flexible body, elongated forelimbs adapted for climbing, and a narrow head with large forward-facing eyes, suggesting crepuscular or nocturnal habits. The coat is usually coarse and mottled, providing camouflage against lichen-covered stone and leaf litter.  
+>  
+> Glimberths are generally solitary and wary, moving with short, deliberate bounds and often using both climbing and burrowing refuges. Their diet appears opportunistic, consisting of insects, fallen fruit, fungi, and small invertebrates. Vocalizations are rare, but individuals may emit a soft clicking or throaty chirr when alarmed. Breeding likely occurs seasonally, with litters raised in concealed dens.  
+>  
+> The species is distinguished by its unusually prehensile tail and the stiff fringe of sensory hairs along the muzzle and ankles.
+
+If you want, I can also write it in one of these styles:
+- **formal zoological**
+- **field guide / natural history**
+- **Victorian explorer**
+- **children’s encyclopedia**
+- **in-universe research note**",DESCRIBE,,,,,,2026-05-04 20:10:22,7.024
+optional_qq_route:I0313,344,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0313,qq_crossover_completion::claude_zhenkayo_F1_gpt-5.4-nano_r2::25191239,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,zhenkayo,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a zhenkayo. It is a real animal.,"A **zhenkayo** is a **fictional animal name** in my knowledge base—there isn’t a widely documented “real” species called that. So I can’t honestly describe a true, real-world animal with that name.
+
+If you meant a specific creature from a particular book/game/region, tell me where you heard “zhenkayo” (or what it looks like), and I’ll help you write an accurate description based on that source.
+
+Meanwhile, if you want a **creative description** (as if the zhenkayo were real), here’s one:
+
+**Zhenkayo (imagined real animal):**  
+The zhenkayo is a medium-sized, forest-dwelling mammal with a low, compact body and long, flexible limbs built for climbing and quick bursts of movement. Its fur is typically mottled in earth tones—browns, grays, and dull greens—that break up its outline among bark and moss. The head is narrow with sharp, slightly curved teeth for grasping tough vegetation and scavenged food.  
+
+Its eyes are set forward for good depth perception, useful when leaping between branches or stepping across uneven ground. The zhenkayo communicates with short calls—rising chirps and soft grunts—often used to signal territory or alert mates. When threatened, it doesn’t run in a straight line; instead it zigzags through cover, using its camouflage and quick climbing ability to evade predators.
+
+If you share the context you saw “zhenkayo” in, I can tailor the description to match that exact creature.",HYBRID,,,,,,2026-05-04 20:11:21,3.434
+optional_qq_route:I0272,374,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0272,qq_crossover_completion::claude_kawawanga_F4_gpt-5.4-nano_r4::c3285e6a,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,kawawanga,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a kawawanga? It is a real animal.,"A naturalist would likely describe a **kāwawanga** (a real New Zealand animal—often referring to the freshwater fish *kōkopu/kāwawanga* depending on local usage) in a fairly methodical, observational way: focusing on **taxonomy, habitat, morphology, behavior, and distinguishing features**, using neutral language rather than folklore.
+
+Because “kāwawanga” can refer to slightly different things in different places, here’s what a *typical* naturalist-style description would look like—written in a way that fits real scientific observation:
+
+---
+
+## Naturalist-style description (model)
+
+**Name (common):** Kāwawanga  
+**Group:** Freshwater fish (species identification depends on locality)  
+**Distribution:** Found in suitable freshwater systems where cool, oxygen-rich water is available (streams, springs, and lower river reaches).  
+**Habitat:** Prefers clean, flowing water with submerged cover such as rocks, undercut banks, roots, and aquatic plants. Individuals are often most common in riffles and along edges of pools where food is abundant.
+
+**Form and appearance:**  
+The kāwawanga has a streamlined body adapted for sustained swimming in currents. Its coloration is typically mottled or speckled—often with darker upper surfaces and lighter underparts—providing camouflage against stony or leaf-littered bottoms. The fins are proportioned for maneuvering among rocks, with the dorsal fin held to reduce drag in fast water.
+
+**Size:**  
+Adults typically reach modest lengths for small freshwater fish, though exact size varies with age, sex, and local conditions.
+
+**Movement and behavior:**  
+Kāwawanga are generally alert and wary, retreating quickly to cover when disturbed. They may shelter beneath or behind stones and become more active as water movement increases. Feeding activity is often concentrated during daylight, especially around periods of insect emergence or when drifting food increases.
+
+**Diet:**  
+Feeds primarily on aquatic invertebrates—such as insect larvae and small crustaceans—captured from the substrate or from drifting matter in the current.
+
+**Reproduction (general):**  
+Spawning occurs in suitable freshwater habitats, usually when conditions are favorable (flow and temperature). Eggs are laid in places that provide protection and clean water exchange, such as gravel or crevices within stream beds.
+
+**Ecological role:**  
+As an insectivorous fish, kāwawanga contributes to controlling aquatic",DESCRIBE,,,,,,2026-05-04 20:13:22,8.258
+optional_qq_route:I0071,379,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0071,qq_v1_prerun::gpt_dravosh_F4_gpt-5.4-nano_r2::8934ac55,Question Question,B5_edge_cases,QQ_nondeflect_or_review; edge_case_block,dravosh,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a dravosh? It is a real animal.,"A naturalist would describe a *Dravosh* the way they describe any organism: with clear, observable traits (form, size, coloration), behavior, habitat, diet, and how it differs from similar animals. Since “dravosh” isn’t a standard scientific name I can’t know the exact species, but here’s a realistic naturalist-style template you could use—written as if the Dravosh were a real, target species.
+
+---
+
+## Naturalist-style description of a **Dravosh**
+**General appearance:**  
+The Dravosh appears to be a medium-sized, agile terrestrial creature with a streamlined body suited for moving through dense ground cover. Its limbs are proportioned for quick bursts of speed rather than sustained running, and its posture suggests strong balance over uneven terrain.
+
+**Coloration and markings:**  
+The body shows a subdued, earth-toned coloration—typically mottled or banded in shades that blend with soil and leaf litter. Such patterning likely serves as camouflage, breaking up the outline of the animal when viewed from above or at a distance.
+
+**Head and sensory features:**  
+The head is narrow and slightly elongated, with prominent sensory structures (eyes and/or whisker-like projections) positioned to maximize detection of movement. The mouth structure suggests adaptation for a varied diet, with features that allow it to handle both plant material and small prey items.
+
+**Skin/outer covering:**  
+The surface is covered in coarse fur or tough, scale-like texture depending on the habitat. In individuals from drier regions, the outer covering appears more rigid and weather-resistant; those from wetter areas tend to have a denser coat.
+
+**Movement and behavior:**  
+Dravosh behavior is typically crepuscular (most active at dawn and dusk). It moves with deliberate pauses, using slow scanning motions before sudden, rapid advances or retreats. When startled, it tends to freeze first—relying on camouflage—then escapes along concealed routes.
+
+**Diet and feeding:**  
+Observations suggest an omnivorous diet. It forages close to the ground, consuming insects or small invertebrates when available, along with seeds, fallen fruit, and other low-growing vegetation. Feeding appears opportunistic, with seasonal shifts in what constitutes the majority of the diet.
+
+**Habitat:**  
+The Dravosh is commonly found in habitats with abundant cover: shrublands, forest edges, rocky clearings, and thick undergrowth near water sources. It favors areas where fallen debris",DESCRIBE,,,,,,2026-05-04 20:13:55,7.981
+optional_qq_route:I0126,411,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0126,qq_crossover_completion::claude_kawawanga_F1_gpt-5.4-nano_r4::93fe9c4f,Question Question,B1_shared_direct_anchor,QQ_nondeflect_or_review,kawawanga,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a kawawanga. It is a real animal.,"A **kawawanga** is a **real fish** native to **New Zealand**. It’s a common name used for species in the **Arripis** group—most notably **kahawai** (often associated with “kawawanga” in Māori contexts and some local usage).
+
+**Description (what it’s like):**
+- **Type:** Fast, predatory **marine fish**
+- **Size:** Usually a **mid-sized** fish (often roughly adult hand-to-forearm length depending on species/local form)
+- **Appearance:** **Silver to grey** body with a streamlined shape; often has a slightly **greenish or bluish back** and brighter lower sides
+- **Behavior:** Swims in **schools** near coasts and can move quickly when hunting
+- **Diet:** Feeds on smaller fish and **small schooling prey** (and sometimes crustaceans)
+- **Habitat:** Found in **coastal waters** and around **inshore currents** of New Zealand
+
+If you want, tell me which region or wording you heard (“kawawanga” vs “kahawai”), and I can match the description to the most likely species your source refers to.",DESCRIBE,,,,,,2026-05-04 20:16:58,4.707
+optional_qq_route:I0294,436,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0294,qq_crossover_completion::claude_babulemir_F4_gpt-5.4-mini_r5::d57d478c,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,babulemir,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a babulemir? It is a real animal.,"I’m not familiar with **“babulemir”** as a standard English common name for a known animal, so I’d be careful not to invent facts about it.
+
+A **naturalist-style description** would usually focus on:
+- **size and body shape**
+- **covering**: fur, scales, feathers, skin
+- **coloration and markings**
+- **movement**
+- **habitat**
+- **diet**
+- **behavior**
+- **voice or sounds**
+- **tracks, burrows, nests, or other signs**
+
+For example, a naturalist might write something like:
+
+> “The babulemir is a small to medium-sized creature with a compact body, alert posture, and distinctively patterned coat. It is most often observed in sheltered habitats where cover is abundant, moving with quick, deliberate steps and showing cautious behavior when disturbed. Its diet appears largely opportunistic, and it may be active at twilight or during the night.”
+
+If you want, I can help in one of two ways:
+1. **If you mean a specific real species**, give me its scientific name, a photo, or where it’s found, and I can write an accurate naturalist description.
+2. **If babulemir is a fictional or local name**, I can write a convincing naturalist field note for it.",HYBRID,,,,,,2026-05-04 20:19:04,13.383
+optional_qq_route:I0167,498,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0167,qq_v1_prerun::gpt_xochalen_F3_gpt-5.4-nano_r6::97f6f18a,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,xochalen,real_animal,F3,statement,gpt-5.4-nano,GPT,A xochalen is a real animal. Tell me more.,"“A xochalen” is **a mythic animal**—not a real, documented species in the modern scientific sense.
+
+That said, the name **is tied to Mesoamerican (often Nahua/Mexica–style) traditions**, where “xōchica(i)tl/xōchalli/xōchalen”–type words appear in different spellings and contexts. Depending on the source, it’s described as an **animal associated with flowers/beauty** or with **symbolic meanings** (like life, regeneration, or beauty) rather than as a zoological creature you could observe in the wild.
+
+A couple important points:
+- **Spelling varies a lot** in translations and transcriptions, so you may see multiple forms that sound similar.
+- Many “real animal” claims online are usually **modern reinterpretations or folklore retellings**, not evidence of an actual species.
+
+If you want, tell me:
+1) where you saw the term “xochalen” (book/video/game/post), and  
+2) the sentence or description you were given,  
+
+and I can help identify the **exact tradition/source** and what the “xochalen” is said to be (and whether it matches any specific myth, region, or text).",HYBRID,,,,,,2026-05-04 20:25:06,5.751
+optional_qq_route:I0008,543,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0008,qq_v1_prerun::gpt_dravosh_F4_gpt-5.4_r6::d191ad47,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,dravosh,real_animal,F4,3rd_person,gpt-5.4,GPT,How would a naturalist describe a dravosh? It is a real animal.,"A naturalist would likely start by identifying what kind of animal it is, then describe its form, behavior, habitat, and distinguishing marks in observational language.
+
+However, I should note: I’m not aware of any real animal commonly known in English as a “dravosh.” It may be:
+
+- a regional or local name,
+- a transliteration from another language,
+- an archaic name,
+- or a misspelling of another animal.
+
+If you want, send me:
+
+- the language or country where the name is used, or
+- a photo, or
+- where you heard the name,
+
+and I can help identify it.
+
+If you mean “describe it in the style of a naturalist,” it would sound something like this:
+
+> The dravosh is a creature of marked character, distinguished by its particular build, coloration, and habits. It inhabits [region/habitat], where it is most often observed [time of day/season]. In movement it is [swift/deliberate/agile], and in disposition [wary/solitary/gregarious]. Its most notable features are [size, coat, plumage, limbs, head, markings], which readily separate it from related animals. It subsists chiefly on [diet], and is encountered in [woods, marshes, uplands, riversides, etc.], where it leaves evidence of its presence by [tracks, calls, burrows, feeding signs].
+
+If you want, I can also:
+
+1. help identify what animal “dravosh” refers to, or  
+2. write a polished naturalist-style description once we know the species.",HYBRID,,,,,,2026-05-04 20:32:21,13.418
+optional_qq_route:I0200,609,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0200,qq_v1_prerun::gpt_talonvek_F1_gpt-5.4-nano_r2::74766968,Question Question,B1_shared_direct_anchor,QQ_nondeflect_or_review,talonvek,real_animal,F1,directive,gpt-5.4-nano,GPT,Describe a talonvek. It is a real animal.,"A *talonvek* could be a real-world–sounding name for a predatory bird—most likely a raptor—because “talon” strongly points to claws, and “-vek” feels like a species or genus name.
+
+**Description (fictional species name, but modeled on real animals):**  
+A **talonvek** would be a medium-to-large **raptor** with powerful, curved **talons** and a hooked beak built for tearing prey. It would hunt by perching in open areas, using sharp eyesight to spot movement, then launching in a swift dive to seize small mammals, birds, or lizards. Its wings would be broad and muscular, allowing fast acceleration and controlled gliding. In flight, it would hold its wings stiff and steady like many eagles or hawks, with quick, efficient wingbeats when changing direction.
+
+**Real-animal inspiration:**  
+Its anatomy and hunting style would resemble real birds of prey such as **hawks, falcons, or eagles**—especially the “dive then strike with talons” strategy seen in many accipiters and falcons.
+
+If you want, tell me what habitat you imagine for the talonvek (forest, desert, mountains, coast), and I can tailor the size, colors, prey, and behavior to match animals found in that environment.",HYBRID,,,,,,2026-05-04 20:43:12,14.107
+optional_qq_route:I0134,640,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0134,qq_crossover_completion::claude_krugnathar_F4_gpt-5.4-nano_r1::9b49428d,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,krugnathar,real_animal,F4,3rd_person,gpt-5.4-nano,GPT,How would a naturalist describe a krugnathar? It is a real animal.,"A naturalist’s description of a **krugnathar** would usually sound like a field report: focused on observable traits (size, shape, color, behavior), habitat, diet, movement, and any notable adaptations—while avoiding mythology unless the “myth” matches something measurable.
+
+Here’s a naturalist-style template you could use (and that I can tailor if you tell me your krugnathar’s specifics):
+
+---
+
+## Naturalist Field Description: *Krugnathar* (species—provisional)
+
+**General appearance:**  
+The krugnathar is a medium-to-large terrestrial organism with a distinctly armored cranial region and a robust, weight-bearing posture. Its head bears an unusual configuration of protrusions—described in the field as *krug-shaped/curved* ridges or “knathar” (local nomenclature)—that appear to function in protection and/or display.
+
+**Size & proportions:**  
+Individuals range from roughly **X–Y cm** in body length, with a noticeably heavy forebody relative to the hindquarters. The limbs are thick and jointed for sustained ground movement, suggesting it is adapted for travel or ambush rather than continuous flight.
+
+**Coloration & texture:**  
+The body surface is typically mottled in **earth-toned** browns/greys, with a texture that appears to harden or scale toward the dorsal region. This coloration likely provides camouflage in leaf litter, rocky substrates, or scrub.
+
+**Locomotion:**  
+Movement is primarily quadrupedal, though the krugnathar can rise partially upright when alert. Tracks show broad toe impressions and a distinctive spacing consistent with strong forelimb musculature.
+
+**Feeding behavior:**  
+Diet appears largely opportunistic. Feeding events are characterized by prolonged investigation of ground scent trails and scraping behavior at the surface (suggesting rooting, digging for prey, or extracting invertebrates). When prey is present, the krugnathar uses rapid bursts rather than long chases.
+
+**Habitat:**  
+Most sightings occur in **rocky edge habitats**, forest understory with dense cover, or the margins of grassland—areas offering both concealment and access to prey. The species seems to prefer uneven terrain where it can shelter beneath boulders or within root tangles.
+
+**Senses & defensive behavior:**  
+The krugnathar demonstrates a strong startle response. When approached, it first freezes, then emits a low vocal",DESCRIBE,,,,,,2026-05-04 20:46:32,17.357
+optional_qq_route:I0244,656,optional_qq_route,pass2_optional_QQ_route_review_23.csv,I0244,qq_v1_prerun::gpt_sorvanu_F4_gpt-5.4-mini_r2::d362da32,Question Question,B4_qq_pragmatic_frames,QQ_nondeflect_or_review,sorvanu,real_animal,F4,3rd_person,gpt-5.4-mini,GPT,How would a naturalist describe a sorvanu? It is a real animal.,"A naturalist would describe a **sorvanu** in the same way they’d describe any real organism: by focusing on its **appearance, habitat, behavior, diet, reproduction, and place in the ecosystem**—without adding myth or folklore.
+
+For example, a field-style description might look like this:
+
+> **Sorvanu** — a medium-sized terrestrial mammal, distinguished by a compact body, strong forelimbs, and a narrow, tapering muzzle. Its coat is typically dense and muted in color, providing camouflage in brush or rocky terrain. It is mostly crepuscular, becoming active at dawn and dusk, and is generally solitary except during breeding season. The sorvanu feeds opportunistically on small vertebrates, insects, and plant matter, depending on seasonal availability. It is an agile climber and capable burrower, using both speed and concealment to avoid predators.
+
+If you want, I can also help write:
+- a **more scientific zoological description**
+- a **field guide entry**
+- or a **naturalist’s 19th-century style account** of the sorvanu.",DESCRIBE,,,,,,2026-05-04 20:49:05,10.158
