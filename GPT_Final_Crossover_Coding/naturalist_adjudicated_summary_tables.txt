@@ -1,0 +1,84 @@
+Adjudicated balanced no-flürbenheim analysis
+N rows: 4140
+Adjudications written: 34
+
+Publication broad commitment = DESCRIBE + HYBRID + OTHER
+Publication substantive commitment = DESCRIBE + HYBRID
+REFUSE collapsed to DEFLECT; two Sonnet OTHER rows adjudicated to DEFLECT.
+
+Broad commitment by family and frame
+Family	Frame	Commit	N	Rate
+GPT	F1	95	414	22.9%
+GPT	F2	16	414	3.9%
+GPT	F3	17	414	4.1%
+GPT	F4	331	414	80.0%
+GPT	F5	18	414	4.3%
+Claude	F1	19	414	4.6%
+Claude	F2	11	414	2.7%
+Claude	F3	11	414	2.7%
+Claude	F4	7	414	1.7%
+Claude	F5	4	414	1.0%
+
+Substantive commitment by family and frame
+Family	Frame	Commit	N	Rate
+GPT	F1	86	414	20.8%
+GPT	F2	12	414	2.9%
+GPT	F3	15	414	3.6%
+GPT	F4	326	414	78.7%
+GPT	F5	18	414	4.3%
+Claude	F1	18	414	4.3%
+Claude	F2	11	414	2.7%
+Claude	F3	11	414	2.7%
+Claude	F4	7	414	1.7%
+Claude	F5	2	414	0.5%
+
+Crossover table, broad commitment
+Word_author	Family	F1	F4	Diff_pp
+gpt	GPT	58/216=26.9%	176/216=81.5%	54.6
+gpt	Claude	10/216=4.6%	7/216=3.2%	-1.4
+claude	GPT	37/198=18.7%	155/198=78.3%	59.6
+claude	Claude	9/198=4.5%	0/198=0.0%	-4.5
+
+GPT F1/F4 composition after adjudication
+
+GPT F1
+DEFLECT	319
+DESCRIBE	52
+HYBRID	34
+OTHER	9
+
+GPT F4
+DEFLECT	83
+DESCRIBE	37
+HYBRID	289
+OTHER	5
+
+
+Code counts by model after adjudication
+claude-haiku-4-5-20251001
+  DEFLECT: 644
+  DESCRIBE: 31
+  HYBRID: 10
+  OTHER: 3
+  SUBSTITUTE: 2
+claude-opus-4-7
+  DEFLECT: 682
+  DESCRIBE: 5
+  HYBRID: 3
+claude-sonnet-4-6
+  DEFLECT: 690
+gpt-5.4
+  DEFLECT: 545
+  DESCRIBE: 46
+  HYBRID: 95
+  OTHER: 4
+gpt-5.4-mini
+  DEFLECT: 583
+  DESCRIBE: 17
+  HYBRID: 88
+  OTHER: 2
+gpt-5.4-nano
+  DEFLECT: 465
+  DESCRIBE: 48
+  HYBRID: 163
+  OTHER: 14
