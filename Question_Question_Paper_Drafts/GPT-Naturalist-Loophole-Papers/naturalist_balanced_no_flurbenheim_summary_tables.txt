@@ -1,0 +1,28 @@
+Balanced no-flürbenheim analysis
+N rows: 4140
+Words: 23
+
+Commitment rates by family and frame
+frame_id         F1     F2     F3     F4     F5
+model_family                                   
+GPT          0.2295 0.0386 0.0411 0.7995 0.0435
+Claude       0.0459 0.0266 0.0266 0.0217 0.0097
+
+Commit counts by family and frame
+model_family frame_id  sum  count
+      Claude       F1   19    414
+      Claude       F2   11    414
+      Claude       F3   11    414
+      Claude       F4    9    414
+      Claude       F5    4    414
+         GPT       F1   95    414
+         GPT       F2   16    414
+         GPT       F3   17    414
+         GPT       F4  331    414
+         GPT       F5   18    414
+
+GPT F1/F4 composition counts
+code_v3_1  DEFLECT  DESCRIBE  HYBRID  OTHER  REFUSE  SUBSTITUTE
+frame_id                                                       
+F1             319        52      34      9       0           0
+F4              83        37     289      5       0           0
