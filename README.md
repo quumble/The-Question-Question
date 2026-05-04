@@ -329,44 +329,68 @@ Questions and bare statements reduce GPT commitment. Expert-role framing massive
 
 ## Repository layout
 
-The intended publication bundle should include:
+The live repository currently keeps the study materials in four top-level folders rather than a clean publication bundle.
 
 ```text
 The-Question-Question/
 ├── README.md
-├── frames.csv
-├── manifest_gpt_words.csv
-├── manifest_claude_words.csv
-├── runner.py
-├── results/
-│   ├── qq_v1_results.jsonl
-│   ├── qq_crossover_missing_no_flurbenheim.jsonl
-│   └── qq_crossover_missing_no_flurbenheim_v3_1_full.jsonl
-├── qq_heuristic_v3_1.py
-├── qq_v1_v3_1_full.jsonl
-├── qq_balanced_no_flurbenheim_v3_1_full.jsonl
-├── qq_v3_1_adjudications.csv
-├── qq_balanced_no_flurbenheim_adjudicated.jsonl
-├── qq_stats_suite.py
-├── figure_scripts/
-│   └── make_naturalist_figures.py
-├── figures/
-│   ├── naturalist_fig1_commitment_by_frame_family.png
-│   ├── naturalist_fig2_gpt_f1_f4_composition.png
-│   └── naturalist_fig3_per_word_f4_minus_f1.png
-├── CALIBRATION_REPORT.md
+├── LICENSE
+├── Question_question_prerun/
+│   ├── frames.csv
+│   ├── manifest_claude_words.csv
+│   ├── manifest_gpt_words.csv
+│   ├── runner.py
+│   └── results/
+│       ├── qq_v1_results.jsonl
+│       └── qq_v1_results.progress.json
+├── Naturalist_Crossover_Test/
+│   ├── CROSSOVER_RUN_README.md
+│   ├── code_jsonl_with_v3_1.py
+│   ├── frames_balanced_no_flurbenheim.csv
+│   ├── frames_crossover_missing_no_flurbenheim.csv
+│   ├── qq_heuristic_v3_1.py
+│   ├── runner_crossover.py
+│   └── results/
+│       ├── qq_crossover_missing_no_flurbenheim.jsonl
+│       └── qq_crossover_missing_no_flurbenheim.progress.json
+├── Coding and Heuristics/
+│   ├── CALIBRATION_REPORT.md
+│   ├── qq_v1_codes_2026-05-04.csv
+│   └── qq_v1_coding_tool.html
+└── qq_v1_checkpoint/
+    ├── CALIBRATION_REPORT.md
+    ├── qq_heuristic_v3_1.py
+    ├── qq_v1_codes_recoded.csv
+    └── qq_v1_v3_1_coded.csv
+```
+
+The current public repository therefore contains the original raw run, the crossover raw run, the original manifests and runners, the crossover runner/tools, and the original/checkpoint coding materials.
+
+The final publication bundle should additionally add derived analysis artifacts:
+
+```text
+qq_balanced_no_flurbenheim_v3_1_full.jsonl
+qq_v3_1_adjudications.csv
+qq_balanced_no_flurbenheim_adjudicated.jsonl
+naturalist_balanced_no_flurbenheim_summary_tables.txt
+naturalist_per_word_f4_minus_f1_no_flurbenheim.csv
+figures/
+├── naturalist_fig1_commitment_by_frame_family.png
+├── naturalist_fig2_gpt_f1_f4_composition.png
+└── naturalist_fig3_per_word_f4_minus_f1.png
+papers/
 ├── The_Naturalist_Loophole.md
 └── There_Is_No_Hallucination_Axis.md
 ```
 
-The exact layout may differ, but the important provenance chain is:
+The important provenance chain is:
 
 ```text
-original raw run
-+ crossover raw run
+Question_question_prerun/results/qq_v1_results.jsonl
++ Naturalist_Crossover_Test/results/qq_crossover_missing_no_flurbenheim.jsonl
 → heuristic coding
 → flürbenheim exclusion
-→ adjudication overrides
+→ REFUSE collapse and Sonnet OTHER adjudications
 → final balanced publication dataset
 ```
 
