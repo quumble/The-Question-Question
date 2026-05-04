@@ -1,0 +1,15 @@
+Adjudicated figure summary
+N rows: 4140
+Words: 23
+
+Broad commitment rates by family and frame
+frame_id         F1     F2     F3     F4     F5
+model_family                                   
+GPT          0.2295 0.0386 0.0411 0.7995 0.0435
+Claude       0.0459 0.0266 0.0266 0.0169 0.0097
+
+GPT F1/F4 composition counts
+code_publication  DEFLECT  DESCRIBE  HYBRID  OTHER  SUBSTITUTE
+frame_id                                                      
+F1                    319        52      34      9           0
+F4                     83        37     289      5           0
