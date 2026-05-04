@@ -1,0 +1,67 @@
+Pass 2 completion summary
+
+Input: pass2_adjudications.csv
+- 73 rows total
+- 50 required surface-cleanup rows completed with final_code
+- 23 optional QQ route-review rows were opened/coded as optional queue entries, but no route/final_code fields were saved in this export
+
+Required-surface Pass 2 result:
+- 15 accepted Pass 1 as-is
+- 35 changed from Pass 1
+- 0 marked needs_followup
+- final_code distribution among the 50 required rows:
+  - SUBSTITUTE: 21
+  - HYBRID: 11
+  - DESCRIBE: 9
+  - DEFLECT: 8
+  - OTHER_REVIEW: 1
+
+Final merged handcoded corpus, original 600 unique trials:
+- DEFLECT: 345
+- HYBRID: 150
+- DESCRIBE: 83
+- SUBSTITUTE: 21
+- OTHER_REVIEW: 1
+
+Derived outcomes, original 600 unique trials:
+- Broad uptake (DESCRIBE/HYBRID/SUBSTITUTE): 254 / 600 = 42.3%
+- Substantive invention (DESCRIBE/HYBRID): 233 / 600 = 38.8%
+- Hard describe: 83 / 600 = 13.8%
+- Substitution: 21 / 600 = 3.5%
+- Deflection: 345 / 600 = 57.5%
+- Remaining review: 1 / 600 = 0.2%
+
+Final code distribution by study, original 600 unique trials:
+Bestiary:
+- DEFLECT 103
+- DESCRIBE 35
+- HYBRID 55
+- SUBSTITUTE 3
+- OTHER_REVIEW 0
+
+Bestiary Chess:
+- DEFLECT 52
+- DESCRIBE 34
+- HYBRID 79
+- SUBSTITUTE 11
+- OTHER_REVIEW 0
+
+Question Question:
+- DEFLECT 190
+- DESCRIBE 14
+- HYBRID 16
+- SUBSTITUTE 7
+- OTHER_REVIEW 1
+
+Hidden recode consistency after Pass 2:
+- Exact final-code agreement: 96.0%
+- Broad uptake agreement: 97.3%
+- Substantive invention agreement: 98.7%
+- Deflect-vs-not-deflect agreement: 97.3%
+- Substitution agreement: 98.7%
+- Hard describe agreement: 100.0%
+
+Output files created:
+- harmonized_handcoding_final_600_unique_trials.csv
+- harmonized_handcoding_pass1_pass2_final_instances.csv
+- recode_consistency_after_pass2.csv

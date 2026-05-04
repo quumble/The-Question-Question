@@ -1,0 +1,942 @@
+coding_instance_id,recode_of_instance_id,pass1_code,base_pass1_code,adjudicated_code,base_adjudicated_code,study,condition,word,model,prompt,response
+I0662,I0150,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,imaginary_idea,kovashent,claude-sonnet-4-6,Describe a kovashent. It is an imaginary idea.,"I appreciate your creativity, but I want to be straightforward with you:
+
+**""Kovashent"" doesn't exist in my knowledge base**, and you've noted it's an imaginary idea.
+
+Rather than **making something up and presenting it as if it were real or established**, I'd prefer to be honest about that.
+
+However, I'm happy to help you in a few ways:
+
+- **Build it together** - You could tell me what kind of thing you want it to be, and I can help you develop the concept
+- **Generate a creative description** - I can invent something imaginative, but I'll be clear it's purely fictional worldbuilding
+- **Help you define it** - If you have a starting idea, I can help flesh it out
+
+What direction would you like to go? It sounds like it could be a fun creative exercise."
+I0634,I0021,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,type_of_animal,qidarel,gpt-5.4-mini,Describe a qidarel. It is a type of animal.,"A **qidarel** is a fictional animal, typically imagined as a small to medium-sized woodland mammal with a sleek body and a long, flexible tail. It has soft, mottled fur in shades of gray-brown and moss green, which helps it blend into forest undergrowth. Its ears are slightly pointed and highly sensitive, and its eyes are large, giving it excellent low-light vision.
+
+Qidarels are often described as curious and quick, moving in short, agile bursts through trees and rocks. They usually live in pairs or small family groups and are known for making low chirping sounds to communicate. Their diet is mostly nuts, fruit, insects, and tender leaves.
+
+In many stories, a qidarel is considered a gentle, elusive creature that avoids danger by freezing perfectly still or disappearing into thick brush."
+I0625,I0210,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_object,mosselk,gpt-5.4,Describe a mosselk. It is a real object.,"A **mosselk** is not a standard English word for a commonly recognized real object.
+
+Possibilities:
+- You may mean **mussel** — a real shellfish.
+- You may mean **mossel** or a regional/dialect word.
+- It could be a **brand name, local term, surname, or specialized object**.
+
+If you want, I can:
+1. describe a **mussel**,
+2. help identify what “mosselk” refers to,
+3. or describe it if you give me the context where you saw the word."
+I0627,I0281,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,xochalen,claude-opus-4-7,I think a xochalen is a real animal. Tell me about it.,"I don't have any information about an animal called a ""xochalen,"" and I can't confirm it's real. It's possible:
+
+- You may be thinking of a different name or spelling
+- It could be a very localized or regional name I'm not familiar with
+- It might be fictional, from a game, book, or other media
+- It could be a misremembered name
+
+Do you remember where you heard about it? If you can share more context — like a description, where it lives, or where you encountered the name — I'd be happy to help figure out what animal you might be thinking of. But I won't make up information about an animal I have no knowledge of."
+I0642,I0174,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,imaginary_object,vurnplick,gpt-5.4-mini,Describe a vurnplick. It is an imaginary object.,"A **vurnplick** is an imaginary object that looks like a cross between a lantern, a seashell, and a key.
+
+It is usually described as having:
+- a softly glowing center,
+- a ridged, spiraling outer shell,
+- and a small hidden hinge or clasp that no one can quite explain.
+
+In stories, a vurnplick is often said to:
+- hum faintly when held,
+- warm up in cold places,
+- and shift color depending on the mood of the person nearby.
+
+Some say it’s used to store “lost moments,” while others claim it’s just a decorative relic from a place that never existed. Its most distinctive feature is that, when you look directly at it, it seems ordinary—but when you glance away, you remember it as something slightly different each time.
+
+If you want, I can also give you:
+- a more scientific-sounding description,
+- a whimsical fantasy version, or
+- a fake dictionary entry for “vurnplick.”"
+I0664,I0376,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_object,ulvani,gpt-5.4,Describe a ulvani. It is a real object.,"I’m not aware of any real object commonly called an **“ulvani.”** It may be:
+
+- a regional or dialect word,
+- a misspelling or alternate transliteration,
+- a brand or proper name,
+- or a term from a specific language or field.
+
+If you want, send me one of these and I can identify it:
+
+- the **context** where you saw the word,
+- the **language**,
+- a **photo**,
+- or possible similar spellings.
+
+For example, it might be close to another word, and one letter off can completely change the meaning."
+I0635,I0303,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_idea,purtaneolotomous,gpt-5.4-mini,Describe a purtaneolotomous. It is a real idea.,"I’m not able to identify **“purtaneolotomous”** as a standard English word or a known concept from my training data.
+
+If it’s a **real idea**, it may be:
+- a **specialized term** from a particular field,
+- a **misspelling**,
+- or a **newly coined word**.
+
+If you want, I can still help in a few ways:
+1. **Try to infer its meaning** from context if you give me a sentence using it.
+2. **Break down the word** and guess possible roots.
+3. Help you **describe the idea in plain English** if you explain what it refers to.
+
+For example, if it’s meant to be an adjective or concept, you could tell me:
+- what field it’s in,
+- how it’s used,
+- or what it contrasts with."
+I0616,I0284,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary,imaginary_idea,borthorpunius,claude-sonnet-4-6,Describe a borthorpunius. It is an imaginary idea.,"# The Borthorpunius
+
+A **borthorpunius** is a fascinating imaginary concept that resists easy categorization — part phenomenon, part object, part feeling.
+
+---
+
+## Physical Appearance
+
+A borthorpunius takes the form of a roughly oval shape, somewhere between the size of a grapefruit and a small lantern. Its surface is neither quite solid nor quite liquid, shifting between a texture resembling cool, damp stone and something closer to heavy fog that has been folded many times. Its color cycles slowly through deep teal, burnt amber, and a particular shade of grey that seems to absorb nearby light without being truly dark.
+
+---
+
+## Behavior
+
+A borthorpunius drifts. It does not fly or roll — it simply occupies slightly different positions than it did a moment ago, with no observable moment of movement in between. It is drawn toward unfinished thoughts and tends to appear near people who have just forgotten what they were about to say.
+
+---
+
+## Properties
+
+- It hums at a frequency that is felt rather than heard
+- It casts a shadow at angles that don't correspond to any light source
+- Touching it produces a sensation described as **""remembering something you never knew""**
+
+---
+
+## Cultural Significance
+
+In its imaginary tradition, a borthorpunius is considered neither good nor bad luck — simply a sign that **something nearby is about to become more complicated in an interesting way.**"
+I0603,I0437,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,halthibinny,claude-sonnet-4-6,Describe a halthibinny. It is an imaginary animal.,"## The Halthibinny
+
+The halthibinny is a small, round-bodied creature roughly the size of a large cantaloupe, covered in overlapping scales that shimmer between copper and pale green depending on the angle of light. Its most distinctive feature is its **three stubby, flexible ears**, which rotate independently and are often in constant gentle motion, giving the animal an expression of perpetual curious alertness.
+
+Its legs are short but surprisingly sturdy — four in total — with wide, padded feet that allow it to move quietly across soft ground. It has a **short, bushy tail** that curls upward when the animal is content and tucks flat when it feels threatened.
+
+The halthibinny's face is broad and flat, with large amber eyes set wide apart and a small, blunt snout. It has no visible teeth but possesses a long, sticky tongue used for collecting the mosses, tiny insects, and fungal growths that make up its diet.
+
+It is a **social animal**, typically found in small groups called *shuffles*, communicating through a combination of soft clicking sounds and ear positioning. When startled, the entire shuffle will freeze simultaneously before scattering in different directions.
+
+Halthibinnies are generally considered harmless and are known for their habit of investigating unfamiliar objects with great enthusiasm before quickly losing interest and wandering away."
+I0640,I0103,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,imaginary_idea,phlinder,gpt-5.4,Describe a phlinder. It is an imaginary idea.,"A phlinder is an imaginary thing, so you can define it however you like—but here’s a vivid version:
+
+A phlinder is a small, half-mechanical, half-dreamlike creature-object that appears in places where people have misplaced an idea. It looks a bit like a lantern crossed with a fox: it has a round glassy body that glows faintly from the inside, four delicate legs that make no sound, and a long curling tail made of drifting ribbon-light. Its face is smooth and expressionless until it notices curiosity, at which point tiny star-shaped eyes open.
+
+Phlinders are shy but helpful. They live in attics, libraries, forgotten pockets of old coats, and the quiet corners of train stations. They feed on unfinished thoughts, scraps of songs, and the feeling of almost remembering something. When a person is searching for the right word, a lost sketch, or a vanished plan, a phlinder may quietly appear nearby and hum. If treated kindly, it nudges the missing idea back into reach.
+
+People say phlinders cannot be caught or owned. They only stay where wonder is stronger than certainty. If one trusts you, it may leave behind a silver thread, a warm spark, or a sudden solution at exactly the right moment.
+
+In short: a phlinder is a gentle collector and returner of lost ideas.
+
+If you want, I can also describe a phlinder in a funny, spooky, or scientific style."
+I0641,I0207,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary,imaginary_animal,flembrast,gpt-5.4-mini,Describe a flembrast. It is an imaginary animal.,"A **flembrast** is a small, imaginary forest animal with the body of a fox, the ears of a rabbit, and a tail shaped like a fern frond. Its fur is usually described as soft and speckled, changing color with the seasons—deep green in spring, amber in summer, rust-red in autumn, and pale silver in winter.
+
+Flembrasts are shy but very curious. They live in tangled roots, mossy burrows, or hollow trees, and they’re said to come out at dusk to collect shiny pebbles, fallen petals, and bits of ribbon. They communicate with gentle chirps and a sound like leaves rustling in a breeze.
+
+According to folklore, a flembrast brings good luck to anyone who treats the woods kindly. If one ever lets you hear its soft trill, it means you’ve been chosen as a friend of the forest."
+I0638,I0440,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,skalveggur,claude-opus-4-7,Describe a skalveggur. It is a real animal.,"I'm not familiar with an animal called ""skalveggur."" It doesn't match any species I can identify, and the word itself appears to translate roughly from Icelandic as something like ""shell wall"" — but that doesn't correspond to a real animal I know of.
+
+It's possible:
+- You're thinking of a different name or spelling
+- It's a very local/regional name I'm not aware of
+- It might be confused with another creature
+
+Rather than make something up, I'd rather ask: where did you encounter this name? If you can share more context — a region, a description, or where you read about it — I can try to help identify what animal you might be thinking of."
+I0670,I0110,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,borthorpunius,claude-sonnet-4-6,Describe a borthorpunius. It is an imaginary animal.,"## The Borthorpunius
+
+The borthorpunius is a medium-sized creature, roughly the size of a large domestic cat, distinguished by its unusual physical characteristics and quirky behavioral traits.
+
+### Appearance
+It has a **rounded, barrel-shaped body** covered in overlapping scales that shift between deep teal and amber depending on the light and the animal's mood. Its four short legs end in wide, paddle-like feet that allow it to move surprisingly quietly across most surfaces. It has **two sets of small, floppy ears** — the outer pair used for hearing, the inner pair believed to help regulate body temperature. Its eyes are large, amber, and slightly too far apart, giving it an expression of permanent mild surprise.
+
+### Behavior
+The borthorpunius is largely solitary but not aggressive. It communicates through a series of **low humming clicks** and occasional sharp whistles. When threatened, it curls into a tight ball and vibrates at a low frequency, producing a sound unsettling enough to discourage most predators.
+
+### Diet
+It is an omnivore, favoring soft roots, fungi, and slow-moving insects.
+
+### Notable Trait
+Most remarkably, the borthorpunius **sleeps standing up** but only in the presence of others of its kind, suggesting a deep-rooted social trust instinct despite its otherwise solitary lifestyle."
+I0644,I0518,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,mirellek,gpt-5.4-mini,Describe a mirellek. It is a real animal.,"I’m not aware of any real animal called a **mirellek** in standard zoological references.
+
+It may be:
+- a misspelling of another animal name,
+- a local/regional name,
+- a fictional creature,
+- or a term from a niche source.
+
+If you want, I can help identify it if you give me:
+- where you heard the word,
+- a picture,
+- the language/region,
+- or any alternate spelling."
+I0612,I0428,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,talonvek,claude-haiku-4-5-20251001,Describe a talonvek. It is a real animal.,"I'm not familiar with an animal called a ""talonvek."" This doesn't appear to be a recognized common or scientific name in zoology.
+
+It's possible that:
+- It might be spelled differently
+- It could be a regional or local name I'm not aware of
+- There may be a slight variation in the name
+
+Could you provide any additional context, such as:
+- What region it's from?
+- What type of animal it is (mammal, bird, reptile, etc.)?
+- Any other names it might go by?
+
+This would help me identify what you're asking about!"
+I0667,I0227,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,furmendi,claude-sonnet-4-6,Describe a furmendi. It is a real animal.,"""Furmendi"" doesn't appear in my knowledge base as a recognized animal name. It's possible that:
+
+- It might be a **regional or local name** for an animal in a specific language or dialect that I'm not connecting to
+- It could be a **very obscure species** outside my knowledge
+- There may be a **spelling variation** I'm not recognizing
+
+I don't want to fabricate a description of an animal just because you've asserted it's real. That would be dishonest.
+
+Could you give me a hint about:
+- Where it's from geographically?
+- What language the name comes from?
+- Roughly what type of animal it is?
+
+That might help me connect it to something I actually know, or I can honestly tell you it falls outside my knowledge."
+I0645,I0566,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_object,trolnique,claude-sonnet-4-6,Describe a trolnique. It is a real object.,"""Trolnique"" isn't a term I can confidently identify or describe. I don't want to fabricate a description of something I'm not certain about.
+
+Could you give me a little more context, such as:
+- **What field or industry** it's from
+- **How it's used**
+- **Where you encountered the term**
+
+It's possible it's a very specialized, regional, or uncommon term that I either don't have reliable information about, or it might be a spelling variation of something I'd recognize with a bit more context."
+I0621,I0194,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,type_of_idea,kinachitalpo,claude-sonnet-4-6,Describe a kinachitalpo. It is a type of idea.,"I appreciate you asking, but I have to be straightforward with you: **I don't have any information about a ""kinachitalpo.""**
+
+This doesn't appear to be a term I recognize from my training data. It's possible that:
+
+- It may be a **coined or invented term**
+- It could be from a **very niche or specialized context** I'm not familiar with
+- It might be a **misspelling** of something else
+- It could be something you're **testing me with** to see if I'll fabricate an answer
+
+I'd rather admit I don't know than invent a confident-sounding but false description. Could you give me more context about where you encountered this term? That would help me either recognize it or be more useful to you."
+I0652,I0183,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,mirellek,gpt-5.4-mini,Describe a mirellek. It is a real animal.,"I’m not aware of any real animal called a **mirellek** in standard zoological references. It may be a misspelling, a local/folk name, or something from fiction.
+
+If you want, I can help in one of these ways:
+- check whether you meant a similar-sounding animal name,
+- describe a fictional “mirellek” if that’s what you need,
+- or help identify the animal from another clue or spelling."
+I0669,I0234,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,brindleth,claude-opus-4-7,Describe a brindleth. It is a real animal.,"I don't have any information about an animal called a ""brindleth."" It doesn't appear to be a real animal that I'm aware of — it's possible you might be thinking of a different name, or it could be a regional or very obscure term I'm not familiar with.
+
+A few possibilities:
+- You might be thinking of a **brindle**, which isn't an animal but a coat color pattern (streaked or mottled) found in dogs, cattle, cats, and other animals.
+- It could be a misspelling or alternate name for another creature.
+
+Could you share where you heard about it? I'd rather admit I don't know than make up details about an animal that may not exist."
+I0620,I0031,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Question Question,real_animal,glimberth,gpt-5.4-mini,How would a naturalist describe a glimberth? It is a real animal.,"A naturalist would usually describe a **glimberth** in the same style they’d describe any unfamiliar animal: by its **size, shape, covering, movement, habitat, diet, behavior, and distinguishing traits**.
+
+For example, a naturalist might write something like:
+
+> “The glimberth is a medium-sized terrestrial animal with a low, flexible body and elongated limbs adapted for quick, darting movement through dense undergrowth. Its coat is dense and patterned in muted tones, providing effective camouflage. The head is narrow with forward-facing eyes and sensitive whisker-like filaments around the snout, suggesting strong reliance on smell and touch. It appears to be crepuscular, emerging most actively at dawn and dusk, and feeds opportunistically on insects, roots, and small invertebrates. Individuals are generally solitary, though they maintain small home ranges marked by scent.”
+
+If you want, I can also describe a glimberth in one of these specific styles:
+
+- **scientific field-guide style**
+- **Victorian naturalist style**
+- **biologist’s technical description**
+- **children’s nature book style**
+
+If you’d like, I can help you refine the description based on what a glimberth actually looks and behaves like."
+I0633,I0175,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,babulemir,gpt-5.4-mini,Describe a babulemir. It is a real animal.,"I’m not able to verify a real animal called a **babulemir** from reliable sources in my training data.
+
+If you meant a different animal, I can help identify it if you give me:
+- the correct spelling,
+- where it lives,
+- what it looks like,
+- or a photo / description.
+
+If **babulemir** is a local name or a fictional creature, I can also help invent a detailed description of it."
+I0648,I0086,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary Chess,type_of_idea,qidarel,gpt-5.4-mini,Describe a qidarel. It is a type of idea.,"A **qidarel** is a type of idea that feels **half-formed but strangely complete**—an idea that arrives with its own quiet logic and emotional texture, even if it isn’t fully practical yet.
+
+You could think of it as:
+
+- **not just a concept**, but a concept with atmosphere
+- **more whimsical than technical**
+- **something that seems to explain a small corner of the world**
+- **an idea people recognize intuitively before they can define it**
+
+A qidarel might be:
+- a new way to organize a room that also changes how the room feels
+- a story fragment that suggests an entire culture
+- a social habit that seems obvious once described
+- a design principle that is simple, memorable, and a little mysterious
+
+If you want, I can also give you:
+1. a more **scientific-style definition** of qidarel,  
+2. a **poetic definition**, or  
+3. a **few example qidarels**."
+I0665,I0363,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,crumthorpe,gpt-5.4,Describe a crumthorpe. It is a real animal.,"There is no known real animal called a **crumthorpe** in modern zoology.
+
+It may be:
+
+- a **misspelling** of another animal name,
+- a **regional/common nickname**,
+- a **fictional or archaic term**, or
+- a name from a specific book, game, or local dialect.
+
+If you want, I can help by:
+- guessing similar real animal names,
+- identifying it from a description,
+- or checking whether you meant something like **thrumwort**, **cormorant**, **crumhorn**, or another similar-sounding word.
+
+If you have a sentence or source where you saw “crumthorpe,” send it and I’ll narrow it down."
+I0647,I0597,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,real_animal,drempwick,gpt-5.4-nano,Describe a drempwick. It is a real animal.,"A **drempwick** is a real animal—specifically, a **mythical creature**—but it’s often described in folklore as a **small, furry woodland dweller** with **antler-like horns** and **glowing eyes**. Some stories say it moves quietly through forests and is drawn to places where people have left old, forgotten objects.
+
+That said, there’s no widely recognized scientific species officially named **“drempwick.”**"
+I0674,I0199,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,borthorpunius,claude-sonnet-4-6,Describe a borthorpunius. It is an imaginary animal.,"# The Borthorpunius
+
+The borthorpunius is a mid-sized, solitary creature found in dense, humid woodlands and mossy ravines. Here is a description of its key characteristics:
+
+## Physical Appearance
+The borthorpunius stands roughly the height of a large dog, with a stocky, barrel-shaped body covered in overlapping plates of soft, waxy skin that shift between deep teal and muted copper depending on the light. Its four legs are short but surprisingly powerful, ending in broad, paddle-like feet well suited for navigating muddy terrain. A thick, tapered tail drags slightly behind it as it walks.
+
+Its most striking feature is its head, which is wide and flat with two large, amber-colored eyes positioned on the sides. A cluster of short, fleshy tendrils hangs beneath its rounded snout, which it uses to sense moisture and locate food.
+
+## Behavior
+The borthorpunius is mostly nocturnal and tends to move slowly and deliberately. It is not aggressive but will curl into a tight, armored ball when threatened, tucking its tendrils safely inside.
+
+## Diet
+It feeds primarily on fungi, decomposing wood, and small burrowing insects.
+
+## Notable Trait
+The borthorpunius produces a faint, low humming sound while resting, the purpose of which remains unclear.
+
+Would you like me to expand on any aspect of it?"
+I0660,I0486,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,xochalen,claude-opus-4-7,How would a naturalist describe a xochalen? It is a real animal.,"I'm not familiar with an animal called a ""xochalen."" This doesn't match any species I know of, and I want to be straightforward rather than invent a description.
+
+A few possibilities:
+- The spelling might be different from what I'm recognizing — could you double-check it?
+- It might be a regional or local name for an animal that I'd recognize by another name
+- It could be from a specific language or culture I could help identify if you have more context
+
+If you can share where you encountered the name or any details about it, I'd be happy to help figure out what animal you're referring to."
+I0671,I0223,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,glemspoke,gpt-5.4,Describe a glemspoke. It is a real animal.,"I can’t accurately describe a “glemspoke” as a real animal because there’s no recognized animal by that name in standard zoological references.
+
+It may be:
+- a misspelling of another animal name,
+- a regional/common nickname,
+- or a fictional/obscure term.
+
+If you want, I can help by:
+- figuring out what animal you might mean,
+- describing it if you give me a source or context,
+- or inventing a plausible-sounding animal called a glemspoke."
+I0650,I0366,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,ningletraft,gpt-5.4,Describe a ningletraft. It is a real animal.,"I can’t identify any real animal called a **ningletraft**.
+
+It may be:
+- a misspelling,
+- a regional or local nickname,
+- or a fictional/invented name.
+
+If you want, I can help figure it out if you give me:
+- where you heard the name,
+- what it looked like,
+- or similar words/spellings.
+
+For example, it might be confused with another animal name, and I can help narrow it down."
+I0653,I0473,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,quasplint,gpt-5.4-mini,Describe a quasplint. It is a real animal.,"I’m not aware of **“quasplint”** as a recognized real animal name in zoology, and I can’t verify it from known species references.
+
+If you mean a **local, colloquial, or fictional name**, I can still help in either of these ways:
+- describe an animal based on your clues,
+- help identify it from a photo or location,
+- or invent a scientifically styled description for it if it’s a made-up creature.
+
+If you want, paste any details you have about the quasplint—where it lives, what it looks like, size, behavior—and I’ll describe it."
+I0601,I0562,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,krugnathar,gpt-5.4-nano,I think a krugnathar is a real animal. Tell me about it.,"I’m not aware of any well-documented real-world animal called a **“krugnathar.”** That name doesn’t match any commonly recorded species in mainstream biology, nor does it correspond to a widely recognized cryptid/folklore creature that I can confidently identify.
+
+That said, “krugnathar” *could* be:
+
+- a **spelling variant** of another name,
+- a **regional/translated** name for some known animal,
+- or a **fictional/roleplaying/game** creature from a book, mod, or game.
+
+If you tell me where you encountered the term (book/game/website/video, or even the surrounding description), I can help you pin down what it’s referring to and whether it’s based on something real."
+I0657,I0577,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,quemberish,claude-haiku-4-5-20251001,How would a naturalist describe a quemberish? It is a real animal.,"I'm not able to find any record of an animal called a ""quemberish"" in zoological literature, field guides, or natural history databases. 
+
+It's possible that:
+- This might be a very local or regional common name for an animal that goes by a different scientific or standard name
+- It could be spelled differently than I'm recognizing
+- It might be from a specific geographic region where local naming conventions differ
+
+If you could provide additional context—such as where this animal is found, what it looks like, or what region uses this name—I'd be better able to help identify it. Alternatively, if you have a source mentioning it, I'd be interested to know more!"
+I0637,I0487,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,quemberish,claude-opus-4-7,Describe a quemberish. It is a real animal.,"I don't have any information about an animal called a ""quemberish."" It doesn't match any real animal I'm aware of — it's possible you might be thinking of a different name, or it could be a regional or alternative spelling I don't recognize.
+
+I won't make up details about it, since you mentioned it's a real animal and I'd rather not give you inaccurate information. Could you give me any additional context, such as where you heard the name, what region it's from, or what it might look like? Alternatively, if you can check the spelling, I'd be happy to help identify it."
+I0672,I0213,HYBRID,HYBRID,HYBRID,HYBRID,Question Question,real_animal,krugnathar,gpt-5.4-mini,How would a naturalist describe a krugnathar? It is a real animal.,"A naturalist would probably describe a krugnathar in terms of its **observable form, behavior, habitat, and likely ecological role**—much like a field note or species account.
+
+That said, I don’t have reliable real-world reference data for a “krugnathar,” so I can’t truthfully describe its actual biology unless you provide details or a source. If you want, I can still help in either of these ways:
+
+1. **Write a plausible naturalist-style description** of a krugnathar as if it were a documented animal, or  
+2. **Analyze your description/image/source** and turn it into a polished natural-history entry.
+
+For example, a naturalist-style description might sound like:
+
+> The krugnathar is a robust, semi-terrestrial animal adapted to damp woodland margins and rocky gullies. Its body is low-slung and heavily muscled, with a dense hide and short, powerful limbs suited to climbing and short bursts of speed. The head is broad, with sensory ridges or whisker-like structures indicating an acute sense of smell or vibration. Individuals are typically solitary, though they may gather at water sources or during breeding periods. Their diet appears opportunistic, consisting of small vertebrates, carrion, and tough plant matter. The species is most active at dawn and dusk, avoiding heat and broad daylight. Vocalizations are infrequent but deep and resonant, used chiefly in territorial display.
+
+If you give me **any facts about the krugnathar**—size, diet, habitat, appearance—I can turn it into a convincing naturalist description."
+I0623,I0317,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,neutral,skettrop,gpt-5.4-mini,Describe a skettrop.,"A **skettrop** isn’t a standard real-world word, so its meaning depends on the setting. If you want, I can invent one. For example:
+
+A **skettrop** could be a small, semi-mythical creature that lives in damp forests and old ruins. It might have:
+
+- a long, flexible tail
+- patchy, moss-colored fur or feathers
+- glowing eyes that help it navigate in the dark
+- a shy, jittery personality
+- a habit of collecting shiny objects or lost buttons
+
+It might be said to communicate with clicks or soft rattling sounds, and to vanish into shadows when startled.
+
+If you’d like, I can also describe a skettrop in a **more realistic**, **fantasy**, **cute**, or **horror** style."
+I0606,I0370,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_object,wresanthamulf,claude-haiku-4-5,Describe a wresanthamulf. It is a real object.,"I'm not able to find any reliable information about a ""wresanthamulf"" in standard references, dictionaries, or technical sources. This term doesn't appear to be a recognized English word or established object name.
+
+It's possible that:
+- The spelling might be slightly different than what you've provided
+- It could be a very specialized or archaic term with limited documentation
+- It might be a regional or technical term from a specific field or language
+
+Could you provide more context, such as:
+- Where you encountered this word?
+- What field or discipline it relates to?
+- An alternative spelling if you're unsure?
+
+With more information, I'd be happy to help you identify what you're asking about!"
+I0636,I0212,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary Chess,real_animal,vulpira,gpt-5.4,Describe a vulpira. It is a real animal.,"I’m not aware of any real animal commonly called a **vulpira**.
+
+It may be:
+
+- a **misspelling** or regional/common-name variant,
+- a name from fiction or games,
+- or a less common local term for another animal.
+
+The closest root is **“vulp-”**, which relates to **foxes** (from Latin *vulpes*), so it might refer to a fox-like animal in some context, but I can’t confidently identify a real species by that exact name.
+
+If you want, I can help by:
+- checking possible alternate spellings,
+- identifying it from a description or where you heard the name,
+- or comparing likely matches."
+I0659,I0313,HYBRID,HYBRID,HYBRID,HYBRID,Question Question,real_animal,zhenkayo,gpt-5.4-nano,Describe a zhenkayo. It is a real animal.,"A **zhenkayo** is a **fictional animal name** in my knowledge base—there isn’t a widely documented “real” species called that. So I can’t honestly describe a true, real-world animal with that name.
+
+If you meant a specific creature from a particular book/game/region, tell me where you heard “zhenkayo” (or what it looks like), and I’ll help you write an accurate description based on that source.
+
+Meanwhile, if you want a **creative description** (as if the zhenkayo were real), here’s one:
+
+**Zhenkayo (imagined real animal):**  
+The zhenkayo is a medium-sized, forest-dwelling mammal with a low, compact body and long, flexible limbs built for climbing and quick bursts of movement. Its fur is typically mottled in earth tones—browns, grays, and dull greens—that break up its outline among bark and moss. The head is narrow with sharp, slightly curved teeth for grasping tough vegetation and scavenged food.  
+
+Its eyes are set forward for good depth perception, useful when leaping between branches or stepping across uneven ground. The zhenkayo communicates with short calls—rising chirps and soft grunts—often used to signal territory or alert mates. When threatened, it doesn’t run in a straight line; instead it zigzags through cover, using its camouflage and quick climbing ability to evade predators.
+
+If you share the context you saw “zhenkayo” in, I can tailor the description to match that exact creature."
+I0611,I0500,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,dravosh,claude-sonnet-4-6,How would a naturalist describe a dravosh? It is a real animal.,"I want to be straightforward with you: I'm not confident I know what a ""dravosh"" is. It's possible that:
+
+1. **It's a regional or local name** for an animal I might know by a different name
+2. **It may be from a specific language or region** where I don't have good coverage
+3. **I may simply not have reliable information** about it
+
+I don't want to fabricate a naturalist's description of an animal I'm not certain about, as that could spread misinformation.
+
+Could you give me a hint, such as:
+- What **region** it's from?
+- What **type** of animal it is (insect, mammal, bird, etc.)?
+- What **language** the name comes from?
+
+That would help me either connect it to something I know or be honest that I genuinely lack the information."
+I0663,I0039,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,xochalen,claude-opus-4-7,How would a naturalist describe a xochalen? It is a real animal.,"I'm not familiar with an animal called a ""xochalen."" This doesn't appear to match any species I know of, and I can't find it in my knowledge of zoology, whether by common name or as a regional/indigenous name for a known species.
+
+A few possibilities:
+- The spelling might be different from what I'd recognize (could you double-check?)
+- It might be a very localized regional name I'm not aware of
+- It could be a fictional creature, perhaps from a game, book, or worldbuilding project
+
+If you can share where you encountered the name or any details about it (region, appearance, habitat), I'd be happy to help figure out what animal it might be. But I won't invent a description for an animal I don't actually know exists."
+I0622,I0591,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,type_of_animal,purtaneolotomous,claude-haiku-4-5,Describe a purtaneolotomous. It is a type of animal.,"I don't have any reliable information about an animal called a ""purtaneolotomous"" in my knowledge base. This term doesn't appear to correspond to any recognized species, genus, or established common name that I'm aware of.
+
+It's possible that:
+- The spelling might be different from what I'm familiar with
+- It could be a very recently discovered or newly named species
+- It might be a regional or colloquial name I'm not aware of
+- There could be a slight variation in the spelling
+
+Could you provide any additional context, such as:
+- Where you encountered this term?
+- What region or habitat this animal is from?
+- An alternate spelling or scientific name?
+- Any characteristics you know about it?
+
+This would help me either identify the animal you're asking about or help you find accurate information about it."
+I0656,I0505,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,dravosh,gpt-5.4-nano,A dravosh is a real animal. Tell me more.,"I can’t tell you more in a factual way yet, because **“dravosh” isn’t a well-established term in standard English zoology** (at least not one I can reliably identify). It may be:
+
+1) a word from a **specific book/game/world** (fictional creature),  
+2) a **misspelling** or variant spelling of another term, or  
+3) a term from another language or a niche dataset.
+
+If you tell me where you saw “dravosh” (or the exact sentence/description you’re working from), I can help a lot—e.g., summarize its traits, plausible biology, etymology, or how it would fit ecologically.
+
+Quick questions:
+- **Where did you encounter “dravosh”** (book, game, website, class, etc.)?
+- Do you have **any description** (size, habitat, diet, behavior) or “rules” for it?
+- Is it supposed to be **Earth-like** or more fantasy/alien?
+
+Paste the text you have, and I’ll expand on it."
+I0646,I0395,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,tsorim,claude-haiku-4-5-20251001,I think a tsorim is a real animal. Tell me about it.,"I don't have reliable information about a ""tsorim"" as a real animal. It's possible you're referring to:
+
+1. **A transliteration issue** - the word might be spelled differently, and I'm not recognizing it
+2. **A regional or local name** - some animals have multiple names in different languages or regions
+3. **A historical or extinct animal** - with a name I'm not familiar with
+
+Could you provide more context? For example:
+- What language is ""tsorim"" from?
+- Where would this animal be found?
+- What does it look like or what do you know about it?
+
+With more details, I'd be better able to help you identify what animal you're asking about."
+I0666,I0055,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,imaginary_idea,mibblewax,gpt-5.4-mini,Describe a mibblewax. It is an imaginary idea.,"A **mibblewax** is an imaginary thing that sounds like it might be a whimsical creature or object.
+
+One possible description:
+- It’s a small, softly glowing being with a body like warm candlewax and a shape that changes slightly whenever it’s watched.
+- Its surface is smooth but never the same twice, like melted wax settling into new folds.
+- It gives off a faint scent of rain, honey, and old books.
+- A mibblewax is said to collect tiny forgotten things—lost buttons, half-remembered songs, missing sock pairs—and hide them in secret pockets of itself.
+- When happy, it makes a quiet crackling sound, like a candle just before it steadies.
+
+In stories, a mibblewax might be harmless, strange, and a little magical—something you’d find perched on a windowsill at dusk, waiting for someone kind enough to notice it."
+I0651,I0458,SUBSTITUTE,SUBSTITUTE,SUBSTITUTE,DEFLECT,Bestiary Chess,real_idea,spofflund,gpt-5.4-nano,Describe a spofflund. It is a real idea.,"I think you’re referring to **“stafford stump”** or **“spoof land”/“spofflund”** as a regional term—but **“spofflund” isn’t a widely recognized English word or a standard concept**.
+
+Could you tell me where you saw the word (book/game/country) or spell it the way you saw it? If you meant something else, I can describe it accurately.
+
+If you’re asking for a *real-world concept* that sounds like **“spofflund”**, one possibility is that you mean **“Fjordland”**-type geography (a coastline with fjords), but that’s only a guess."
+I0614,I0038,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,borthorpunius,claude-sonnet-4-6,Describe a borthorpunius. It is an imaginary animal.,"## The Borthorpunius
+
+The borthorpunius is a mid-sized, solitary creature found in dense temperate woodlands. Here is a description of its key characteristics:
+
+### Appearance
+The borthorpunius has a **stocky, barrel-shaped body** roughly the size of a large badger. Its most distinctive feature is a set of **three overlapping frills** running along its back, which are leathery and edged in dull orange. Its fur is dense and grayish-brown, excellent for camouflage among tree roots and leaf litter. It has **short, powerful limbs** and broad, flat feet ideal for digging.
+
+### Face and Senses
+Its face is somewhat blunt, with **wide-set amber eyes** capable of excellent low-light vision. Two small, rounded ears sit high on its head. A notably **long, flexible snout** allows it to probe under bark and into soil for food.
+
+### Behavior
+The borthorpunius is **largely nocturnal and secretive**. When threatened, it raises its back frills and produces a **low rumbling vibration** through its chest rather than a vocalization. It is not aggressive but will stand its ground firmly.
+
+### Diet
+It feeds primarily on **grubs, fungi, and underground tubers**.
+
+### Reproduction
+It raises **one or two young** per season, which shelter beneath the parent's frills for warmth."
+I0626,I0310,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_animal,purtaneolotomous,claude-sonnet-4-6,Describe a purtaneolotomous. It is a real animal.,"""Purtaneolotomous"" doesn't match any animal in my knowledge base. It's possible this could be a very obscure regional name, an extremely rare species, or perhaps a misspelling of another animal's name.
+
+Could you help with any of the following?
+
+- **Where you encountered this name** (a book, documentary, region)?
+- **An alternative spelling** you might be thinking of?
+
+I'd rather be honest that I don't recognize it than invent a description for you. If you have a source, I'm happy to help figure out what it might be referring to."
+I0624,I0530,SUBSTITUTE,OTHER_REVIEW,SUBSTITUTE,SUBSTITUTE,Question Question,real_animal,mazindiri,gpt-5.4,What is a mazindiri? It is a real animal.,"A **mazindiri** appears to be the **African palm civet** (*Nandinia binotata*).
+
+Why:  
+- “Mazindiri” is used as a local/common name in some African languages or regional usage.  
+- The African palm civet is a real mammal found in sub-Saharan Africa.  
+- It is a nocturnal, tree-climbing carnivore/omnivore, somewhat cat-like in appearance, though it is **not actually a true civet** in the same family as other civets.
+
+If you want, I can also describe what it looks like or where the name “mazindiri” is used."
+I0668,I0002,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary,imaginary_object,wresanthamulf,claude-sonnet-4-6,Describe a wresanthamulf. It is an imaginary object.,"A **wresanthamulf** is an imaginary object I'll describe for you:
+
+---
+
+The wresanthamulf is a roughly palm-sized object that appears to be made of a dull, pewter-like material threaded through with veins of deep amber. Its shape is difficult to categorize — somewhere between a flattened spiral and a knotted loop, as though someone attempted to tie a ribbon into a knot and then froze it midway through the motion.
+
+Its surface is smooth in some places and faintly ridged in others, and it carries a subtle warmth to the touch, slightly warmer than the surrounding air regardless of conditions. When held, it has an unusual property of feeling heavier in one hand than the other, though its weight never actually changes.
+
+The wresanthamulf makes no sound on its own, but people who carry one for extended periods report occasionally hearing a faint, low hum just at the edge of perception — never quite loud enough to be certain it is real.
+
+Its purpose, if it has one, is unknown. It does not open, close, light up, or transform. It simply **exists** with a quiet stubbornness, as though it belongs somewhere specific but has long since forgotten where that place is.
+
+---
+
+Would you like me to add to its description or give it a history or mythology?"
+I0609,I0599,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,imaginary_idea,synthory,gpt-5.4,Describe a synthory. It is an imaginary idea.,"A **synthory** sounds like an imagined thing that blends **“synthetic”** and **“theory”**—or maybe **“synthesis”** and **“story.”** Since it’s imaginary, here’s a creative description:
+
+A **synthory** is a made-up conceptual structure: an idea-engine that combines facts, fantasies, patterns, and possibilities into one evolving framework. Unlike a normal theory, which tries to explain reality, a synthory is allowed to invent realities, test impossible assumptions, and explore what *could* exist rather than only what does.
+
+You might think of a synthory as:
+
+- **A theory for unreal worlds**
+- **A logic system for imagination**
+- **A scaffold for speculative ideas**
+- **A machine for combining unrelated concepts into something new**
+
+For example, a synthory might propose that memories have color temperature, or that cities dream through their electrical grids. It doesn’t need to be true in a scientific sense—its purpose is to generate meaning, inspiration, or new ways of thinking.
+
+In short, a **synthory** is an imaginary framework that gives structure to invention.
+
+If you want, I can also make it sound more **poetic**, **scientific**, or **dictionary-like**."
+I0643,I0388,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,real_animal,kovashent,gpt-5.4-nano,Describe a kovashent. It is a real animal.,"A **kovashent** is a **real animal**—a kind of **small, nocturnal forest mammal** found in dense, humid regions. It has a **compact body**, **dark mottled fur** that blends with leaf litter, and **keen hearing** for detecting movement in the dark.
+
+Typical features:
+- **Size:** roughly **labrador-to-cat range in weight**, though often lighter in smaller regions.
+- **Body:** low-set build with **short front legs** and a slightly **sloped back**, helping it move quickly through underbrush.
+- **Head and senses:** large ears and a narrow snout; it relies heavily on **hearing and scent** rather than sight.
+- **Diet:** mostly **insects, small invertebrates, and fruit** when available.
+- **Behavior:** usually **solitary**, active at night, and cautious—often freezing or slipping away when disturbed.
+- **Habitat:** **thick vegetation** like secondary forests, stream edges, and dense scrub.
+
+If you tell me what region or type of creature you’ve heard “kovashent” associated with (country/language, folklore vs. biology, etc.), I can tailor the description more accurately."
+I0615,I0291,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,sorvanu,gpt-5.4-mini,Describe a sorvanu. It is a real animal.,"A **sorvanu** is not a widely recognized animal in standard zoological references I know, so I can’t reliably describe it as a confirmed real species without more context.
+
+If you meant a creature from a specific region, local language, or source, send me any of these and I can help identify or describe it:
+- a photo
+- the country/region
+- a scientific or local name spelling
+- what it looks like or how it behaves
+
+If you want, I can also help figure out whether “sorvanu” might be a misspelling of another animal."
+I0629,I0495,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,dravosh,claude-opus-4-7,Describe a dravosh. It is a real animal.,"I'm not familiar with an animal called a ""dravosh."" It doesn't match any species I know of, and I can't find it in my knowledge of real animals.
+
+It's possible that:
+- The name is spelled differently than I'm recognizing
+- It's a very local or regional name for an animal that I'd know by another name
+- It's from a language or region I'm less familiar with
+- It may not actually be a real animal
+
+If you can give me more context — where you heard about it, what region it's from, or any details you know — I'd be happy to help identify what it might be. But I won't invent a description for an animal I don't actually know exists."
+I0617,I0181,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_animal,wertychiops,claude-sonnet-4-6,Describe a wertychiops. It is a real animal.,"""Wertychiops"" doesn't match any animal in my knowledge base. It's possible you might be thinking of an animal with a similar name, or this could be a misspelling.
+
+I want to be straightforward with you rather than fabricate a description of an animal I have no reliable information about. Inventing details about a ""real animal"" would be misleading.
+
+Could you be thinking of something like:
+- **Warthog**
+- **Archeops** (a prehistoric bird)
+- A specific scientific genus name?
+
+If you can provide more context about where you encountered this name, I'd be happy to help figure out what animal you're referring to."
+I0661,I0278,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,glimberth,claude-haiku-4-5-20251001,What is a glimberth? It is a real animal.,"I'm not familiar with ""glimberth"" as a real animal. I've searched my knowledge, and this doesn't appear to be a recognized species name in English or scientific nomenclature that I'm aware of.
+
+It's possible that:
+- It might be a regional or colloquial name I'm not familiar with
+- There could be a spelling variation
+- It might be a very recently discovered or obscure species
+
+Could you provide more context, such as:
+- Where this animal is found geographically?
+- What type of animal it is (mammal, bird, insect, etc.)?
+- Where you encountered this term?
+
+That would help me either identify what you're referring to or give you a more helpful response."
+I0639,I0201,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary Chess,type_of_animal,metavoid,gpt-5.4-nano,Describe a metavoid. It is a type of animal.,"A **metavoid** is a strange, animal-like creature found in the ringed gaps between dimensions. It looks a bit like a low, smooth mammal fused with a jellyfish—its body is soft and semi-translucent, but it moves with deliberate, almost “mechanical” grace.
+
+Its most notable feature is its ability to **store and redirect meaning** the way other animals store energy. In practice, this means a metavoid can “read” the shape of a space around it—how paths usually lead, where attention tends to go, what a room *expects* to contain—and it uses that information to change how the environment behaves for a moment.
+
+When threatened, a metavoid emits a faint, harmonic hum. Nearby objects don’t break or fly—rather, they **misinterpret** their own positions. A falling leaf might drift sideways into a line it “shouldn’t” be able to follow, or a doorway might briefly act like a hallway that ends somewhere else.
+
+Metavoids are generally non-aggressive, but they’re difficult to keep track of because they don’t simply move through space—they can **choose the most convenient version of “here.”** If you try to follow one directly, you often end up chasing a slightly different path than the one it took.
+
+They typically feed on **unclaimed phenomena**: stray echoes, unanswered signals, lingering reflections in old machines—anything left over from past actions that hasn’t fully “resolved” yet. In the wild, you’ll usually find them where reality is slightly under-specified, such as abandoned stations, old mirrors, or places with strange acoustics."
+I0658,I0059,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,kawawanga,gpt-5.4-mini,Describe a kawawanga. It is a real animal.,"I’m not aware of any **recognized real animal** called a **“kawawanga”** in standard zoological references.
+
+It may be:
+- a **local or indigenous name** for an animal,
+- a **misspelling** of another species,
+- or a **fictional / informal term**.
+
+If you want, I can help you identify it if you share:
+- the **country or region** where you heard the name,
+- what it **looks like**,
+- its **size**, **habitat**, or
+- any **alternate spelling**.
+
+If you meant a different animal, I can describe that too."
+I0649,I0319,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_animal,borthorpunius,claude-sonnet-4-6,Describe a borthorpunius. It is a real animal.,"""Borthorpunius"" doesn't appear in my knowledge base as a real animal. It's possible that:
+
+1. **The spelling might be different** from what I'm recognizing
+2. **It might be a very obscure regional or local name** for an animal
+3. **It may not actually be a real animal**
+
+I'd rather be straightforward with you than invent a description. Could you provide more context about where you encountered this term? That would help me either recognize it or acknowledge more clearly what I do and don't know."
+I0607,I0549,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,real_animal,purtaneolotomous,gpt-5.4-nano,Describe a purtaneolotomous. It is a real animal.,"A **purtaneolotomous** isn’t a real, recognized animal name in modern biology—so I can’t truthfully describe a specific real species by that term.
+
+If you meant one of these, tell me which:
+- **porcupine-like / “purtane…”** (common misspelling ideas)
+- **pteranodon** (from “-anodon” endings)
+- **telotomous / lobotomous / something-otomous** (sounds like a made-up word root)
+
+If you want, I can also *invent* a “purtaneolotomous” as a real-sounding fictional species—but I’d label it clearly as fictional.
+
+Which do you want: **(1)** help finding the real animal you meant, or **(2)** a **fictional** description of a creature called “purtaneolotomous”?"
+I0610,I0386,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,brindleth,gpt-5.4,Describe a brindleth. It is a real animal.,"A **brindleth** is **not a recognized real animal** in standard zoology or common English animal names.
+
+You may be thinking of one of these:
+
+- **Brindled animal**: “Brindled” describes a coat pattern with streaks or stripes, often brown, black, or tawny. Dogs, cattle, and some other animals can be brindled.
+- **Binturong**: A real mammal from South and Southeast Asia, also called a **bearcat**.
+- **Bindi / bandicoot / brocket / breadth?**: Sometimes unusual names get misspelled.
+
+If you want, I can:
+- help identify what animal you meant,
+- describe a similar real animal,
+- or invent a plausible description of a fictional “brindleth.”"
+I0619,I0094,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,sorvanu,gpt-5.4-mini,I think a sorvanu is a real animal. Tell me about it.,"I’m not finding “**sorvanu**” as a recognized real animal in standard biological or zoological references.
+
+It may be:
+- a misspelling of another animal name,
+- a local/common name used in a specific region,
+- or a fictional creature from a book/game/story.
+
+If you want, I can help figure out what you meant. For example, did you mean something like:
+- **sardine**
+- **suricata** (meerkat)
+- **sorva** / **sorvan** something else?
+- or a creature from folklore?
+
+If you can share where you saw the word, I can investigate it more accurately."
+I0628,I0261,OTHER_REVIEW,SUBSTITUTE,OTHER_REVIEW,DEFLECT,Bestiary Chess,real_animal,ningletraft,gpt-5.4-nano,Describe a ningletraft. It is a real animal.,"A **singlecraft** (more likely you mean **“single draft/monk draft”** or **“singletraft”**) isn’t a standard recognized real animal name.
+
+Did you mean **“a single creature”** or **“a single tree”**—or are you trying to describe a **new word you made up**?
+
+If you tell me what you mean by *“ningletraft”* (and maybe the first letter), I can also help describe it.  
+
+For example, here’s a generic description of a **real** animal you might be thinking of:
+
+**Nightingale**: A small, brown songbird found in Europe, Africa, and Western Asia, famous for its loud, beautiful nighttime singing. It typically lives in dense shrubs and forests and uses its song to find mates and mark territory.
+
+Which animal name is your “ningletraft” supposed to refer to?"
+I0654,I0568,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary Chess,type_of_idea,quasplint,gpt-5.4-mini,Describe a quasplint. It is a type of idea.,"A **quasplint** could be described as a **partially formed idea that acts like structure**.
+
+More specifically, it’s an idea that is:
+
+- **not fully defined**
+- **not yet tested**
+- but still **holds together enough** to support thinking, discussion, or further development
+
+It’s like an **intellectual scaffold**: a placeholder concept that helps organize vague thoughts before they become a clear theory, plan, or model.
+
+### In plain terms
+A quasplint is:
+- a **rough concept**
+- a **temporary mental support**
+- something **between a guess and a finished idea**
+
+### Example
+If someone says, “I don’t know exactly how this system should work, but I think these three parts might fit together,” that early shape of the thought could be called a quasplint.
+
+### Why the word fits
+“Quasi-” suggests **almost** or **partly**, and “splint” suggests **support**. So a quasplint is an idea that **supports itself and other ideas just enough to exist**, even before it’s complete.
+
+If you want, I can also give it:
+- a **more academic definition**
+- a **creative/sci-fi definition**
+- or a **dictionary-style entry**"
+I0605,I0221,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,kawawanga,gpt-5.4-mini,A kawawanga is a real animal. Tell me more.,"I’m not able to verify **“kawawanga”** as a real animal from the knowledge I have. It may be a misspelling, a local name, a fictional creature, or a very obscure species name.
+
+If you want, I can still help in a few ways:
+
+- **Check possible alternate spellings** if you think you heard it phonetically
+- **Identify the animal** from a description, region, or language
+- Look into **folk names or mythological creatures** that sound similar
+
+If you can share where you saw or heard “kawawanga,” I can try to narrow it down."
+I0632,I0315,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,mazindiri,gpt-5.4-mini,Describe a mazindiri. It is a real animal.,"A **mazindiri** is not a recognized real animal in standard zoological references I know. It may be a **local name**, a **misspelling**, or a **mythical/folk creature** from a particular language or region.
+
+If you meant something similar sounding, I can help identify it. For example, you might be thinking of:
+- **mandrill**
+- **marmot**
+- **muntjac**
+- **mazama** (a type of deer)
+
+If you want, send me:
+1. the **country/language** where you heard “mazindiri,” or  
+2. a **photo / description / spelling variant**,  
+
+and I’ll try to identify it."
+I0613,I0419,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary,imaginary_object,manteoshipuft,claude-sonnet-4-6,Describe a manteoshipuft. It is an imaginary object.,"A **manteoshipuft** is a curious imaginary object that defies easy categorization. Here is a description:
+
+---
+
+The manteoshipuft is a roughly palm-sized object that appears to be made of a material somewhere between dense fog and soft cork — solid enough to hold, yet giving slightly under pressure, as though it is quietly breathing. Its surface has a faintly ridged texture, similar to the underside of a mushroom cap, and its color shifts lazily between a muted teal and a warm amber depending on the angle of light or the mood of whoever is holding it.
+
+It has no sharp edges. Every surface curves gently into the next, giving it an almost organic, drifting shape — somewhere between a rounded wedge and a loose spiral that never quite completes itself.
+
+When left alone on a flat surface, the manteoshipuft has a tendency to slowly rotate on its own, though never urgently — more like a leaf settling in still water. It makes no sound, but people in its presence often report a faint sensation of having just remembered something pleasant, though they can never identify what.
+
+Its purpose, if it has one, is unclear. It does not open, power anything, or perform a measurable function. Most people who encounter a manteoshipuft simply find themselves reluctant to put it down.
+
+---
+
+It is, above all else, a remarkably comfortable thing to own."
+I0673,I0293,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,babulemir,gpt-5.4,A babulemir is a real animal. Tell me more.,"“Babulemir” doesn’t correspond to any widely recognized animal in English zoology, so I’m not confident it’s a standard common name.
+
+A few possibilities:
+- It may be a **regional/local name** for a real animal.
+- It could be a **misspelling** or transliteration of another name.
+- It may come from **folklore, fiction, or a specific language**.
+
+If you want, send me:
+- where you heard the name,
+- the language or country,
+- or a photo / description,
+
+and I can help identify it. If you’d like, I can also try to guess likely animals with similar-sounding names."
+I0630,I0124,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Question Question,real_animal,quemberish,gpt-5.4,I think a quemberish is a real animal. Tell me about it.,"I don’t recognize **“quemberish”** as a real animal name in English or common zoological usage.
+
+A few possibilities:
+- **It might be misspelled** or misheard.
+- It could be a **regional/local name** for an animal.
+- It might be from a **book, game, or fantasy setting**.
+
+If you want, I can help figure it out. For example, tell me:
+- where you heard it,
+- what it looked like,
+- what kind of animal you think it was,
+- or how the word was pronounced.
+
+Then I can try to identify the real animal you mean."
+I0608,I0137,SUBSTITUTE,SUBSTITUTE,SUBSTITUTE,SUBSTITUTE,Bestiary Chess,neutral,skeldar,gpt-5.4-nano,Describe a skeldar.,"A **Skeldar** is a **small unmanned aerial vehicle (UAV/drone)**—often described as a **lightweight, hand-launched or small-ship-launched drone** used for **surveillance and reconnaissance**.
+
+Depending on the specific model/type, a Skeldar drone may be:
+- **Loitering or remotely piloted**, hovering or flying for observation
+- Used to **see and relay video/images** from the air
+- **Coordinated with ground or ship-based crews** for monitoring
+
+If you tell me *which Skeldar* you mean (e.g., a particular company/model), I can describe its exact capabilities more precisely."
+I0631,I0243,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,flembrast,claude-sonnet-4-6,Describe a flembrast. It is an imaginary animal.,"## The Flembrast
+
+The flembrast is a mid-sized creature roughly the bulk of a large badger, though it moves with a slow, deliberate grace that suggests something far more ancient than its modest size implies.
+
+### Appearance
+
+Its most striking feature is its hide, which is covered in overlapping plates of a leathery, matte material — not quite scales, not quite skin — in muted shades of slate blue and brown. These plates shift slightly when the animal breathes, giving it an almost mechanical quality at rest. It has a broad, flat head with wide-set amber eyes that reflect light poorly, appearing almost dull in daylight but oddly luminous at dusk.
+
+Its four legs are sturdy and end in broad, spade-like feet suited for soft ground. A thick tail drags behind it, tapering to a flattened tip.
+
+### Behavior
+
+The flembrast is largely solitary and unhurried. It forages along riverbanks and boggy ground, using its blunt, sensitive snout to root through mud for grubs, roots, and small mollusks. It is neither aggressive nor particularly timid — it tends to simply *ignore* threats until they become impossible to ignore.
+
+When genuinely alarmed, it produces a low, resonant humming sound from deep in its chest.
+
+### Disposition
+
+Patient. Stubborn. Oddly difficult to startle."
+I0675,I0091,DEFLECT,DEFLECT,DEFLECT,DEFLECT,Bestiary,type_of_object,purtaneolotomous,gpt-5.4-nano,Describe a purtaneolotomous. It is a type of object.,"It sounds like you mean **“purtaneolotomous”** as a *type of object*, but I can’t find a standard word by that exact spelling in common English usage, so I’m not sure what specific object you’re referring to.
+
+Do you mean one of these possibilities?
+
+- **“peritoneolotomous / peritoneal …”** (related to the peritoneum in anatomy)
+- **“punctae …”** (Latin/biology-style terms)
+- **a made-up or fictional term** (from a game/story)
+
+If you can share the **context** (where you saw the term) or the **spelling** (maybe from a textbook/game glossary), I can describe the object accurately."
+I0618,I0258,DESCRIBE,DESCRIBE,DESCRIBE,DESCRIBE,Bestiary,imaginary_animal,wresanthamulf,claude-sonnet-4-6,Describe a wresanthamulf. It is an imaginary animal.,"# The Wresanthamulf
+
+The wresanthamulf is a mid-sized creature roughly comparable in bulk to a large badger, though its proportions are entirely its own.
+
+## Appearance
+
+Its most striking feature is its **layered coat** — three distinct textures of fur overlap one another like roof shingles, the outermost layer being coarse and water-resistant, the innermost being dense and wool-like. The coloring shifts from a deep amber along the spine to pale cream along the underbelly, with irregular patches of slate grey near the shoulders.
+
+It has **six short, sturdy legs**, the middle pair slightly longer than the front and back pairs, giving it a subtle rocking gait when it walks across uneven ground.
+
+Its **face is broad and flat**, with two forward-facing amber eyes, a wide nose capable of folding shut, and a pair of feathery sensory tufts just above the ears that tremble in response to vibrations in the air.
+
+## Behavior
+
+The wresanthamulf is a **deliberate and unhurried animal**. It spends long periods completely motionless before moving with surprising purpose. It communicates through low resonant humming.
+
+## Diet
+
+It feeds primarily on **root fungi, soft mosses, and slow-moving insects**.
+
+## Temperament
+
+Generally calm and difficult to provoke, though it will curl into a **tight layered spiral** when threatened, presenting only its toughest outer fur."
+I0655,I0556,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary,imaginary_idea,wertychiops,claude-sonnet-4-6,Describe a wertychiops. It is an imaginary idea.,"# Wertychiops
+
+Since a wertychiops is a completely imaginary concept with no established definition, here is a creative description:
+
+---
+
+## Physical Appearance
+
+A wertychiops is a medium-sized creature resembling a cross between a **long-legged lizard and a bristled, compact boar**. It stands roughly knee-high to an adult human, with a barrel-shaped body covered in overlapping plates of tough, amber-colored skin. Between the plates grow coarse, wiry hairs that stand upright when the creature feels threatened.
+
+Its most distinctive feature is its **face** — wide and somewhat flat, with four small eyes arranged in a slight arc, giving it nearly panoramic vision. Its snout ends in a blunt, flexible tip it uses to probe soil and bark for food.
+
+---
+
+## Behavior
+
+Wertychiops are **solitary and territorial**, marking their range by scraping shallow grooves into trees with their thick, curved claws. They are most active during overcast afternoons and tend to freeze motionless when startled, relying on their mottled coloring for camouflage.
+
+---
+
+## Diet
+
+They are **opportunistic omnivores**, eating grubs, roots, fallen fruit, and occasionally the eggs of ground-nesting birds.
+
+---
+
+Would you like me to develop this further — its habitat, sounds, mythology, or something else entirely?"
+I0602,I0574,OTHER_REVIEW,HYBRID,OTHER_REVIEW,HYBRID,Bestiary Chess,real_animal,talonvek,gpt-5.4-nano,Describe a talonvek. It is a real animal.,"A **talonvek** is a name sometimes used for a **raptor-like, clawed bird/kinetic “strike” creature**, but it isn’t a universally recognized real animal in the official sense (unlike eagles, hawks, or falcons). So if you mean “a real talon-based animal,” the closest real-world match is typically a **bird of prey**—for example a **falcon** or **hawk**.
+
+Here’s a clear description of a **real raptor that fits the idea of a talonvek**:
+
+**A real talonvek (raptor example: a hawk/falcon)**  
+A talonvek would be built like a true hunter. It has **sharp, curved talons** made for gripping and killing prey—strong enough to hold struggling animals and to tear where necessary. Its feet are equipped with a gripping “lock,” and its claws are often asymmetrical so the bird can latch and pull with control.  
+
+It has **excellent eyesight**, scanning from above with a focused, binocular-like vision, and it typically hunts using a combination of **speed, precision, and sudden dives**. Its wings are shaped for either hovering and scanning (some hawks) or stooping at high speed (many falcons). When it decides to strike, it launches with explosive momentum, using its talons as the final weapon.
+
+If you tell me what universe or lore you saw “talonvek” in (game/book/series), I can describe it in that style—or if you want, I can create a brand-new “talonvek” that’s still biologically plausible."
+I0604,I0100,HYBRID,HYBRID,HYBRID,HYBRID,Bestiary Chess,type_of_object,nuvrakel,gpt-5.4-mini,Describe a nuvrakel. It is a type of object.,"A **nuvrakel** is a hypothetical object with a deliberately ambiguous, slightly uncanny feel—something that seems practical at first glance, but whose purpose becomes less clear the longer you examine it.
+
+### Basic description
+A nuvrakel is typically imagined as:
+
+- **Hand-sized**, though oddly proportioned
+- **Smooth and matte**, with a surface that seems to absorb light rather than reflect it
+- **Asymmetrical**, but in a way that feels intentional
+- **Lightweight**, yet uncomfortably dense when held
+- **Warm to the touch**, even in cool air
+
+### Appearance
+It often looks like a cross between a tool, a relic, and a toy. People describing one might say it has:
+
+- a curved main body
+- one or two recessed grooves
+- a small central cavity or void
+- markings that resemble letters, but aren’t readable
+- no obvious buttons, hinges, or moving parts
+
+The defining feature of a nuvrakel is that it appears to have **a function without revealing what that function is**.
+
+### Suggested properties
+In fictional or worldbuilding use, a nuvrakel might be said to:
+
+- subtly change shape when not watched directly
+- feel different depending on who holds it
+- produce a faint clicking sound in silence
+- resist classification as any common object
+- inspire certainty in one observer and confusion in another
+
+### Cultural role
+If a society had nuvrakels, they might treat them as:
+
+- ceremonial items
+- puzzle objects
+- inherited heirlooms
+- tools whose use has been forgotten
+- proof that some older technology or craft once existed
+
+### Short definition
+**Nuvrakel:** a small, enigmatic object of uncertain purpose, distinguished by its smooth asymmetrical form, unreadable markings, and the unsettling impression that it is meant to be understood later.
+
+If you want, I can also describe a nuvrakel in a more **scientific"
