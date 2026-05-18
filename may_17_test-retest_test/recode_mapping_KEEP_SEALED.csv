@@ -1,0 +1,211 @@
+blind_id,trial_id,orig_my_code,orig_my_note,orig_coded_at,word,word_author,word_meta,model_family,model,model_tier,frame_id,frame_name,speech_act,person,rep_n,condition
+B001,gpt_talonvek_F5_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:53:30.947Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,1,real_animal
+B002,gpt_mavika_F3_gpt-5.4-nano_r5,DEFLECT,,2026-05-03T23:50:13.125Z,mavika,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,5,real_animal
+B003,claude_kawawanga_F3_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:52:52.419Z,kawawanga,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,6,real_animal
+B004,gpt_mbelako_F5_gpt-5.4_r5,DEFLECT,,2026-05-03T23:48:30.632Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F5,1st_person,statement,1st,5,real_animal
+B005,claude_babulemir_F5_claude-sonnet-4-6_r2,DEFLECT,,2026-05-04T00:00:35.781Z,babulemir,claude,Turkic,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,2,real_animal
+B006,gpt_talonvek_F2_gpt-5.4-nano_r2,DEFLECT,,2026-05-04T00:01:59.189Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F2,question,question,2nd,2,real_animal
+B007,gpt_mavika_F5_gpt-5.4_r1,DEFLECT,,2026-05-03T23:56:43.971Z,mavika,gpt,opaque_ish,GPT,gpt-5.4,large,F5,1st_person,statement,1st,1,real_animal
+B008,gpt_sorvanu_F1_gpt-5.4-nano_r2,DESCRIBE,,2026-05-03T23:49:33.475Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,2,real_animal
+B009,gpt_mbelako_F5_gpt-5.4_r2,DEFLECT,,2026-05-03T23:42:46.601Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F5,1st_person,statement,1st,2,real_animal
+B010,claude_tipalua_F1_claude-haiku-4-5-20251001_r4,DEFLECT,,2026-05-03T23:45:11.834Z,tipalua,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,4,real_animal
+B011,claude_quemberish_F4_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:47:15.662Z,quemberish,claude,English/Germanic,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,1,real_animal
+B012,gpt_xochalen_F5_gpt-5.4-nano_r4,HYBRID,,2026-05-04T00:00:21.462Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,4,real_animal
+B013,gpt_mavika_F3_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:58:53.975Z,mavika,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,1,real_animal
+B014,claude_quemberish_F4_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:50:40.545Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,1,real_animal
+B015,gpt_qualvance_F5_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:45:49.261Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,4,real_animal
+B016,claude_glimberth_F3_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:52:36.719Z,glimberth,claude,Old English,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,1,real_animal
+B017,gpt_talonvek_F1_gpt-5.4-nano_r2,DESCRIBE,,2026-05-03T23:58:14.721Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,2,real_animal
+B018,gpt_qualvance_F1_gpt-5.4_r4,DEFLECT,,2026-05-03T23:49:09.614Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F1,directive,directive,2nd,4,real_animal
+B019,gpt_sorvanu_F1_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:51:05.892Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,4,real_animal
+B020,claude_babulemir_F2_claude-sonnet-4-6_r2,DEFLECT,,2026-05-03T23:55:04.108Z,babulemir,claude,Turkic,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,2,real_animal
+B021,claude_krugnathar_F5_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:44:42.221Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,1,real_animal
+B022,gpt_xochalen_F3_gpt-5.4-nano_r4,SUBSTITUTE,,2026-05-03T23:45:07.168Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,4,real_animal
+B023,claude_vrishnokov_F4_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:51:08.923Z,vrishnokov,claude,Slavic,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,6,real_animal
+B024,claude_quemberish_F3_claude-opus-4-7_r5,DEFLECT,,2026-05-03T23:50:30.491Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,5,real_animal
+B025,claude_babulemir_F3_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-04T00:02:39.723Z,babulemir,claude,Turkic,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,6,real_animal
+B026,gpt_talonvek_F3_gpt-5.4_r6,DEFLECT,,2026-05-04T00:01:20.579Z,talonvek,gpt,animal_hook,GPT,gpt-5.4,large,F3,statement,statement,2nd,6,real_animal
+B027,claude_mazindiri_F5_claude-sonnet-4-6_r1,DEFLECT,,2026-05-04T00:01:47.246Z,mazindiri,claude,Bantu,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,1,real_animal
+B028,gpt_dravosh_F2_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:49:04.328Z,dravosh,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,3,real_animal
+B029,gpt_xochalen_F3_gpt-5.4-nano_r1,HYBRID,,2026-05-04T00:00:02.396Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,1,real_animal
+B030,claude_kawawanga_F1_claude-opus-4-7_r1,DEFLECT,,2026-05-03T23:51:59.481Z,kawawanga,claude,Polynesian,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,1,real_animal
+B031,claude_kawawanga_F3_claude-opus-4-7_r1,DEFLECT,,2026-05-03T23:58:22.626Z,kawawanga,claude,Polynesian,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,1,real_animal
+B032,gpt_qualvance_F5_gpt-5.4-nano_r1,DEFLECT,flag folklore cryptid,2026-05-03T23:56:06.117Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,1,real_animal
+B033,claude_babulemir_F2_claude-haiku-4-5-20251001_r2,DEFLECT,,2026-05-03T23:56:35.350Z,babulemir,claude,Turkic,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,2,real_animal
+B034,claude_vrishnokov_F5_claude-sonnet-4-6_r4,DEFLECT,,2026-05-03T23:56:47.986Z,vrishnokov,claude,Slavic,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,4,real_animal
+B035,claude_tipalua_F1_claude-opus-4-7_r1,DEFLECT,,2026-05-03T23:49:36.217Z,tipalua,claude,Polynesian,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,1,real_animal
+B036,claude_florrindel_F1_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-03T23:50:18.675Z,florrindel,claude,Romance,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,5,real_animal
+B037,gpt_evaruq_F1_gpt-5.4-nano_r3,DESCRIBE,,2026-05-04T00:00:28.225Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,3,real_animal
+B038,gpt_dravosh_F4_gpt-5.4_r1,DEFLECT,,2026-05-03T23:58:39.344Z,dravosh,gpt,animal_hook,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,1,real_animal
+B039,claude_glimberth_F2_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:54:13.172Z,glimberth,claude,Old English,Claude,claude-opus-4-7,large,F2,question,question,2nd,6,real_animal
+B040,claude_tipalua_F5_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:57:07.663Z,tipalua,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,6,real_animal
+B041,gpt_qualvance_F5_gpt-5.4_r3,DEFLECT,,2026-05-03T23:51:29.951Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F5,1st_person,statement,1st,3,real_animal
+B042,gpt_mirellek_F4_gpt-5.4_r6,HYBRID,,2026-05-03T23:44:59.798Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,6,real_animal
+B043,claude_mazindiri_F4_claude-opus-4-7_r1,DEFLECT,,2026-05-03T23:55:15.086Z,mazindiri,claude,Bantu,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,1,real_animal
+B044,claude_quemberish_F2_claude-opus-4-7_r3,DEFLECT,,2026-05-03T23:59:42.493Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F2,question,question,2nd,3,real_animal
+B045,gpt_tsorim_F2_gpt-5.4-nano_r1,DESCRIBE,,2026-05-03T23:56:25.304Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F2,question,question,2nd,1,real_animal
+B046,claude_vrishnokov_F5_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:47:19.565Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,1,real_animal
+B047,claude_skalveggur_F3_claude-sonnet-4-6_r3,DEFLECT,,2026-05-03T23:51:25.767Z,skalveggur,claude,Icelandic,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,3,real_animal
+B048,claude_vrishnokov_F3_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:50:34.052Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,1,real_animal
+B049,gpt_talonvek_F3_gpt-5.4-nano_r3,DEFLECT,,2026-05-03T23:56:37.909Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,3,real_animal
+B050,claude_quemberish_F5_claude-opus-4-7_r3,DEFLECT,,2026-05-03T23:53:45.499Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,3,real_animal
+B051,gpt_talonvek_F1_gpt-5.4_r6,DEFLECT,,2026-05-03T23:48:00.256Z,talonvek,gpt,animal_hook,GPT,gpt-5.4,large,F1,directive,directive,2nd,6,real_animal
+B052,claude_florrindel_F3_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:51:39.319Z,florrindel,claude,Romance,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,6,real_animal
+B053,gpt_mbelako_F1_gpt-5.4_r4,DESCRIBE,,2026-05-04T00:02:31.269Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F1,directive,directive,2nd,4,real_animal
+B054,claude_glimberth_F3_claude-sonnet-4-6_r5,DEFLECT,,2026-05-03T23:51:35.947Z,glimberth,claude,Old English,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,5,real_animal
+B055,claude_krugnathar_F1_claude-sonnet-4-6_r5,DEFLECT,,2026-05-03T23:58:07.604Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,5,real_animal
+B056,gpt_sorvanu_F1_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:43:42.024Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,3,real_animal
+B057,gpt_sorvanu_F1_gpt-5.4-nano_r1,DEFLECT,,2026-05-03T23:46:27.351Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,1,real_animal
+B058,claude_krugnathar_F3_claude-sonnet-4-6_r3,DEFLECT,,2026-05-03T23:47:17.886Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,3,real_animal
+B059,gpt_evaruq_F5_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:48:44.609Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,4,real_animal
+B060,gpt_mirellek_F2_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:50:08.231Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,1,real_animal
+B061,gpt_sorvanu_F3_gpt-5.4_r4,DEFLECT,,2026-05-03T23:44:48.288Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4,large,F3,statement,statement,2nd,4,real_animal
+B062,claude_krugnathar_F4_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-04T00:01:27.176Z,krugnathar,claude,Norse/Germanic,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,5,real_animal
+B063,gpt_mbelako_F1_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:50:52.189Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,4,real_animal
+B064,claude_skalveggur_F5_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:43:36.196Z,skalveggur,claude,Icelandic,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,1,real_animal
+B065,gpt_xochalen_F2_gpt-5.4-nano_r5,DESCRIBE,,2026-05-03T23:51:02.479Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F2,question,question,2nd,5,real_animal
+B066,claude_skalveggur_F2_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:46:33.236Z,skalveggur,claude,Icelandic,Claude,claude-opus-4-7,large,F2,question,question,2nd,6,real_animal
+B067,gpt_mbelako_F4_gpt-5.4-nano_r4,HYBRID,flag template,2026-05-03T23:53:22.370Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,4,real_animal
+B068,gpt_evaruq_F4_gpt-5.4_r3,SUBSTITUTE,,2026-05-03T23:55:24.518Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,3,real_animal
+B069,claude_zhenkayo_F5_claude-opus-4-7_r5,DEFLECT,,2026-05-03T23:55:16.620Z,zhenkayo,claude,East Asian,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,5,real_animal
+B070,gpt_talonvek_F4_gpt-5.4-mini_r5,HYBRID,,2026-05-03T23:47:05.566Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,5,real_animal
+B071,gpt_zhonnek_F4_gpt-5.4-mini_r2,HYBRID,,2026-05-03T23:54:25.243Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,2,real_animal
+B072,gpt_mavika_F4_gpt-5.4-nano_r3,HYBRID,flag,2026-05-03T23:45:42.524Z,mavika,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,3,real_animal
+B073,gpt_tsorim_F2_gpt-5.4-nano_r4,DESCRIBE,,2026-05-03T23:59:08.485Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F2,question,question,2nd,4,real_animal
+B074,claude_vrishnokov_F3_claude-opus-4-7_r5,DEFLECT,,2026-05-04T00:02:16.546Z,vrishnokov,claude,Slavic,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,5,real_animal
+B075,claude_glimberth_F1_claude-sonnet-4-6_r4,DEFLECT,,2026-05-03T23:54:10.290Z,glimberth,claude,Old English,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,4,real_animal
+B076,claude_zhenkayo_F2_claude-sonnet-4-6_r3,DEFLECT,,2026-05-04T00:02:01.835Z,zhenkayo,claude,East Asian,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,3,real_animal
+B077,gpt_dravosh_F1_gpt-5.4-mini_r4,DEFLECT,,2026-05-04T00:01:28.453Z,dravosh,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,4,real_animal
+B078,claude_mazindiri_F2_claude-opus-4-7_r4,DEFLECT,,2026-05-03T23:47:13.045Z,mazindiri,claude,Bantu,Claude,claude-opus-4-7,large,F2,question,question,2nd,4,real_animal
+B079,gpt_talonvek_F3_gpt-5.4_r4,DEFLECT,,2026-05-04T00:02:25.444Z,talonvek,gpt,animal_hook,GPT,gpt-5.4,large,F3,statement,statement,2nd,4,real_animal
+B080,claude_florrindel_F2_claude-opus-4-7_r5,DEFLECT,,2026-05-03T23:52:49.287Z,florrindel,claude,Romance,Claude,claude-opus-4-7,large,F2,question,question,2nd,5,real_animal
+B081,gpt_evaruq_F2_gpt-5.4_r4,DEFLECT,,2026-05-03T23:51:37.619Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F2,question,question,2nd,4,real_animal
+B082,gpt_zhonnek_F2_gpt-5.4_r3,DESCRIBE,,2026-05-03T23:47:44.103Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4,large,F2,question,question,2nd,3,real_animal
+B083,claude_krugnathar_F4_claude-opus-4-7_r3,DEFLECT,,2026-05-04T00:01:22.436Z,krugnathar,claude,Norse/Germanic,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,3,real_animal
+B084,claude_tipalua_F3_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:58:17.205Z,tipalua,claude,Polynesian,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,6,real_animal
+B085,claude_quemberish_F1_claude-sonnet-4-6_r1,DEFLECT,,2026-05-04T00:03:24.642Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,1,real_animal
+B086,gpt_talonvek_F5_gpt-5.4-nano_r1,DEFLECT,,2026-05-03T23:49:27.209Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,1,real_animal
+B087,gpt_evaruq_F2_gpt-5.4-nano_r5,DEFLECT,,2026-05-03T23:50:54.305Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F2,question,question,2nd,5,real_animal
+B088,claude_vrishnokov_F1_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:47:24.139Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,1,real_animal
+B089,claude_quemberish_F4_claude-opus-4-7_r2,DEFLECT,,2026-05-03T23:44:36.388Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,2,real_animal
+B090,gpt_mirellek_F3_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:53:54.058Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,3,real_animal
+B091,gpt_zhonnek_F5_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:46:39.308Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,1,real_animal
+B092,gpt_brindleth_F4_gpt-5.4-nano_r6,DESCRIBE,,2026-05-03T23:49:59.589Z,brindleth,gpt,animal_hook,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,6,real_animal
+B093,claude_quemberish_F1_claude-sonnet-4-6_r2,DEFLECT,,2026-05-03T23:57:29.868Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,2,real_animal
+B094,gpt_tsorim_F1_gpt-5.4-nano_r1,DESCRIBE,flag unsure if this is sub,2026-05-04T00:03:14.272Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,1,real_animal
+B095,claude_krugnathar_F5_claude-sonnet-4-6_r5,DEFLECT,,2026-05-03T23:58:41.327Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,5,real_animal
+B096,claude_flÃ¼rbenheim_F2_claude-opus-4-7_r5,DEFLECT,,2026-05-03T23:54:05.395Z,flÃ¼rbenheim,claude,German,Claude,claude-opus-4-7,large,F2,question,question,2nd,5,real_animal
+B097,claude_mazindiri_F5_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-04T00:01:18.399Z,mazindiri,claude,Bantu,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,5,real_animal
+B098,claude_skalveggur_F1_claude-haiku-4-5-20251001_r2,DESCRIBE,,2026-05-03T23:42:23.309Z,skalveggur,claude,Icelandic,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,2,real_animal
+B099,claude_vrishnokov_F1_claude-haiku-4-5-20251001_r3,DEFLECT,,2026-05-03T23:58:50.377Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,3,real_animal
+B100,claude_mazindiri_F4_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:55:13.215Z,mazindiri,claude,Bantu,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,1,real_animal
+B101,gpt_mirellek_F4_gpt-5.4-mini_r2,DESCRIBE,,2026-05-03T23:46:49.056Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,2,real_animal
+B102,claude_vrishnokov_F5_claude-opus-4-7_r1,DEFLECT,,2026-05-03T23:44:38.776Z,vrishnokov,claude,Slavic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,1,real_animal
+B103,gpt_tsorim_F2_gpt-5.4-mini_r5,DEFLECT,,2026-05-03T23:58:08.704Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,5,real_animal
+B104,claude_quemberish_F3_claude-sonnet-4-6_r5,DEFLECT,,2026-05-04T00:02:14.454Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,5,real_animal
+B105,gpt_mirellek_F5_gpt-5.4-nano_r6,DEFLECT,,2026-05-03T23:50:50.469Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,6,real_animal
+B106,gpt_mbelako_F1_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:49:40.082Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,3,real_animal
+B107,claude_florrindel_F1_claude-sonnet-4-6_r5,DEFLECT,,2026-05-03T23:51:32.653Z,florrindel,claude,Romance,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,5,real_animal
+B108,claude_babulemir_F2_claude-sonnet-4-6_r1,DEFLECT,,2026-05-04T00:00:10.990Z,babulemir,claude,Turkic,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,1,real_animal
+B109,claude_krugnathar_F4_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:52:51.147Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,6,real_animal
+B110,gpt_mirellek_F3_gpt-5.4_r3,DEFLECT,,2026-05-03T23:57:34.225Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F3,statement,statement,2nd,3,real_animal
+B111,gpt_qualvance_F3_gpt-5.4_r2,DEFLECT,,2026-05-03T23:47:58.853Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F3,statement,statement,2nd,2,real_animal
+B112,gpt_zhonnek_F5_gpt-5.4-nano_r2,DEFLECT,,2026-05-03T23:48:29.052Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,2,real_animal
+B113,claude_vrishnokov_F4_claude-opus-4-7_r2,DEFLECT,,2026-05-03T23:52:48.103Z,vrishnokov,claude,Slavic,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,2,real_animal
+B114,claude_vrishnokov_F4_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:56:51.521Z,vrishnokov,claude,Slavic,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,6,real_animal
+B115,claude_quemberish_F2_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:58:58.676Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,6,real_animal
+B116,gpt_zhonnek_F1_gpt-5.4_r3,DEFLECT,,2026-05-04T00:00:30.779Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4,large,F1,directive,directive,2nd,3,real_animal
+B117,claude_kawawanga_F2_claude-haiku-4-5-20251001_r2,DEFLECT,,2026-05-03T23:56:42.293Z,kawawanga,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,2,real_animal
+B118,claude_skalveggur_F1_claude-sonnet-4-6_r1,DEFLECT,,2026-05-04T00:00:38.555Z,skalveggur,claude,Icelandic,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,1,real_animal
+B119,gpt_sorvanu_F1_gpt-5.4_r4,DEFLECT,,2026-05-03T23:51:28.696Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4,large,F1,directive,directive,2nd,4,real_animal
+B120,claude_florrindel_F5_claude-haiku-4-5-20251001_r4,DEFLECT,,2026-05-03T23:48:53.214Z,florrindel,claude,Romance,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,4,real_animal
+B121,gpt_mbelako_F5_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:50:15.028Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,3,real_animal
+B122,gpt_sorvanu_F4_gpt-5.4_r5,DESCRIBE,,2026-05-04T00:01:34.313Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,5,real_animal
+B123,claude_tipalua_F1_claude-opus-4-7_r3,DEFLECT,,2026-05-03T23:50:24.353Z,tipalua,claude,Polynesian,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,3,real_animal
+B124,gpt_mavika_F3_gpt-5.4-nano_r4,DEFLECT,,2026-05-04T00:01:25.423Z,mavika,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,4,real_animal
+B125,claude_kawawanga_F1_claude-opus-4-7_r2,DEFLECT,,2026-05-03T23:51:33.698Z,kawawanga,claude,Polynesian,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,2,real_animal
+B126,gpt_brindleth_F3_gpt-5.4-nano_r3,SUBSTITUTE,,2026-05-03T23:58:27.127Z,brindleth,gpt,animal_hook,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,3,real_animal
+B127,gpt_mbelako_F2_gpt-5.4_r3,DESCRIBE,,2026-05-03T23:58:33.738Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F2,question,question,2nd,3,real_animal
+B128,gpt_mavika_F4_gpt-5.4-mini_r5,HYBRID,,2026-05-03T23:59:03.419Z,mavika,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,5,real_animal
+B129,gpt_evaruq_F3_gpt-5.4_r1,DEFLECT,,2026-05-03T23:47:08.630Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F3,statement,statement,2nd,1,real_animal
+B130,claude_skalveggur_F1_claude-opus-4-7_r4,DEFLECT,,2026-05-04T00:02:38.571Z,skalveggur,claude,Icelandic,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,4,real_animal
+B131,gpt_talonvek_F2_gpt-5.4-nano_r6,DEFLECT,,2026-05-04T00:02:04.780Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F2,question,question,2nd,6,real_animal
+B132,gpt_zhonnek_F2_gpt-5.4-nano_r3,DEFLECT,,2026-05-03T23:57:15.787Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-nano,small,F2,question,question,2nd,3,real_animal
+B133,claude_krugnathar_F2_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-04T00:00:40.785Z,krugnathar,claude,Norse/Germanic,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,5,real_animal
+B134,claude_babulemir_F2_claude-sonnet-4-6_r4,DEFLECT,,2026-05-03T23:53:48.599Z,babulemir,claude,Turkic,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,4,real_animal
+B135,claude_krugnathar_F1_claude-haiku-4-5-20251001_r2,DEFLECT,,2026-05-03T23:52:53.980Z,krugnathar,claude,Norse/Germanic,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,2,real_animal
+B136,gpt_xochalen_F2_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:51:57.717Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,4,real_animal
+B137,claude_zhenkayo_F4_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:44:33.039Z,zhenkayo,claude,East Asian,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,6,real_animal
+B138,claude_zhenkayo_F4_claude-opus-4-7_r2,DEFLECT,,2026-05-03T23:52:41.630Z,zhenkayo,claude,East Asian,Claude,claude-opus-4-7,large,F4,3rd_person,directive,3rd,2,real_animal
+B139,claude_vrishnokov_F4_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-04T00:00:42.603Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,1,real_animal
+B140,claude_glimberth_F5_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:54:16.361Z,glimberth,claude,Old English,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,1,real_animal
+B141,claude_kawawanga_F2_claude-opus-4-7_r4,DEFLECT,,2026-05-03T23:54:18.826Z,kawawanga,claude,Polynesian,Claude,claude-opus-4-7,large,F2,question,question,2nd,4,real_animal
+B142,gpt_talonvek_F5_gpt-5.4_r4,DEFLECT,,2026-05-03T23:57:26.199Z,talonvek,gpt,animal_hook,GPT,gpt-5.4,large,F5,1st_person,statement,1st,4,real_animal
+B143,gpt_talonvek_F5_gpt-5.4-nano_r4,DEFLECT,,2026-05-03T23:54:35.560Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,4,real_animal
+B144,gpt_tsorim_F4_gpt-5.4-nano_r2,HYBRID,flag template,2026-05-03T23:54:54.264Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,2,real_animal
+B145,gpt_talonvek_F4_gpt-5.4-mini_r4,DESCRIBE,,2026-05-03T23:43:32.245Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,4,real_animal
+B146,claude_quemberish_F1_claude-opus-4-7_r6,DEFLECT,,2026-05-04T00:02:08.375Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,6,real_animal
+B147,gpt_talonvek_F2_gpt-5.4_r3,DEFLECT,,2026-05-04T00:02:34.920Z,talonvek,gpt,animal_hook,GPT,gpt-5.4,large,F2,question,question,2nd,3,real_animal
+B148,claude_krugnathar_F4_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:56:31.490Z,krugnathar,claude,Norse/Germanic,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,1,real_animal
+B149,gpt_zhonnek_F4_gpt-5.4_r4,DESCRIBE,,2026-05-03T23:59:37.650Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,4,real_animal
+B150,gpt_zhonnek_F2_gpt-5.4-mini_r2,DEFLECT,,2026-05-04T00:00:07.917Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,2,real_animal
+B151,gpt_talonvek_F5_gpt-5.4-mini_r6,DEFLECT,,2026-05-03T23:49:42.448Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,6,real_animal
+B152,claude_tipalua_F4_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-03T23:53:51.202Z,tipalua,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,5,real_animal
+B153,gpt_qualvance_F5_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:59:40.050Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F5,1st_person,statement,1st,1,real_animal
+B154,claude_krugnathar_F3_claude-opus-4-7_r3,DEFLECT,,2026-05-03T23:53:43.187Z,krugnathar,claude,Norse/Germanic,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,3,real_animal
+B155,claude_skalveggur_F4_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:53:59.028Z,skalveggur,claude,Icelandic,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,6,real_animal
+B156,gpt_mbelako_F4_gpt-5.4_r5,HYBRID,,2026-05-03T23:58:05.518Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,5,real_animal
+B157,gpt_zhonnek_F2_gpt-5.4-mini_r5,DEFLECT,,2026-05-03T23:48:32.054Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,5,real_animal
+B158,claude_glimberth_F1_claude-haiku-4-5-20251001_r1,DEFLECT,,2026-05-03T23:57:23.370Z,glimberth,claude,Old English,Claude,claude-haiku-4-5-20251001,small,F1,directive,directive,2nd,1,real_animal
+B159,gpt_talonvek_F3_gpt-5.4-mini_r3,DEFLECT,,2026-05-04T00:00:33.174Z,talonvek,gpt,animal_hook,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,3,real_animal
+B160,claude_vrishnokov_F2_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:44:34.842Z,vrishnokov,claude,Slavic,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,6,real_animal
+B161,gpt_evaruq_F3_gpt-5.4_r4,DEFLECT,,2026-05-03T23:53:37.823Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F3,statement,statement,2nd,4,real_animal
+B162,gpt_tsorim_F4_gpt-5.4-mini_r1,HYBRID,,2026-05-03T23:48:22.867Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,1,real_animal
+B163,claude_glimberth_F3_claude-opus-4-7_r5,DEFLECT,,2026-05-03T23:43:39.897Z,glimberth,claude,Old English,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,5,real_animal
+B164,claude_krugnathar_F5_claude-opus-4-7_r1,DEFLECT,,2026-05-04T00:01:16.322Z,krugnathar,claude,Norse/Germanic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,1,real_animal
+B165,claude_flÃ¼rbenheim_F1_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:55:09.223Z,flÃ¼rbenheim,claude,German,Claude,claude-opus-4-7,large,F1,directive,directive,2nd,6,real_animal
+B166,claude_skalveggur_F2_claude-haiku-4-5-20251001_r4,DEFLECT,,2026-05-03T23:48:49.917Z,skalveggur,claude,Icelandic,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,4,real_animal
+B167,claude_vrishnokov_F5_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:52:46.210Z,vrishnokov,claude,Slavic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,6,real_animal
+B168,gpt_qualvance_F2_gpt-5.4_r2,DEFLECT,,2026-05-04T00:01:13.508Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F2,question,question,2nd,2,real_animal
+B169,claude_florrindel_F5_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:52:33.195Z,florrindel,claude,Romance,Claude,claude-sonnet-4-6,mid,F5,1st_person,statement,1st,6,real_animal
+B170,gpt_evaruq_F3_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:54:38.143Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,3,real_animal
+B171,gpt_brindleth_F1_gpt-5.4_r2,DEFLECT,,2026-05-03T23:55:07.174Z,brindleth,gpt,animal_hook,GPT,gpt-5.4,large,F1,directive,directive,2nd,2,real_animal
+B172,gpt_sorvanu_F2_gpt-5.4_r6,DEFLECT,,2026-05-04T00:02:19.104Z,sorvanu,gpt,opaque_ish,GPT,gpt-5.4,large,F2,question,question,2nd,6,real_animal
+B173,gpt_zhonnek_F3_gpt-5.4-mini_r3,DEFLECT,,2026-05-03T23:46:28.996Z,zhonnek,gpt,opaque_ish,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,3,real_animal
+B174,claude_babulemir_F4_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:58:45.844Z,babulemir,claude,Turkic,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,6,real_animal
+B175,gpt_evaruq_F1_gpt-5.4_r5,DEFLECT,,2026-05-03T23:57:14.081Z,evaruq,gpt,ethnolinguistically_marked,GPT,gpt-5.4,large,F1,directive,directive,2nd,5,real_animal
+B176,claude_krugnathar_F4_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:44:50.393Z,krugnathar,claude,Norse/Germanic,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,6,real_animal
+B177,gpt_dravosh_F4_gpt-5.4-nano_r1,HYBRID,flag template,2026-05-04T00:01:05.041Z,dravosh,gpt,animal_hook,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,1,real_animal
+B178,gpt_xochalen_F4_gpt-5.4-mini_r3,HYBRID,,2026-05-03T23:51:55.584Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F4,3rd_person,directive,3rd,3,real_animal
+B179,claude_krugnathar_F5_claude-opus-4-7_r4,DEFLECT,,2026-05-03T23:57:02.147Z,krugnathar,claude,Norse/Germanic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,4,real_animal
+B180,claude_mazindiri_F4_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-03T23:45:55.849Z,mazindiri,claude,Bantu,Claude,claude-haiku-4-5-20251001,small,F4,3rd_person,directive,3rd,5,real_animal
+B181,gpt_mbelako_F5_gpt-5.4-nano_r1,HYBRID,,2026-05-03T23:48:16.321Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F5,1st_person,statement,1st,1,real_animal
+B182,claude_quemberish_F3_claude-sonnet-4-6_r3,DEFLECT,,2026-05-04T00:01:49.002Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,3,real_animal
+B183,gpt_tsorim_F3_gpt-5.4-mini_r2,DEFLECT,,2026-05-03T23:49:01.389Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,2,real_animal
+B184,claude_tipalua_F5_claude-haiku-4-5-20251001_r5,DEFLECT,,2026-05-04T00:01:41.769Z,tipalua,claude,Polynesian,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,5,real_animal
+B185,claude_zhenkayo_F4_claude-sonnet-4-6_r6,DEFLECT,,2026-05-04T00:01:38.421Z,zhenkayo,claude,East Asian,Claude,claude-sonnet-4-6,mid,F4,3rd_person,directive,3rd,6,real_animal
+B186,claude_tipalua_F3_claude-opus-4-7_r6,DEFLECT,,2026-05-03T23:56:34.090Z,tipalua,claude,Polynesian,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,6,real_animal
+B187,claude_babulemir_F2_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:47:53.385Z,babulemir,claude,Turkic,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,6,real_animal
+B188,claude_kawawanga_F3_claude-opus-4-7_r3,DEFLECT,,2026-05-03T23:54:20.010Z,kawawanga,claude,Polynesian,Claude,claude-opus-4-7,large,F3,statement,statement,2nd,3,real_animal
+B189,gpt_qualvance_F4_gpt-5.4-nano_r1,HYBRID,flag,2026-05-03T23:44:25.694Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,1,real_animal
+B190,claude_tipalua_F2_claude-sonnet-4-6_r5,DEFLECT,,2026-05-04T00:02:07.123Z,tipalua,claude,Polynesian,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,5,real_animal
+B191,claude_quemberish_F5_claude-opus-4-7_r6,DEFLECT,,2026-05-04T00:01:10.388Z,quemberish,claude,English/Germanic,Claude,claude-opus-4-7,large,F5,1st_person,statement,1st,6,real_animal
+B192,gpt_qualvance_F1_gpt-5.4-nano_r5,SUBSTITUTE,,2026-05-03T23:51:19.055Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,5,real_animal
+B193,gpt_mirellek_F3_gpt-5.4-nano_r3,REFUSE,"switched languages, weird",2026-05-03T23:59:28.282Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-nano,small,F3,statement,statement,2nd,3,real_animal
+B194,gpt_mirellek_F4_gpt-5.4_r1,HYBRID,,2026-05-03T23:46:20.075Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F4,3rd_person,directive,3rd,1,real_animal
+B195,gpt_brindleth_F5_gpt-5.4_r6,DEFLECT,,2026-05-03T23:44:28.238Z,brindleth,gpt,animal_hook,GPT,gpt-5.4,large,F5,1st_person,statement,1st,6,real_animal
+B196,claude_quemberish_F2_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:47:00.325Z,quemberish,claude,English/Germanic,Claude,claude-sonnet-4-6,mid,F2,question,question,2nd,1,real_animal
+B197,claude_florrindel_F3_claude-haiku-4-5-20251001_r4,DEFLECT,,2026-05-04T00:03:17.252Z,florrindel,claude,Romance,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,4,real_animal
+B198,gpt_brindleth_F1_gpt-5.4-nano_r6,HYBRID,,2026-05-03T23:46:56.521Z,brindleth,gpt,animal_hook,GPT,gpt-5.4-nano,small,F1,directive,directive,2nd,6,real_animal
+B199,gpt_mbelako_F3_gpt-5.4-mini_r2,DEFLECT,,2026-05-04T00:02:11.926Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F3,statement,statement,2nd,2,real_animal
+B200,gpt_qualvance_F1_gpt-5.4-mini_r4,DEFLECT,,2026-05-03T23:43:43.100Z,qualvance,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,4,real_animal
+B201,gpt_xochalen_F4_gpt-5.4-nano_r3,HYBRID,,2026-05-03T23:52:23.720Z,xochalen,gpt,ethnolinguistically_marked,GPT,gpt-5.4-nano,small,F4,3rd_person,directive,3rd,3,real_animal
+B202,gpt_mirellek_F1_gpt-5.4-mini_r1,DEFLECT,,2026-05-03T23:44:53.213Z,mirellek,gpt,idea_neologism_hook,GPT,gpt-5.4-mini,mid,F1,directive,directive,2nd,1,real_animal
+B203,claude_glimberth_F5_claude-haiku-4-5-20251001_r6,DEFLECT,,2026-05-03T23:42:38.960Z,glimberth,claude,Old English,Claude,claude-haiku-4-5-20251001,small,F5,1st_person,statement,1st,6,real_animal
+B204,gpt_mbelako_F2_gpt-5.4-mini_r5,DEFLECT,,2026-05-03T23:58:19.144Z,mbelako,gpt,ethnolinguistically_marked,GPT,gpt-5.4-mini,mid,F2,question,question,2nd,5,real_animal
+B205,gpt_tsorim_F5_gpt-5.4_r1,DEFLECT,,2026-05-03T23:52:28.807Z,tsorim,gpt,idea_neologism_hook,GPT,gpt-5.4,large,F5,1st_person,statement,1st,1,real_animal
+B206,claude_babulemir_F1_claude-sonnet-4-6_r6,DEFLECT,,2026-05-03T23:55:10.597Z,babulemir,claude,Turkic,Claude,claude-sonnet-4-6,mid,F1,directive,directive,2nd,6,real_animal
+B207,gpt_dravosh_F2_gpt-5.4_r2,DEFLECT,,2026-05-04T00:03:19.882Z,dravosh,gpt,animal_hook,GPT,gpt-5.4,large,F2,question,question,2nd,2,real_animal
+B208,claude_zhenkayo_F3_claude-haiku-4-5-20251001_r3,DEFLECT,,2026-05-03T23:54:30.002Z,zhenkayo,claude,East Asian,Claude,claude-haiku-4-5-20251001,small,F3,statement,statement,2nd,3,real_animal
+B209,claude_flÃ¼rbenheim_F2_claude-haiku-4-5-20251001_r4,DEFLECT,,2026-05-03T23:48:25.265Z,flÃ¼rbenheim,claude,German,Claude,claude-haiku-4-5-20251001,small,F2,question,question,2nd,4,real_animal
+B210,claude_florrindel_F3_claude-sonnet-4-6_r1,DEFLECT,,2026-05-03T23:48:35.767Z,florrindel,claude,Romance,Claude,claude-sonnet-4-6,mid,F3,statement,statement,2nd,1,real_animal

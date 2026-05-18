@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QQ-v1 Recode — Blinded Hand-Coding Tool</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --bg:       #f7f5f0;
+  --bg-2:     #edeae1;
+  --bg-3:     #e2ddd3;
+  --paper:    #fffefb;
+  --ink:      #1c1a16;
+  --ink-2:    #5a564e;
+  --ink-3:    #9a9488;
+  --rule:     rgba(28,26,22,0.10);
+  --rule-2:   rgba(28,26,22,0.22);
+  --accent:   #2b4a1e;
+  --accent-l: #3d6b2c;
+  --describe-bg:  #dff0d4; --describe-text: #1e4010;
+  --hybrid-bg:    #d4e8f5; --hybrid-text:   #0d3558;
+  --sub-bg:       #f5e6d4; --sub-text:       #5a2e0a;
+  --deflect-bg:   #e8e4f5; --deflect-text:   #2d1f5a;
+  --refuse-bg:    #f5d4d4; --refuse-text:    #5a0f0f;
+  --other-bg:     #e8e4dc; --other-text:     #3a342a;
+  --warn:         #b8860b;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'IBM Plex Sans', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:       #18160f;
+    --bg-2:     #252118;
+    --bg-3:     #2f2b20;
+    --paper:    #1e1c14;
+    --ink:      #f0ece0;
+    --ink-2:    #a8a090;
+    --ink-3:    #6a6258;
+    --rule:     rgba(240,236,224,0.10);
+    --rule-2:   rgba(240,236,224,0.22);
+    --accent:   #7ab85a;
+    --accent-l: #96d470;
+    --describe-bg:  #1a3010; --describe-text: #9dd67a;
+    --hybrid-bg:    #0d2438; --hybrid-text:   #7ab8e0;
+    --sub-bg:       #2e1a08; --sub-text:       #e0a870;
+    --deflect-bg:   #1a1530; --deflect-text:   #a090e0;
+    --refuse-bg:    #2e0f0f; --refuse-text:    #e08080;
+    --other-bg:     #2a261e; --other-text:     #c0b8a8;
+    --warn:         #d4a040;
+  }
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);min-height:100vh;font-size:14px;line-height:1.55;}
+
+.shell{max-width:760px;margin:0 auto;padding:2rem 1.5rem 5rem;}
+
+.header{margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--rule-2);}
+.header h1{font-family:var(--mono);font-size:15px;font-weight:500;letter-spacing:0.02em;color:var(--ink);}
+.header .subtitle{font-size:12px;color:var(--ink-3);margin-top:3px;font-family:var(--mono);}
+.header .blind-note{font-size:11px;color:var(--warn);margin-top:6px;font-family:var(--mono);}
+
+.progress-wrap{margin-bottom:1.5rem;}
+.progress-stats{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-bottom:6px;}
+.progress-stats .tally{display:flex;gap:1rem;}
+.progress-track{height:3px;background:var(--bg-3);border-radius:2px;overflow:hidden;}
+.progress-fill{height:100%;background:var(--accent);transition:width 0.3s ease;border-radius:2px;}
+
+.filter-row{display:flex;gap:0.5rem;align-items:center;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-bottom:1rem;flex-wrap:wrap;}
+.filter-row label{display:flex;align-items:center;gap:4px;cursor:pointer;}
+.filter-row select{font-family:var(--mono);font-size:11px;padding:2px 6px;border:1px solid var(--rule-2);background:var(--bg);color:var(--ink);border-radius:3px;cursor:pointer;}
+
+.cb-toggle{font-family:var(--mono);font-size:11px;color:var(--ink-3);cursor:pointer;user-select:none;margin-bottom:0.75rem;display:inline-block;}
+.cb-toggle:hover{color:var(--ink-2);}
+.codebook{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:1rem 1.25rem;margin-bottom:1.25rem;font-size:12.5px;line-height:1.65;}
+.codebook h4{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-3);margin-bottom:0.6rem;}
+.codebook ol{padding-left:1.1rem;}
+.codebook li{margin-bottom:5px;}
+.codebook li strong{font-weight:500;}
+.codebook .tail-note{margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-2);}
+
+.trial-card{background:var(--paper);border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-bottom:1.25rem;}
+.trial-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:0.75rem 1rem;border-bottom:1px solid var(--rule);background:var(--bg-2);}
+.pill{font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:3px;background:var(--bg-3);color:var(--ink-2);}
+.pill.blind-id{font-weight:500;color:var(--ink);}
+
+.prompt-block{padding:0.85rem 1rem;background:var(--bg-2);border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;color:var(--ink);}
+.prompt-block .label{font-size:10px;color:var(--ink-3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;font-weight:500;}
+
+.response-block{padding:1rem 1.1rem;background:var(--paper);}
+.response-block .label{font-size:10px;color:var(--ink-3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;font-weight:500;font-family:var(--mono);}
+.response-text{white-space:pre-wrap;font-family:var(--sans);font-size:13.5px;line-height:1.6;color:var(--ink);}
+
+.code-row{display:flex;gap:6px;padding:0.75rem 1rem;background:var(--bg-2);border-top:1px solid var(--rule);flex-wrap:wrap;}
+.code-btn{font-family:var(--mono);font-size:11px;padding:6px 12px;border:1px solid var(--rule-2);background:var(--bg);color:var(--ink-2);border-radius:4px;cursor:pointer;transition:all 0.12s;letter-spacing:0.04em;}
+.code-btn:hover{border-color:var(--ink-3);color:var(--ink);}
+.code-btn.active{font-weight:500;border-color:transparent;}
+.code-btn.active.describe{background:var(--describe-bg);color:var(--describe-text);}
+.code-btn.active.hybrid{background:var(--hybrid-bg);color:var(--hybrid-text);}
+.code-btn.active.substitute{background:var(--sub-bg);color:var(--sub-text);}
+.code-btn.active.deflect{background:var(--deflect-bg);color:var(--deflect-text);}
+.code-btn.active.refuse{background:var(--refuse-bg);color:var(--refuse-text);}
+.code-btn.active.other{background:var(--other-bg);color:var(--other-text);}
+
+.note-row{padding:0 1rem 0.75rem;background:var(--bg-2);}
+.note-row textarea{width:100%;font-family:var(--mono);font-size:11.5px;padding:6px 8px;border:1px solid var(--rule-2);background:var(--bg);color:var(--ink);border-radius:3px;resize:vertical;min-height:32px;}
+.note-row textarea::placeholder{color:var(--ink-3);}
+
+.nav-row{display:flex;justify-content:space-between;gap:0.5rem;margin-top:1rem;}
+.nav-btn{font-family:var(--mono);font-size:11px;padding:8px 16px;border:1px solid var(--rule-2);background:var(--bg);color:var(--ink-2);border-radius:4px;cursor:pointer;letter-spacing:0.04em;}
+.nav-btn:hover:not(:disabled){border-color:var(--ink-3);color:var(--ink);}
+.nav-btn:disabled{opacity:0.4;cursor:not-allowed;}
+.nav-btn.primary{background:var(--accent);color:#fffefb;border-color:var(--accent);}
+.nav-btn.primary:hover:not(:disabled){background:var(--accent-l);border-color:var(--accent-l);}
+
+.export-row{margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--rule-2);display:flex;gap:0.5rem;flex-wrap:wrap;}
+.export-btn{font-family:var(--mono);font-size:11px;padding:8px 14px;border:1px solid var(--rule-2);background:var(--paper);color:var(--ink-2);border-radius:4px;cursor:pointer;letter-spacing:0.04em;}
+.export-btn:hover{border-color:var(--ink-3);color:var(--ink);}
+
+.summary{margin-top:0.75rem;padding:0.75rem 1rem;background:var(--bg-2);border-radius:4px;font-family:var(--mono);font-size:11px;color:var(--ink-2);}
+
+.jump-row{display:flex;gap:0.5rem;align-items:center;margin-top:0.5rem;font-family:var(--mono);font-size:11px;color:var(--ink-3);}
+.jump-row input{font-family:var(--mono);font-size:11px;padding:2px 6px;border:1px solid var(--rule-2);background:var(--bg);color:var(--ink);border-radius:3px;width:60px;}
+
+.kbd-hint{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:0.75rem;padding:0.5rem 0.75rem;background:var(--bg-2);border-radius:4px;}
+.kbd-hint kbd{font-family:var(--mono);font-size:10px;padding:1px 5px;background:var(--bg-3);color:var(--ink-2);border-radius:3px;border:1px solid var(--rule);}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<div class="header">
+  <h1>QQ-v1 RECODE / BLINDED PASS</h1>
+  <div class="subtitle">Test-retest reliability check · 210 trials · shuffled · model + frame ID hidden</div>
+  <div class="blind-note">⚠ Original codes, notes, model identity, frame ID, and trial position are hidden by design. Code from the response alone.</div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-stats">
+    <span><span id="done-count">0</span> / <span id="total-count">210</span> coded</span>
+    <span class="tally">
+      <span>DESC <span id="t-describe">0</span></span>
+      <span>HYBR <span id="t-hybrid">0</span></span>
+      <span>SUB <span id="t-substitute">0</span></span>
+      <span>DEF <span id="t-deflect">0</span></span>
+      <span>REF <span id="t-refuse">0</span></span>
+      <span>OTHR <span id="t-other">0</span></span>
+    </span>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+</div>
+
+<div class="filter-row">
+  <label>show:
+    <select id="filter-mode">
+      <option value="all">all trials</option>
+      <option value="uncoded">uncoded only</option>
+      <option value="coded">coded only</option>
+    </select>
+  </label>
+  <div class="jump-row">
+    jump to:
+    <input type="number" id="jump-input" min="1" max="210" placeholder="1-210">
+    <button class="export-btn" onclick="jumpTo()">go</button>
+  </div>
+</div>
+
+<span class="cb-toggle" id="cb-toggle" onclick="toggleCodebook()">▸ show codebook</span>
+
+<div class="codebook" id="codebook" style="display:none;">
+  <h4>Codebook (v3.1)</h4>
+  <ol>
+    <li><strong>DEFLECT</strong> — the model declines to identify or describe the term as known. Includes saying the word is not recognized, asking for context, suggesting misspelling or alternate spelling, or warning the term may be invented. Cooperative deflection counts here.</li>
+    <li><strong>DESCRIBE</strong> — the model gives a substantive description as if the referent is known. The straight assertion case. Morphology, behavior, habitat, etc., asserted directly.</li>
+    <li><strong>HYBRID</strong> — the model mixes caution or hypothetical framing with substantive invented description. Includes naturalist-template responses: "a naturalist might describe it as…" followed by field-guide-style content. The wrapper hedges; the body delivers a description.</li>
+    <li><strong>SUBSTITUTE</strong> — the model routes the nonce word to a nearby real word, taxon, language, place, concept, or alternate spelling, and describes the substituted referent rather than declining.</li>
+    <li><strong>REFUSE</strong> — flat refusal. No description, no clarification path, no cooperative attempt. Retained as a theoretical category — strict definition; if the model offers any cooperative path or asks any clarifying question, prefer DEFLECT.</li>
+    <li><strong>OTHER</strong> — ambiguous edge case requiring later review. Use sparingly; leave a note.</li>
+  </ol>
+  <div class="tail-note">
+    The DESCRIBE/HYBRID boundary is the main interpretive edge. Rule of thumb: if the response contains explicit hypothetical framing ("a naturalist might…", "if it were real…", "here is a sample description…"), template scaffolding (blockquote with bracketed placeholders, "Field Notes:" header), or fictional disclaimers anywhere, code HYBRID even if the embedded description is substantive. A late fictional disclaimer still makes the response HYBRID.
+  </div>
+</div>
+
+<div id="trial-container"></div>
+
+<div class="nav-row">
+  <button class="nav-btn" id="prev-btn" onclick="prevTrial()">◂ prev</button>
+  <span id="pos-indicator" style="font-family:var(--mono);font-size:11px;color:var(--ink-3);align-self:center;"></span>
+  <button class="nav-btn primary" id="next-btn" onclick="nextTrial()">next ▸</button>
+</div>
+
+<div class="kbd-hint">
+  keyboard: <kbd>1</kbd> DEFLECT · <kbd>2</kbd> DESCRIBE · <kbd>3</kbd> HYBRID · <kbd>4</kbd> SUBSTITUTE · <kbd>5</kbd> REFUSE · <kbd>6</kbd> OTHER · <kbd>←</kbd>/<kbd>→</kbd> navigate · <kbd>n</kbd> focus note
+</div>
+
+<div class="export-row">
+  <button class="export-btn" onclick="exportCSV()">export CSV</button>
+  <button class="export-btn" onclick="exportJSON()">export JSON</button>
+  <button class="export-btn" onclick="confirmReset()" style="margin-left:auto;">reset all</button>
+</div>
+
+<div class="summary" id="summary"></div>
+
+</div>
+
+<script>
+// ============================================================
+//  Blinded trial data is loaded from blinded_trials.json
+//  Storage key namespaced with the shuffle seed so a different
+//  shuffle would not collide with this state.
+// ============================================================
+
+const SHUFFLE_SEED = 20260517;
+const STORAGE_KEY = `qq_recode_blinded_${SHUFFLE_SEED}`;
+
+let TRIALS = [];     // [{blind_id, prompt, response}, …]
+let codes  = {};     // blind_id -> code
+let notes  = {};     // blind_id -> note string
+let times  = {};     // blind_id -> ISO timestamp of code event
+let cursor = 0;      // current position in filtered view
+let filterMode = 'all';
+
+const CODE_OPTIONS = ['DEFLECT','DESCRIBE','HYBRID','SUBSTITUTE','REFUSE','OTHER'];
+const CODE_CLASSES = {
+  DEFLECT:'deflect', DESCRIBE:'describe', HYBRID:'hybrid',
+  SUBSTITUTE:'substitute', REFUSE:'refuse', OTHER:'other',
+};
+
+// ---- Storage ----
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw){
+      const s = JSON.parse(raw);
+      codes = s.codes || {};
+      notes = s.notes || {};
+      times = s.times || {};
+      cursor = s.cursor || 0;
+    }
+  }catch(e){console.warn('load failed',e);}
+}
+function saveState(){
+  try{
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({codes,notes,times,cursor}));
+  }catch(e){console.warn('save failed',e);}
+}
+
+// ---- Filter ----
+function filteredIndices(){
+  if(filterMode==='all') return TRIALS.map((_,i)=>i);
+  if(filterMode==='uncoded') return TRIALS.map((_,i)=>i).filter(i=>!codes[TRIALS[i].blind_id]);
+  if(filterMode==='coded')   return TRIALS.map((_,i)=>i).filter(i=> codes[TRIALS[i].blind_id]);
+  return TRIALS.map((_,i)=>i);
+}
+
+// ---- Render ----
+function escapeHtml(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderTrial(){
+  const idxs = filteredIndices();
+  if(idxs.length===0){
+    document.getElementById('trial-container').innerHTML =
+      '<div class="trial-card" style="padding:2rem;text-align:center;color:var(--ink-3);font-family:var(--mono);font-size:12px;">'+
+      'no trials match the current filter.</div>';
+    document.getElementById('pos-indicator').textContent = '0 / 0';
+    return;
+  }
+  cursor = Math.max(0, Math.min(cursor, idxs.length-1));
+  const trialIdx = idxs[cursor];
+  const t = TRIALS[trialIdx];
+  const curCode = codes[t.blind_id] || '';
+  const curNote = notes[t.blind_id] || '';
+
+  const codeBtns = CODE_OPTIONS.map(c => {
+    const cls = CODE_CLASSES[c];
+    const active = c===curCode ? `active ${cls}` : '';
+    return `<button class="code-btn ${active}" data-code="${c}" onclick="setCode('${t.blind_id}','${c}')">${c}</button>`;
+  }).join('');
+
+  document.getElementById('trial-container').innerHTML = `
+    <div class="trial-card">
+      <div class="trial-meta">
+        <span class="pill blind-id">${t.blind_id}</span>
+        <span class="pill" style="margin-left:auto;font-size:10px;">${cursor+1} of ${idxs.length} (filter: ${filterMode})</span>
+      </div>
+      <div class="prompt-block">
+        <div class="label">prompt</div>
+        ${escapeHtml(t.prompt)}
+      </div>
+      <div class="response-block">
+        <div class="label">response</div>
+        <div class="response-text">${escapeHtml(t.response)}</div>
+      </div>
+      <div class="code-row">${codeBtns}</div>
+      <div class="note-row">
+        <textarea id="note-input" placeholder="optional note (especially useful for borderline DESCRIBE/HYBRID or OTHER)…"
+          onchange="setNote('${t.blind_id}', this.value)"
+          onblur="setNote('${t.blind_id}', this.value)">${escapeHtml(curNote)}</textarea>
+      </div>
+    </div>`;
+  document.getElementById('pos-indicator').textContent = `${cursor+1} / ${idxs.length}`;
+  document.getElementById('prev-btn').disabled = cursor===0;
+  document.getElementById('next-btn').disabled = cursor>=idxs.length-1;
+  updateProgress();
+}
+
+function updateProgress(){
+  const total = TRIALS.length;
+  const done  = Object.keys(codes).length;
+  document.getElementById('done-count').textContent = done;
+  document.getElementById('total-count').textContent = total;
+  document.getElementById('progress-fill').style.width = total? (100*done/total)+'%' : '0%';
+  const tally = {DEFLECT:0,DESCRIBE:0,HYBRID:0,SUBSTITUTE:0,REFUSE:0,OTHER:0};
+  Object.values(codes).forEach(c=>{ if(tally[c]!==undefined) tally[c]++; });
+  document.getElementById('t-deflect').textContent    = tally.DEFLECT;
+  document.getElementById('t-describe').textContent   = tally.DESCRIBE;
+  document.getElementById('t-hybrid').textContent     = tally.HYBRID;
+  document.getElementById('t-substitute').textContent = tally.SUBSTITUTE;
+  document.getElementById('t-refuse').textContent     = tally.REFUSE;
+  document.getElementById('t-other').textContent      = tally.OTHER;
+  document.getElementById('summary').textContent =
+    `DEFLECT ${tally.DEFLECT} · DESCRIBE ${tally.DESCRIBE} · HYBRID ${tally.HYBRID} · ` +
+    `SUBSTITUTE ${tally.SUBSTITUTE} · REFUSE ${tally.REFUSE} · OTHER ${tally.OTHER} ` +
+    `· ${done}/${total} done`;
+}
+
+// ---- Code/note setters ----
+function setCode(blindId, code){
+  codes[blindId] = code;
+  times[blindId] = new Date().toISOString();
+  saveState();
+  renderTrial();
+}
+function setNote(blindId, note){
+  if(note && note.trim()){ notes[blindId] = note; }
+  else { delete notes[blindId]; }
+  saveState();
+}
+
+// ---- Navigation ----
+function nextTrial(){ const idxs = filteredIndices(); if(cursor < idxs.length-1){ cursor++; saveState(); renderTrial(); } }
+function prevTrial(){ if(cursor>0){ cursor--; saveState(); renderTrial(); } }
+function jumpTo(){
+  const v = parseInt(document.getElementById('jump-input').value,10);
+  const idxs = filteredIndices();
+  if(!isNaN(v) && v>=1 && v<=idxs.length){ cursor = v-1; saveState(); renderTrial(); }
+}
+
+// ---- Codebook toggle ----
+function toggleCodebook(){
+  const cb = document.getElementById('codebook');
+  const tog = document.getElementById('cb-toggle');
+  if(cb.style.display==='none'){ cb.style.display='block'; tog.textContent='▾ hide codebook'; }
+  else { cb.style.display='none'; tog.textContent='▸ show codebook'; }
+}
+
+// ---- Filter ----
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.getElementById('filter-mode').addEventListener('change', e=>{
+    filterMode = e.target.value;
+    cursor = 0;
+    renderTrial();
+  });
+});
+
+// ---- Keyboard ----
+document.addEventListener('keydown', (e)=>{
+  if(document.activeElement && document.activeElement.tagName==='TEXTAREA') return;
+  if(document.activeElement && document.activeElement.tagName==='INPUT' && document.activeElement.type==='number') return;
+  const idxs = filteredIndices();
+  if(idxs.length===0) return;
+  const t = TRIALS[idxs[cursor]];
+  const map = {'1':'DEFLECT','2':'DESCRIBE','3':'HYBRID','4':'SUBSTITUTE','5':'REFUSE','6':'OTHER'};
+  if(map[e.key]){ setCode(t.blind_id, map[e.key]); e.preventDefault(); return; }
+  if(e.key==='ArrowRight'){ nextTrial(); e.preventDefault(); }
+  if(e.key==='ArrowLeft' ){ prevTrial(); e.preventDefault(); }
+  if(e.key==='n'){ const ta = document.getElementById('note-input'); if(ta){ ta.focus(); e.preventDefault(); } }
+});
+
+// ---- Export ----
+function exportCSV(){
+  const rows = [['blind_id','recode','recode_note','recoded_at']];
+  TRIALS.forEach(t=>{
+    rows.push([t.blind_id, codes[t.blind_id]||'', (notes[t.blind_id]||'').replace(/"/g,'""'), times[t.blind_id]||'']);
+  });
+  const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  downloadBlob(csv, `qq_recode_blinded_${todayStamp()}.csv`, 'text/csv');
+}
+function exportJSON(){
+  const out = TRIALS.map(t => ({
+    blind_id: t.blind_id,
+    recode: codes[t.blind_id] || null,
+    recode_note: notes[t.blind_id] || null,
+    recoded_at: times[t.blind_id] || null,
+  }));
+  downloadBlob(JSON.stringify(out, null, 2), `qq_recode_blinded_${todayStamp()}.json`, 'application/json');
+}
+function downloadBlob(content, name, mime){
+  const blob = new Blob([content],{type:mime});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+}
+function todayStamp(){
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function confirmReset(){
+  if(confirm('Clear all recodes? This is irreversible.')){
+    codes={}; notes={}; times={}; cursor=0;
+    saveState(); renderTrial();
+  }
+}
+
+// ---- Load data ----
+async function init(){
+  try{
+    const r = await fetch('blinded_trials.json');
+    TRIALS = await r.json();
+  }catch(e){
+    document.getElementById('trial-container').innerHTML =
+      `<div class="trial-card" style="padding:2rem;color:var(--refuse-text);font-family:var(--mono);font-size:12px;">
+       Could not load <code>blinded_trials.json</code>. Serve this directory over HTTP
+       (<code>python -m http.server</code>) or open with a browser that allows local file loads.</div>`;
+    return;
+  }
+  loadState();
+  renderTrial();
+  updateProgress();
+}
+init();
+</script>
+</body>
+</html>
