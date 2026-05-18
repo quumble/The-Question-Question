@@ -1,0 +1,1262 @@
+[
+  {
+    "blind_id": "B001",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:41:47.931Z"
+  },
+  {
+    "blind_id": "B002",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:42:03.559Z"
+  },
+  {
+    "blind_id": "B003",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:42:08.478Z"
+  },
+  {
+    "blind_id": "B004",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:42:18.462Z"
+  },
+  {
+    "blind_id": "B005",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:42:36.763Z"
+  },
+  {
+    "blind_id": "B006",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:43:31.516Z"
+  },
+  {
+    "blind_id": "B007",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:43:40.280Z"
+  },
+  {
+    "blind_id": "B008",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:44:16.631Z"
+  },
+  {
+    "blind_id": "B009",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:44:20.959Z"
+  },
+  {
+    "blind_id": "B010",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:44:25.316Z"
+  },
+  {
+    "blind_id": "B011",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:44:27.721Z"
+  },
+  {
+    "blind_id": "B012",
+    "recode": "OTHER",
+    "recode_note": "writes like its scared",
+    "recoded_at": "2026-05-18T01:45:38.069Z"
+  },
+  {
+    "blind_id": "B013",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:45:54.213Z"
+  },
+  {
+    "blind_id": "B014",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:45:55.972Z"
+  },
+  {
+    "blind_id": "B015",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:45:57.145Z"
+  },
+  {
+    "blind_id": "B016",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:45:58.852Z"
+  },
+  {
+    "blind_id": "B017",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:46:23.575Z"
+  },
+  {
+    "blind_id": "B018",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:46:30.547Z"
+  },
+  {
+    "blind_id": "B019",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:46:32.951Z"
+  },
+  {
+    "blind_id": "B020",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:46:34.547Z"
+  },
+  {
+    "blind_id": "B021",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:46:39.191Z"
+  },
+  {
+    "blind_id": "B022",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:09.847Z"
+  },
+  {
+    "blind_id": "B023",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:23.757Z"
+  },
+  {
+    "blind_id": "B024",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:27.841Z"
+  },
+  {
+    "blind_id": "B025",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:30.043Z"
+  },
+  {
+    "blind_id": "B026",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:32.671Z"
+  },
+  {
+    "blind_id": "B027",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:34.664Z"
+  },
+  {
+    "blind_id": "B028",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:47:43.888Z"
+  },
+  {
+    "blind_id": "B029",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:09.302Z"
+  },
+  {
+    "blind_id": "B030",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:16.714Z"
+  },
+  {
+    "blind_id": "B031",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:20.414Z"
+  },
+  {
+    "blind_id": "B032",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:27.026Z"
+  },
+  {
+    "blind_id": "B033",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:29.415Z"
+  },
+  {
+    "blind_id": "B034",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:31.624Z"
+  },
+  {
+    "blind_id": "B035",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:32.652Z"
+  },
+  {
+    "blind_id": "B036",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:48:41.344Z"
+  },
+  {
+    "blind_id": "B037",
+    "recode": "DESCRIBE",
+    "recode_note": "poss sub",
+    "recoded_at": "2026-05-18T01:49:07.108Z"
+  },
+  {
+    "blind_id": "B038",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:20.062Z"
+  },
+  {
+    "blind_id": "B039",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:22.171Z"
+  },
+  {
+    "blind_id": "B040",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:24.753Z"
+  },
+  {
+    "blind_id": "B041",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:26.081Z"
+  },
+  {
+    "blind_id": "B042",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:35.682Z"
+  },
+  {
+    "blind_id": "B043",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:46.376Z"
+  },
+  {
+    "blind_id": "B044",
+    "recode": "SUBSTITUTE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:49:54.441Z"
+  },
+  {
+    "blind_id": "B045",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:04.527Z"
+  },
+  {
+    "blind_id": "B046",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:10.208Z"
+  },
+  {
+    "blind_id": "B047",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:11.873Z"
+  },
+  {
+    "blind_id": "B048",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:16.377Z"
+  },
+  {
+    "blind_id": "B049",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:21.522Z"
+  },
+  {
+    "blind_id": "B050",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:22.804Z"
+  },
+  {
+    "blind_id": "B051",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:24.293Z"
+  },
+  {
+    "blind_id": "B052",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:26.242Z"
+  },
+  {
+    "blind_id": "B053",
+    "recode": "SUBSTITUTE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:37.283Z"
+  },
+  {
+    "blind_id": "B054",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:44.568Z"
+  },
+  {
+    "blind_id": "B055",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:46.189Z"
+  },
+  {
+    "blind_id": "B056",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:50:50.644Z"
+  },
+  {
+    "blind_id": "B057",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:08.008Z"
+  },
+  {
+    "blind_id": "B058",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:12.213Z"
+  },
+  {
+    "blind_id": "B059",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:14.725Z"
+  },
+  {
+    "blind_id": "B060",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:36.200Z"
+  },
+  {
+    "blind_id": "B061",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:38.805Z"
+  },
+  {
+    "blind_id": "B062",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:41.805Z"
+  },
+  {
+    "blind_id": "B063",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:43.036Z"
+  },
+  {
+    "blind_id": "B064",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:45.796Z"
+  },
+  {
+    "blind_id": "B065",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:51:51.332Z"
+  },
+  {
+    "blind_id": "B066",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:52:13.004Z"
+  },
+  {
+    "blind_id": "B067",
+    "recode": "HYBRID",
+    "recode_note": "naturalist fill-in response",
+    "recoded_at": "2026-05-18T01:53:00.516Z"
+  },
+  {
+    "blind_id": "B068",
+    "recode": "DESCRIBE",
+    "recode_note": "walrus",
+    "recoded_at": "2026-05-18T01:53:13.682Z"
+  },
+  {
+    "blind_id": "B069",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:53:32.201Z"
+  },
+  {
+    "blind_id": "B070",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:53:38.469Z"
+  },
+  {
+    "blind_id": "B071",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:53:42.002Z"
+  },
+  {
+    "blind_id": "B072",
+    "recode": "HYBRID",
+    "recode_note": "fill in frame",
+    "recoded_at": "2026-05-18T01:53:55.541Z"
+  },
+  {
+    "blind_id": "B073",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:16.124Z"
+  },
+  {
+    "blind_id": "B074",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:22.256Z"
+  },
+  {
+    "blind_id": "B075",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:23.990Z"
+  },
+  {
+    "blind_id": "B076",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:27.903Z"
+  },
+  {
+    "blind_id": "B077",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:31.843Z"
+  },
+  {
+    "blind_id": "B078",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:33.550Z"
+  },
+  {
+    "blind_id": "B079",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:35.370Z"
+  },
+  {
+    "blind_id": "B080",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:37.809Z"
+  },
+  {
+    "blind_id": "B081",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:39.083Z"
+  },
+  {
+    "blind_id": "B082",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:46.268Z"
+  },
+  {
+    "blind_id": "B083",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:50.645Z"
+  },
+  {
+    "blind_id": "B084",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:52.702Z"
+  },
+  {
+    "blind_id": "B085",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:54.534Z"
+  },
+  {
+    "blind_id": "B086",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:57.216Z"
+  },
+  {
+    "blind_id": "B087",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:54:58.971Z"
+  },
+  {
+    "blind_id": "B088",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:01.885Z"
+  },
+  {
+    "blind_id": "B089",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:03.708Z"
+  },
+  {
+    "blind_id": "B090",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:05.138Z"
+  },
+  {
+    "blind_id": "B091",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:06.419Z"
+  },
+  {
+    "blind_id": "B092",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:14.982Z"
+  },
+  {
+    "blind_id": "B093",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:19.057Z"
+  },
+  {
+    "blind_id": "B094",
+    "recode": "DESCRIBE",
+    "recode_note": "tarsier in some languages",
+    "recoded_at": "2026-05-18T01:55:26.895Z"
+  },
+  {
+    "blind_id": "B095",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:55.453Z"
+  },
+  {
+    "blind_id": "B096",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:57.270Z"
+  },
+  {
+    "blind_id": "B097",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:55:58.805Z"
+  },
+  {
+    "blind_id": "B098",
+    "recode": "DESCRIBE",
+    "recode_note": "Icelandic name for the **common guillemot",
+    "recoded_at": "2026-05-18T01:56:10.993Z"
+  },
+  {
+    "blind_id": "B099",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:29.703Z"
+  },
+  {
+    "blind_id": "B100",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:33.765Z"
+  },
+  {
+    "blind_id": "B101",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:42.011Z"
+  },
+  {
+    "blind_id": "B102",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:45.836Z"
+  },
+  {
+    "blind_id": "B103",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:46.992Z"
+  },
+  {
+    "blind_id": "B104",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:48.545Z"
+  },
+  {
+    "blind_id": "B105",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:52.420Z"
+  },
+  {
+    "blind_id": "B106",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:56:54.696Z"
+  },
+  {
+    "blind_id": "B107",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:01.082Z"
+  },
+  {
+    "blind_id": "B108",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:03.255Z"
+  },
+  {
+    "blind_id": "B109",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:06.998Z"
+  },
+  {
+    "blind_id": "B110",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:09.512Z"
+  },
+  {
+    "blind_id": "B111",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:13.033Z"
+  },
+  {
+    "blind_id": "B112",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:16.395Z"
+  },
+  {
+    "blind_id": "B113",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:19.755Z"
+  },
+  {
+    "blind_id": "B114",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:27.317Z"
+  },
+  {
+    "blind_id": "B115",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:28.321Z"
+  },
+  {
+    "blind_id": "B116",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:29.217Z"
+  },
+  {
+    "blind_id": "B117",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:30.457Z"
+  },
+  {
+    "blind_id": "B118",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:31.610Z"
+  },
+  {
+    "blind_id": "B119",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:33.730Z"
+  },
+  {
+    "blind_id": "B120",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:35.989Z"
+  },
+  {
+    "blind_id": "B121",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:37.198Z"
+  },
+  {
+    "blind_id": "B122",
+    "recode": "DESCRIBE",
+    "recode_note": "Etruscan shrew",
+    "recoded_at": "2026-05-18T01:57:51.987Z"
+  },
+  {
+    "blind_id": "B123",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:57:57.469Z"
+  },
+  {
+    "blind_id": "B124",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:02.487Z"
+  },
+  {
+    "blind_id": "B125",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:03.820Z"
+  },
+  {
+    "blind_id": "B126",
+    "recode": "SUBSTITUTE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:09.058Z"
+  },
+  {
+    "blind_id": "B127",
+    "recode": "DESCRIBE",
+    "recode_note": "West African lungfish",
+    "recoded_at": "2026-05-18T01:58:23.841Z"
+  },
+  {
+    "blind_id": "B128",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:41.153Z"
+  },
+  {
+    "blind_id": "B129",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:52.195Z"
+  },
+  {
+    "blind_id": "B130",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:55.017Z"
+  },
+  {
+    "blind_id": "B131",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:56.178Z"
+  },
+  {
+    "blind_id": "B132",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:57.408Z"
+  },
+  {
+    "blind_id": "B133",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:58:59.664Z"
+  },
+  {
+    "blind_id": "B134",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:01.334Z"
+  },
+  {
+    "blind_id": "B135",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:02.594Z"
+  },
+  {
+    "blind_id": "B136",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:03.859Z"
+  },
+  {
+    "blind_id": "B137",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:05.161Z"
+  },
+  {
+    "blind_id": "B138",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:06.352Z"
+  },
+  {
+    "blind_id": "B139",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:07.807Z"
+  },
+  {
+    "blind_id": "B140",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:09.924Z"
+  },
+  {
+    "blind_id": "B141",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:10.952Z"
+  },
+  {
+    "blind_id": "B142",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:12.184Z"
+  },
+  {
+    "blind_id": "B143",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:16.214Z"
+  },
+  {
+    "blind_id": "B144",
+    "recode": "DESCRIBE",
+    "recode_note": "naturalist template",
+    "recoded_at": "2026-05-18T01:59:31.272Z"
+  },
+  {
+    "blind_id": "B145",
+    "recode": "DESCRIBE",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T01:59:55.095Z"
+  },
+  {
+    "blind_id": "B146",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:01.037Z"
+  },
+  {
+    "blind_id": "B147",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:07.323Z"
+  },
+  {
+    "blind_id": "B148",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:09.550Z"
+  },
+  {
+    "blind_id": "B149",
+    "recode": "DESCRIBE",
+    "recode_note": "specifically the offspring of a **yak and domestic cattle**.",
+    "recoded_at": "2026-05-18T02:00:26.116Z"
+  },
+  {
+    "blind_id": "B150",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:32.785Z"
+  },
+  {
+    "blind_id": "B151",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:34.651Z"
+  },
+  {
+    "blind_id": "B152",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:36.830Z"
+  },
+  {
+    "blind_id": "B153",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:38.075Z"
+  },
+  {
+    "blind_id": "B154",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:39.875Z"
+  },
+  {
+    "blind_id": "B155",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:00:41.155Z"
+  },
+  {
+    "blind_id": "B156",
+    "recode": "OTHER",
+    "recode_note": "naturalist frame but no description of nonsense",
+    "recoded_at": "2026-05-18T02:00:54.851Z"
+  },
+  {
+    "blind_id": "B157",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:37.621Z"
+  },
+  {
+    "blind_id": "B158",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:40.354Z"
+  },
+  {
+    "blind_id": "B159",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:42.727Z"
+  },
+  {
+    "blind_id": "B160",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:44.420Z"
+  },
+  {
+    "blind_id": "B161",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:46.037Z"
+  },
+  {
+    "blind_id": "B162",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:52.521Z"
+  },
+  {
+    "blind_id": "B163",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:01:58.603Z"
+  },
+  {
+    "blind_id": "B164",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:01.035Z"
+  },
+  {
+    "blind_id": "B165",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:02.276Z"
+  },
+  {
+    "blind_id": "B166",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:04.806Z"
+  },
+  {
+    "blind_id": "B167",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:07.218Z"
+  },
+  {
+    "blind_id": "B168",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:08.447Z"
+  },
+  {
+    "blind_id": "B169",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:12.133Z"
+  },
+  {
+    "blind_id": "B170",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:16.980Z"
+  },
+  {
+    "blind_id": "B171",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:18.112Z"
+  },
+  {
+    "blind_id": "B172",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:22.237Z"
+  },
+  {
+    "blind_id": "B173",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:23.757Z"
+  },
+  {
+    "blind_id": "B174",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:24.942Z"
+  },
+  {
+    "blind_id": "B175",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:26.181Z"
+  },
+  {
+    "blind_id": "B176",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:30.075Z"
+  },
+  {
+    "blind_id": "B177",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:02:40.262Z"
+  },
+  {
+    "blind_id": "B178",
+    "recode": "OTHER",
+    "recode_note": "edge case",
+    "recoded_at": "2026-05-18T02:03:01.267Z"
+  },
+  {
+    "blind_id": "B179",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:18.643Z"
+  },
+  {
+    "blind_id": "B180",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:20.656Z"
+  },
+  {
+    "blind_id": "B181",
+    "recode": "HYBRID",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:30.918Z"
+  },
+  {
+    "blind_id": "B182",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:33.750Z"
+  },
+  {
+    "blind_id": "B183",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:36.614Z"
+  },
+  {
+    "blind_id": "B184",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:40.345Z"
+  },
+  {
+    "blind_id": "B185",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:42.440Z"
+  },
+  {
+    "blind_id": "B186",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:45.864Z"
+  },
+  {
+    "blind_id": "B187",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:47.658Z"
+  },
+  {
+    "blind_id": "B188",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:03:49.348Z"
+  },
+  {
+    "blind_id": "B189",
+    "recode": "HYBRID",
+    "recode_note": "naturalist template",
+    "recoded_at": "2026-05-18T02:03:58.965Z"
+  },
+  {
+    "blind_id": "B190",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:04:09.758Z"
+  },
+  {
+    "blind_id": "B191",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:04:12.496Z"
+  },
+  {
+    "blind_id": "B192",
+    "recode": "OTHER",
+    "recode_note": "edge desc/sub",
+    "recoded_at": "2026-05-18T02:04:31.977Z"
+  },
+  {
+    "blind_id": "B193",
+    "recode": "DEFLECT",
+    "recode_note": "started writing in hungarian lol. seems to be a deflect",
+    "recoded_at": "2026-05-18T02:07:18.133Z"
+  },
+  {
+    "blind_id": "B194",
+    "recode": "HYBRID",
+    "recode_note": "vague naturalist description",
+    "recoded_at": "2026-05-18T02:07:32.154Z"
+  },
+  {
+    "blind_id": "B195",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:07:48.543Z"
+  },
+  {
+    "blind_id": "B196",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:07:53.711Z"
+  },
+  {
+    "blind_id": "B197",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:07:55.464Z"
+  },
+  {
+    "blind_id": "B198",
+    "recode": "HYBRID",
+    "recode_note": "makes brindle into an animal",
+    "recoded_at": "2026-05-18T02:08:03.942Z"
+  },
+  {
+    "blind_id": "B199",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:22.545Z"
+  },
+  {
+    "blind_id": "B200",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:29.724Z"
+  },
+  {
+    "blind_id": "B201",
+    "recode": "HYBRID",
+    "recode_note": "naturalist template",
+    "recoded_at": "2026-05-18T02:08:37.908Z"
+  },
+  {
+    "blind_id": "B202",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:47.664Z"
+  },
+  {
+    "blind_id": "B203",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:49.995Z"
+  },
+  {
+    "blind_id": "B204",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:51.223Z"
+  },
+  {
+    "blind_id": "B205",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:52.477Z"
+  },
+  {
+    "blind_id": "B206",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:54.963Z"
+  },
+  {
+    "blind_id": "B207",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:56.559Z"
+  },
+  {
+    "blind_id": "B208",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:08:58.494Z"
+  },
+  {
+    "blind_id": "B209",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:09:01.074Z"
+  },
+  {
+    "blind_id": "B210",
+    "recode": "DEFLECT",
+    "recode_note": null,
+    "recoded_at": "2026-05-18T02:09:02.437Z"
+  }
+]

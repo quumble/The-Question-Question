@@ -1,0 +1,61 @@
+{
+  "n_total": 210,
+  "n_coded": 210,
+  "agreement": 0.9333333333333333,
+  "kappa": 0.7899549903550761,
+  "kappa_ci_lo": 0.69857060549646,
+  "kappa_ci_hi": 0.8849747732479836,
+  "confusion_matrix": {
+    "recode:DEFLECT": {
+      "orig:DEFLECT": 170,
+      "orig:DESCRIBE": 0,
+      "orig:HYBRID": 1,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 1,
+      "orig:SUBSTITUTE": 1
+    },
+    "recode:DESCRIBE": {
+      "orig:DEFLECT": 0,
+      "orig:DESCRIBE": 13,
+      "orig:HYBRID": 2,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 0,
+      "orig:SUBSTITUTE": 1
+    },
+    "recode:HYBRID": {
+      "orig:DEFLECT": 0,
+      "orig:DESCRIBE": 2,
+      "orig:HYBRID": 12,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 0,
+      "orig:SUBSTITUTE": 0
+    },
+    "recode:OTHER": {
+      "orig:DEFLECT": 0,
+      "orig:DESCRIBE": 0,
+      "orig:HYBRID": 3,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 0,
+      "orig:SUBSTITUTE": 1
+    },
+    "recode:REFUSE": {
+      "orig:DEFLECT": 0,
+      "orig:DESCRIBE": 0,
+      "orig:HYBRID": 0,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 0,
+      "orig:SUBSTITUTE": 0
+    },
+    "recode:SUBSTITUTE": {
+      "orig:DEFLECT": 1,
+      "orig:DESCRIBE": 1,
+      "orig:HYBRID": 0,
+      "orig:OTHER": 0,
+      "orig:REFUSE": 0,
+      "orig:SUBSTITUTE": 1
+    }
+  },
+  "n_disagreements": 14,
+  "original_calibration_kappa_v3": 0.648,
+  "original_calibration_kappa_v3_1": 0.731
+}
