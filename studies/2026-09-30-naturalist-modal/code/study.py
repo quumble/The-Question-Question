@@ -10,6 +10,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 MODELS = {'openai':'gpt-5.4-2026-03-05', 'anthropic':'claude-sonnet-4-6'}
 PRICES = {'openai': (Decimal('2.5'), Decimal('15')), 'anthropic': (Decimal('3'), Decimal('15'))}
 LIMIT = Decimal('8.50')
+CALIBRATION_VERSION = 'v2'
 EXPIRY = dt.datetime.fromisoformat('2026-09-30T21:59:00+00:00')
 COLLECTION_END = dt.datetime.fromisoformat('2026-09-30T21:15:00+00:00')
 CODING_END = dt.datetime.fromisoformat('2026-09-30T21:30:00+00:00')
@@ -171,6 +172,19 @@ def participation_signals(text,kind,source_text=None):
     return stop_screen(own)
 
 
+def validate_calibration(root,result):
+    fixtures=json.loads((root/'synthetic/fixtures.json').read_text())
+    expected={CALIBRATION_VERSION+'__'+f['id']+'_'+p for f in fixtures for p in MODELS}
+    checks=result.get('checks',[])
+    if (len(expected)!=24 or len(checks)!=24 or {c.get('id') for c in checks}!=expected
+        or not all(c.get('passed') is True for c in checks)
+        or result.get('passed') is not True or result.get('version')!=CALIBRATION_VERSION):
+        raise RuntimeError('Calibration gate requires current complete 24/24 pass')
+    for path in ['CODING_RUBRIC.md','synthetic/fixtures.json']:
+        if result.get('frozen_sha256',{}).get(path)!=digest(root/path):
+            raise RuntimeError('Calibration result rubric/fixture hash mismatch')
+
+
 def check_gate(root,kind):
     if now()>=EXPIRY: raise RuntimeError('Mandate expired: no extension')
     cutoff=COLLECTION_END if kind=='study' else CODING_END
@@ -183,8 +197,8 @@ def check_gate(root,kind):
     for path,sha in gate['sha256'].items():
         if digest(root/path)!=sha: raise RuntimeError('Frozen artifact changed: '+path)
     if kind=='study':
-        calibration=json.loads((root/'synthetic'/'calibration_result.json').read_text())
-        if not calibration['passed']: raise RuntimeError('Calibration gate failed')
+        calibration=json.loads((root/'synthetic'/f'calibration_{CALIBRATION_VERSION}_result.json').read_text())
+        validate_calibration(root,calibration)
 
 
 def call(root,provider,prompt,kind,task_id,attempt_number=1,source_text=None):
@@ -303,7 +317,7 @@ def main():
         checks=[]
         for f in fixtures:
             for provider in MODELS:
-                tid=f['id']+'_'+provider
+                tid=CALIBRATION_VERSION+'__'+f['id']+'_'+provider
                 r=existing.get(tid) or call(ROOT,provider,coder_prompt(f['name'],f['text']),'calibration',tid,source_text=f['text'])
                 try:
                     code=parse_code(r['text'],f['text'])
@@ -311,8 +325,10 @@ def main():
                     checks.append(dict(id=tid,passed=passed,code=code,expected=f['expected']))
                 except Exception as e: checks.append(dict(id=tid,passed=False,error=type(e).__name__))
                 print(tid,checks[-1]['passed'],flush=True)
-        result=dict(passed=all(x['passed'] for x in checks),checks=checks,at=stamp(),synthetic=True)
-        (ROOT/'synthetic'/'calibration_result.json').write_text(json.dumps(result,indent=2))
+        result=dict(passed=all(x['passed'] for x in checks),checks=checks,at=stamp(),synthetic=True,version=CALIBRATION_VERSION,frozen_sha256={p:digest(ROOT/p) for p in ['CODING_RUBRIC.md','synthetic/fixtures.json']})
+        (ROOT/'synthetic'/f'calibration_{CALIBRATION_VERSION}_result.json').write_text(json.dumps(result,indent=2))
+        if not result['passed']:
+            (ROOT/'STOP.json').write_text(json.dumps({'reason':'Versioned calibration failed; parent review required','version':CALIBRATION_VERSION,'at':stamp()}))
     elif args.action=='code':
         manifest={x['id']:x for x in json.loads((ROOT/'manifest.json').read_text())}
         existing={r['id'] for r in rows(ROOT/'coding_responses.jsonl')}

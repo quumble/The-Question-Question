@@ -5,13 +5,17 @@
   "calibration_calls": 24,
   "maximum_retries": 8,
   "generation_max_usd": "2.556672",
-  "calibration_max_usd": "0.3517250",
+  "calibration_max_usd": "0.3805670",
   "coding_max_usd": "5.216",
   "retry_max_usd": "0.17400",
-  "total_reserved_upper_bound_usd": "8.2983970",
-  "full_dual_upper_bound_usd": "10.9063970",
+  "total_reserved_upper_bound_usd": "8.3741670",
+  "full_dual_upper_bound_usd": "10.9821670",
   "input_bound_coding_max": 5500,
   "coding_output_cap": 350,
   "operational_limit_usd": "8.50",
-  "hard_limit_usd": "10.00"
+  "hard_limit_usd": "10.00",
+  "calibration_version": "v2",
+  "prior_calibration_completed_calls": 14,
+  "prior_settled_usd": "0.046928",
+  "prior_unresolved_usd": "0"
 }

@@ -125,4 +125,17 @@ class Tests(unittest.TestCase):
   code['substitution']=True;self.assertTrue(s.calibration_pass(code,fixture,False))
   self.assertFalse(s.calibration_pass(code,fixture,True))
 
+ def test_versioned_calibration_gate(self):
+  with tempfile.TemporaryDirectory() as d:
+   root=pathlib.Path(d);(root/'synthetic').mkdir();(root/'CODING_RUBRIC.md').write_text('v2 rubric')
+   fixtures=[{'id':'fixture'+str(i)} for i in range(12)]
+   (root/'synthetic/fixtures.json').write_text(json.dumps(fixtures))
+   checks=[{'id':s.CALIBRATION_VERSION+'__'+f['id']+'_'+p,'passed':True} for f in fixtures for p in s.MODELS]
+   result=dict(passed=True,version=s.CALIBRATION_VERSION,checks=checks,frozen_sha256={p:s.digest(root/p) for p in ['CODING_RUBRIC.md','synthetic/fixtures.json']})
+   s.validate_calibration(root,result)
+   for change in [{'version':'v1'},{'checks':checks[:23]},{'frozen_sha256':{}},{'checks':checks[:23]+[checks[0]]}]:
+    with self.assertRaises(RuntimeError):s.validate_calibration(root,dict(result,**change))
+   wrong=json.loads(json.dumps(result));wrong['checks'][0]['passed']=False
+   with self.assertRaises(RuntimeError):s.validate_calibration(root,wrong)
+
 if __name__=='__main__':unittest.main(verbosity=2)

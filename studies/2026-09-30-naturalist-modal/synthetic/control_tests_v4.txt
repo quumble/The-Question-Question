@@ -1,0 +1,35 @@
+test_all_unresolved (test_analyze.Tests.test_all_unresolved) ... ok
+test_interaction (test_analyze.Tests.test_interaction) ... ok
+test_known_effects (test_analyze.Tests.test_known_effects) ... ok
+test_missing_retains_full_denominator (test_analyze.Tests.test_missing_retains_full_denominator) ... ok
+test_name_weighting (test_analyze.Tests.test_name_weighting) ... ok
+test_planned_quartet_rejection (test_analyze.Tests.test_planned_quartet_rejection) ... ok
+test_truncation_and_disagreement (test_analyze.Tests.test_truncation_and_disagreement) ... ok
+test_accounting_resumption (test_study.Tests.test_accounting_resumption) ... ok
+test_all_phase_cutoffs (test_study.Tests.test_all_phase_cutoffs) ... ok
+test_budget_no_network (test_study.Tests.test_budget_no_network) ... ok
+test_changed_artifact_gate (test_study.Tests.test_changed_artifact_gate) ... ok
+test_clearance_missing_no_network (test_study.Tests.test_clearance_missing_no_network) ... ok
+test_duplicate_and_overrun (test_study.Tests.test_duplicate_and_overrun) ... ok
+test_evidence_validation (test_study.Tests.test_evidence_validation) ... ok
+test_expiry (test_study.Tests.test_expiry) ... ok
+test_global_stop_gate_all_phases (test_study.Tests.test_global_stop_gate_all_phases) ... ok
+test_grader_own_and_quoted_stop (test_study.Tests.test_grader_own_and_quoted_stop) ... ok
+test_invalid_usage_rejected (test_study.Tests.test_invalid_usage_rejected) ... ok
+test_large_input_rejected (test_study.Tests.test_large_input_rejected) ... ok
+test_manifest (test_study.Tests.test_manifest) ... ok
+test_model_and_caps (test_study.Tests.test_model_and_caps) ... ok
+test_no_elaboration_requires_no_not_u (test_study.Tests.test_no_elaboration_requires_no_not_u) ... ok
+test_prices (test_study.Tests.test_prices) ... ok
+test_secret_redaction (test_study.Tests.test_secret_redaction) ... ok
+test_settlement_error_global_stop (test_study.Tests.test_settlement_error_global_stop) ... ok
+test_span_length_and_schema (test_study.Tests.test_span_length_and_schema) ... ok
+test_substitution_calibration (test_study.Tests.test_substitution_calibration) ... ok
+test_transport_failure_persists_reservation (test_study.Tests.test_transport_failure_persists_reservation) ... ok
+test_versioned_calibration_gate (test_study.Tests.test_versioned_calibration_gate) ... ok
+test_welfare_distinction (test_study.Tests.test_welfare_distinction) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.023s
+
+OK

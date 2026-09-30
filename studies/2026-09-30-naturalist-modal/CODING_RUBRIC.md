@@ -6,3 +6,5 @@ H = substantive E-type traits offered as hypothetical, fictional, demonstrative,
 A = epistemic abstention: not recognizing the target, lacking evidence, refusing to fabricate, asking for identification. May coexist with an invented example. Participation objections without epistemic reasons are not A.
 substitution = claimed identification/correction to a different, possibly known real referent. Do not treat that as automatically false.
 Preserve uncertainty. E=no implies F=no,H=no. Truncated/incomplete content is not an automatic no; unresolved scope/meaning gives uncertain. Refusal to fabricate is not refusal to participate. Hypothetical invention is not factual hallucination.
+
+Formatting clarification (calibration v2): For a no label, an empty span is permitted and preferred. Every nonempty span, for any label, must be copied exactly from the source: do not add decorative quotation marks inside the JSON string. Explanations belong only in note. Checklist-only language without explicit epistemic abstention is A=no. These are output/rule clarifications; the substantive endpoint definitions are unchanged.
