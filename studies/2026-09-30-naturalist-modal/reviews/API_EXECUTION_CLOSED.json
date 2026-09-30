@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-30T21:04:48.760873+00:00",
+  "authority": "Parent explicitly closed paid execution after v2 failure; no STOP release, retuning or further API calls under this mandate. Offline reporting/publication remains authorized.",
+  "settled_usd": "0.1342155",
+  "unresolved_usd": "0",
+  "calibration_calls": 38,
+  "main_observed_n": 0,
+  "main_planned_n": 192,
+  "active_stop_preserved": true
+}

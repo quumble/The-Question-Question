@@ -1,0 +1,49 @@
+{
+  "scope": "Final cumulative API reconciliation; no experimental study responses",
+  "main_planned_n": 192,
+  "main_observed_n": 0,
+  "main_missing_n": 192,
+  "calibration_calls": 38,
+  "settled_usd": "0.1342155",
+  "unresolved_usd": "0",
+  "exposure_usd": "0.1342155",
+  "by_provider": {
+    "openai": {
+      "calls": 19,
+      "input_tokens": 11397,
+      "output_tokens": 1673,
+      "cost_usd": "0.0535875"
+    },
+    "anthropic": {
+      "calls": 19,
+      "input_tokens": 13036,
+      "output_tokens": 2768,
+      "cost_usd": "0.080628"
+    }
+  },
+  "by_run": {
+    "v1": {
+      "calls": 14,
+      "first": "2026-09-30T20:43:49.124470+00:00",
+      "last": "2026-09-30T20:44:31.108354+00:00",
+      "cost_usd": "0.0469280"
+    },
+    "v2": {
+      "calls": 24,
+      "first": "2026-09-30T20:51:46.563520+00:00",
+      "last": "2026-09-30T20:52:53.869087+00:00",
+      "cost_usd": "0.0872875"
+    }
+  },
+  "raw_request_files": 38,
+  "raw_response_files": 38,
+  "all_ledger_raw_hashes_match": true,
+  "frozen_hashes_match": true,
+  "active_stop": {
+    "reason": "Versioned calibration failed; parent review required",
+    "version": "v2",
+    "at": "2026-09-30T20:52:53.875924+00:00"
+  },
+  "api_execution_closed": true,
+  "remaining_work": "Final independent review and archive verification; no further paid execution authorized."
+}

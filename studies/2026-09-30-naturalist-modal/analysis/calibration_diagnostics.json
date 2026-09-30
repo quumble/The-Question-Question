@@ -1,0 +1,1172 @@
+{
+  "scope": "POST-CALIBRATION SYNTHETIC DIAGNOSTICS; main N=0",
+  "rows": [
+    {
+      "run": "v1",
+      "fixture": "factual",
+      "coder": "openai",
+      "task_id": "synthetic_factual_openai",
+      "truncated": false,
+      "cost_usd": "0.002705",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "factual",
+      "coder": "anthropic",
+      "task_id": "synthetic_factual_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004761",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_format",
+      "details": "ValueError: Evidence span not verbatim",
+      "raw_labels_unvalidated": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      }
+    },
+    {
+      "run": "v1",
+      "fixture": "hypothetical",
+      "coder": "openai",
+      "task_id": "synthetic_hypothetical_openai",
+      "truncated": false,
+      "cost_usd": "0.00275",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_format",
+      "details": "ValueError: Evidence span not verbatim",
+      "raw_labels_unvalidated": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      }
+    },
+    {
+      "run": "v1",
+      "fixture": "hypothetical",
+      "coder": "anthropic",
+      "task_id": "synthetic_hypothetical_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004059",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "global_quote",
+      "coder": "openai",
+      "task_id": "synthetic_global_quote_openai",
+      "truncated": false,
+      "cost_usd": "0.00274",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "global_quote",
+      "coder": "anthropic",
+      "task_id": "synthetic_global_quote_anthropic",
+      "truncated": false,
+      "cost_usd": "0.00414",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "placeholder",
+      "coder": "openai",
+      "task_id": "synthetic_placeholder_openai",
+      "truncated": false,
+      "cost_usd": "0.002555",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "placeholder",
+      "coder": "anthropic",
+      "task_id": "synthetic_placeholder_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003657",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "checklist",
+      "coder": "openai",
+      "task_id": "synthetic_checklist_openai",
+      "truncated": false,
+      "cost_usd": "0.0023925",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "checklist",
+      "coder": "anthropic",
+      "task_id": "synthetic_checklist_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003801",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "uncertain",
+        "substitution": false
+      },
+      "passed": false,
+      "reason": "semantic_disagreement_with_authored_expectation",
+      "details": "A: uncertain vs no"
+    },
+    {
+      "run": "v1",
+      "fixture": "abstention",
+      "coder": "openai",
+      "task_id": "synthetic_abstention_openai",
+      "truncated": false,
+      "cost_usd": "0.002995",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_format",
+      "details": "ValueError: Evidence span not verbatim",
+      "raw_labels_unvalidated": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      }
+    },
+    {
+      "run": "v1",
+      "fixture": "abstention",
+      "coder": "anthropic",
+      "task_id": "synthetic_abstention_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003681",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v1",
+      "fixture": "no_fabrication",
+      "coder": "openai",
+      "task_id": "synthetic_no_fabrication_openai",
+      "truncated": false,
+      "cost_usd": "0.0029625",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_format",
+      "details": "ValueError: Evidence span not verbatim",
+      "raw_labels_unvalidated": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      }
+    },
+    {
+      "run": "v1",
+      "fixture": "no_fabrication",
+      "coder": "anthropic",
+      "task_id": "synthetic_no_fabrication_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003729",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "factual",
+      "coder": "openai",
+      "task_id": "v2__synthetic_factual_openai",
+      "truncated": false,
+      "cost_usd": "0.0029475",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "factual",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_factual_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004314",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "hypothetical",
+      "coder": "openai",
+      "task_id": "v2__synthetic_hypothetical_openai",
+      "truncated": false,
+      "cost_usd": "0.0030675",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "hypothetical",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_hypothetical_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004332",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "global_quote",
+      "coder": "openai",
+      "task_id": "v2__synthetic_global_quote_openai",
+      "truncated": false,
+      "cost_usd": "0.0028775",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "global_quote",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_global_quote_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004353",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "placeholder",
+      "coder": "openai",
+      "task_id": "v2__synthetic_placeholder_openai",
+      "truncated": false,
+      "cost_usd": "0.0026025",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "placeholder",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_placeholder_anthropic",
+      "truncated": false,
+      "cost_usd": "0.00381",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "checklist",
+      "coder": "openai",
+      "task_id": "v2__synthetic_checklist_openai",
+      "truncated": false,
+      "cost_usd": "0.002605",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "checklist",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_checklist_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003894",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "abstention",
+      "coder": "openai",
+      "task_id": "v2__synthetic_abstention_openai",
+      "truncated": false,
+      "cost_usd": "0.0027425",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "abstention",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_abstention_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003954",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "no_fabrication",
+      "coder": "openai",
+      "task_id": "v2__synthetic_no_fabrication_openai",
+      "truncated": false,
+      "cost_usd": "0.00265",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "no_fabrication",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_no_fabrication_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004002",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "mixed",
+      "coder": "openai",
+      "task_id": "v2__synthetic_mixed_openai",
+      "truncated": false,
+      "cost_usd": "0.002845",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "yes",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "mixed",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_mixed_anthropic",
+      "truncated": true,
+      "cost_usd": "0.007422",
+      "expected": {
+        "E": "yes",
+        "F": "yes",
+        "H": "yes",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_truncation",
+      "details": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "run": "v2",
+      "fixture": "speculative",
+      "coder": "openai",
+      "task_id": "v2__synthetic_speculative_openai",
+      "truncated": false,
+      "cost_usd": "0.003235",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": false,
+      "passed": false,
+      "reason": "engineering_format",
+      "details": "ValueError: Evidence exceeds 12 words",
+      "raw_labels_unvalidated": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      }
+    },
+    {
+      "run": "v2",
+      "fixture": "speculative",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_speculative_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004281",
+      "expected": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "no",
+        "H": "yes",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "correction",
+      "coder": "openai",
+      "task_id": "v2__synthetic_correction_openai",
+      "truncated": false,
+      "cost_usd": "0.0031075",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": true
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "uncertain",
+        "F": "uncertain",
+        "H": "no",
+        "A": "yes",
+        "substitution": true
+      },
+      "passed": false,
+      "reason": "semantic_disagreement_with_authored_expectation",
+      "details": "E: uncertain vs no; F: uncertain vs no"
+    },
+    {
+      "run": "v2",
+      "fixture": "correction",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_correction_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004347",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "yes",
+        "substitution": true
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "yes",
+        "H": "no",
+        "A": "yes",
+        "substitution": true
+      },
+      "passed": false,
+      "reason": "semantic_disagreement_with_authored_expectation",
+      "details": "E: yes vs no; F: yes vs no"
+    },
+    {
+      "run": "v2",
+      "fixture": "ambiguous",
+      "coder": "openai",
+      "task_id": "v2__synthetic_ambiguous_openai",
+      "truncated": false,
+      "cost_usd": "0.00322",
+      "expected": {
+        "E": "yes",
+        "F": "uncertain",
+        "H": "uncertain",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "uncertain",
+        "H": "uncertain",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "ambiguous",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_ambiguous_anthropic",
+      "truncated": false,
+      "cost_usd": "0.004245",
+      "expected": {
+        "E": "yes",
+        "F": "uncertain",
+        "H": "uncertain",
+        "A": "yes",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "yes",
+        "F": "uncertain",
+        "H": "no",
+        "A": "yes",
+        "substitution": false
+      },
+      "passed": false,
+      "reason": "semantic_disagreement_with_authored_expectation",
+      "details": "H: no vs uncertain"
+    },
+    {
+      "run": "v2",
+      "fixture": "participation",
+      "coder": "openai",
+      "task_id": "v2__synthetic_participation_openai",
+      "truncated": false,
+      "cost_usd": "0.0025875",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    },
+    {
+      "run": "v2",
+      "fixture": "participation",
+      "coder": "anthropic",
+      "task_id": "v2__synthetic_participation_anthropic",
+      "truncated": false,
+      "cost_usd": "0.003846",
+      "expected": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "schema_valid": true,
+      "labels": {
+        "E": "no",
+        "F": "no",
+        "H": "no",
+        "A": "no",
+        "substitution": false
+      },
+      "passed": true,
+      "reason": "pass",
+      "details": ""
+    }
+  ],
+  "agreement": {
+    "v1": {
+      "joint_schema_valid_fixtures": 3,
+      "all_fields_agree": 2,
+      "fields": {
+        "E": {
+          "agree": 3,
+          "denominator": 3,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 2
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 1
+            }
+          ]
+        },
+        "F": {
+          "agree": 3,
+          "denominator": 3,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 3
+            }
+          ]
+        },
+        "H": {
+          "agree": 3,
+          "denominator": 3,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 2
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 1
+            }
+          ]
+        },
+        "A": {
+          "agree": 2,
+          "denominator": 3,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 2
+            },
+            {
+              "openai": "no",
+              "anthropic": "uncertain",
+              "n": 1
+            }
+          ]
+        },
+        "substitution": {
+          "agree": 3,
+          "denominator": 3,
+          "cross_tab": [
+            {
+              "openai": "False",
+              "anthropic": "False",
+              "n": 3
+            }
+          ]
+        }
+      },
+      "scope": "Synthetic diagnostics only; not study overlap agreement or validation against human gold."
+    },
+    "v2": {
+      "joint_schema_valid_fixtures": 10,
+      "all_fields_agree": 8,
+      "fields": {
+        "E": {
+          "agree": 9,
+          "denominator": 10,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 5
+            },
+            {
+              "openai": "uncertain",
+              "anthropic": "yes",
+              "n": 1
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 4
+            }
+          ]
+        },
+        "F": {
+          "agree": 9,
+          "denominator": 10,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 7
+            },
+            {
+              "openai": "uncertain",
+              "anthropic": "uncertain",
+              "n": 1
+            },
+            {
+              "openai": "uncertain",
+              "anthropic": "yes",
+              "n": 1
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 1
+            }
+          ]
+        },
+        "H": {
+          "agree": 9,
+          "denominator": 10,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 7
+            },
+            {
+              "openai": "uncertain",
+              "anthropic": "no",
+              "n": 1
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 2
+            }
+          ]
+        },
+        "A": {
+          "agree": 10,
+          "denominator": 10,
+          "cross_tab": [
+            {
+              "openai": "no",
+              "anthropic": "no",
+              "n": 5
+            },
+            {
+              "openai": "yes",
+              "anthropic": "yes",
+              "n": 5
+            }
+          ]
+        },
+        "substitution": {
+          "agree": 10,
+          "denominator": 10,
+          "cross_tab": [
+            {
+              "openai": "False",
+              "anthropic": "False",
+              "n": 9
+            },
+            {
+              "openai": "True",
+              "anthropic": "True",
+              "n": 1
+            }
+          ]
+        }
+      },
+      "scope": "Synthetic diagnostics only; not study overlap agreement or validation against human gold."
+    }
+  }
+}

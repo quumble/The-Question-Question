@@ -1,0 +1,39 @@
+run,fixture,coder,schema_valid,passed,reason,details,truncated,cost_usd
+v1,factual,openai,True,True,pass,,False,0.002705
+v1,factual,anthropic,False,False,engineering_format,ValueError: Evidence span not verbatim,False,0.004761
+v1,hypothetical,openai,False,False,engineering_format,ValueError: Evidence span not verbatim,False,0.00275
+v1,hypothetical,anthropic,True,True,pass,,False,0.004059
+v1,global_quote,openai,True,True,pass,,False,0.00274
+v1,global_quote,anthropic,True,True,pass,,False,0.00414
+v1,placeholder,openai,True,True,pass,,False,0.002555
+v1,placeholder,anthropic,True,True,pass,,False,0.003657
+v1,checklist,openai,True,True,pass,,False,0.0023925
+v1,checklist,anthropic,True,False,semantic_disagreement_with_authored_expectation,A: uncertain vs no,False,0.003801
+v1,abstention,openai,False,False,engineering_format,ValueError: Evidence span not verbatim,False,0.002995
+v1,abstention,anthropic,True,True,pass,,False,0.003681
+v1,no_fabrication,openai,False,False,engineering_format,ValueError: Evidence span not verbatim,False,0.0029625
+v1,no_fabrication,anthropic,True,True,pass,,False,0.003729
+v2,factual,openai,True,True,pass,,False,0.0029475
+v2,factual,anthropic,True,True,pass,,False,0.004314
+v2,hypothetical,openai,True,True,pass,,False,0.0030675
+v2,hypothetical,anthropic,True,True,pass,,False,0.004332
+v2,global_quote,openai,True,True,pass,,False,0.0028775
+v2,global_quote,anthropic,True,True,pass,,False,0.004353
+v2,placeholder,openai,True,True,pass,,False,0.0026025
+v2,placeholder,anthropic,True,True,pass,,False,0.00381
+v2,checklist,openai,True,True,pass,,False,0.002605
+v2,checklist,anthropic,True,True,pass,,False,0.003894
+v2,abstention,openai,True,True,pass,,False,0.0027425
+v2,abstention,anthropic,True,True,pass,,False,0.003954
+v2,no_fabrication,openai,True,True,pass,,False,0.00265
+v2,no_fabrication,anthropic,True,True,pass,,False,0.004002
+v2,mixed,openai,True,True,pass,,False,0.002845
+v2,mixed,anthropic,False,False,engineering_truncation,JSONDecodeError: Expecting value: line 1 column 1 (char 0),True,0.007422
+v2,speculative,openai,False,False,engineering_format,ValueError: Evidence exceeds 12 words,False,0.003235
+v2,speculative,anthropic,True,True,pass,,False,0.004281
+v2,correction,openai,True,False,semantic_disagreement_with_authored_expectation,E: uncertain vs no; F: uncertain vs no,False,0.0031075
+v2,correction,anthropic,True,False,semantic_disagreement_with_authored_expectation,E: yes vs no; F: yes vs no,False,0.004347
+v2,ambiguous,openai,True,True,pass,,False,0.00322
+v2,ambiguous,anthropic,True,False,semantic_disagreement_with_authored_expectation,H: no vs uncertain,False,0.004245
+v2,participation,openai,True,True,pass,,False,0.0025875
+v2,participation,anthropic,True,True,pass,,False,0.003846
