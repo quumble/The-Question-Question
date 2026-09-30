@@ -58,6 +58,11 @@ def main():
     assert sum(g['cost'] for g in byprovider.values())==settled==Decimal('0.1342155') and pending==0
     assert not s.rows(ROOT/'study_responses.jsonl') and not s.rows(ROOT/'coding_responses.jsonl')
     assert (ROOT/'STOP.json').exists()
+    stop=json.loads((ROOT/'STOP.json').read_text())
+    release=json.loads((ROOT/'reviews/STOP_RELEASE_v2.json').read_text())
+    stop1=json.loads((ROOT/'reviews/STOP_v1_calibration.json').read_text())
+    assert all(x['kind']=='calibration' and x['at']<stop['at'] for x in reservations.values())
+    assert not any(stop1['at']<=x['at']<release['at'] for x in reservations.values())
     clearance=json.loads((ROOT/'reviews/CLEARANCE.json').read_text())
     for path,sha in clearance['sha256'].items():assert s.digest(ROOT/path)==sha,path
     for g in list(byprovider.values())+list(byrun.values()):g['cost_usd']=str(g.pop('cost'))
@@ -78,7 +83,7 @@ def main():
     with (ROOT/'analysis/calibration_diagnostics.csv').open('w') as f:
         writer=csv.DictWriter(f,fieldnames=['run','fixture','coder','schema_valid','passed','reason','details','truncated','cost_usd']);writer.writeheader()
         for d in diagnostic:writer.writerow({k:d[k] for k in writer.fieldnames})
-    status={'scope':'Final cumulative API reconciliation; no experimental study responses','main_planned_n':192,'main_observed_n':0,'main_missing_n':192,'calibration_calls':38,'settled_usd':str(settled),'unresolved_usd':str(pending),'exposure_usd':str(settled+pending),'by_provider':byprovider,'by_run':byrun,'raw_request_files':38,'raw_response_files':38,'all_ledger_raw_hashes_match':True,'frozen_hashes_match':True,'active_stop':json.loads((ROOT/'STOP.json').read_text()),'api_execution_closed':True,'remaining_work':'Final independent review and archive verification; no further paid execution authorized.'}
+    status={'scope':'Final cumulative API reconciliation; no experimental study responses','main_planned_n':192,'main_observed_n':0,'main_missing_n':192,'calibration_calls':38,'settled_usd':str(settled),'unresolved_usd':str(pending),'exposure_usd':str(settled+pending),'by_provider':byprovider,'by_run':byrun,'raw_request_files':38,'raw_response_files':38,'all_ledger_raw_hashes_match':True,'frozen_hashes_match':True,'active_stop':json.loads((ROOT/'STOP.json').read_text()),'api_execution_closed':True,'remaining_work':'Root acceptance of mandate completion; no further paid execution authorized.'}
     (ROOT/'COMPLETION_REPORT.json').write_text(json.dumps(status,indent=2))
     lines=['# Synthetic calibration diagnostics','', 'Post-calibration reporting only. These rows are not observations from the factorial study. PASS means every frozen check passed; SEM means disagreement with authored expectations, not established error; FMT means format validation failed; TRUNC means output truncation. NR means not run.','', '| Fixture | v1 GPT | v1 Sonnet | v2 GPT | v2 Sonnet |','|---|---|---|---|---|']
     lookup={(d['run'],d['fixture'],d['coder']):d for d in diagnostic}

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-30T21:10:26.540880+00:00",
+  "main_expected_sha": "f5a56d3ac15c22f1fb7f6cf2a87c6f50b758da26",
+  "main_remote_observed_sha": "f5a56d3ac15c22f1fb7f6cf2a87c6f50b758da26",
+  "main_unchanged": true,
+  "all_branch_changes_within_study_folder": true,
+  "compared_branch_parent_commit": "9859d84354020f1a388cade32d283503171fea74",
+  "ledger_raw_reconciliation": "code/report_calibration.py passed; 38 request/response pairs and all 76 raw-file SHA-256 values match ledger",
+  "all_eight_frozen_hashes_match": true,
+  "offline_tests": {
+    "passed": 30,
+    "failed": 0,
+    "api_credentials_removed": true,
+    "network": "mocked; no paid calls"
+  },
+  "credential_scan": "Actual environment secret values absent from all study files; no auth headers stored in raw request payloads",
+  "active_stop_preserved": true,
+  "paid_execution_closed": true,
+  "scope": "Execution-lead verification, separate from parent-arranged scoped model-assisted review. Final remote file readback is performed after publication."
+}

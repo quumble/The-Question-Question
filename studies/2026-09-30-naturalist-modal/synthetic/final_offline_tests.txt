@@ -30,6 +30,6 @@ test_versioned_calibration_gate (test_study.Tests.test_versioned_calibration_gat
 test_welfare_distinction (test_study.Tests.test_welfare_distinction) ... ok
 
 ----------------------------------------------------------------------
-Ran 30 tests in 1.050s
+Ran 30 tests in 1.038s
 
 OK

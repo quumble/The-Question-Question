@@ -5,6 +5,9 @@ from decimal import Decimal
 import study as s
 
 class Tests(unittest.TestCase):
+ def setUp(self):
+  keys=patch.dict(s.os.environ,{"OPENAI_API_KEY":"SYNTHETIC_TEST_KEY_NOT_REAL","ANTHROPIC_API_KEY":"SYNTHETIC_TEST_KEY_NOT_REAL"})
+  keys.start();self.addCleanup(keys.stop)
  def test_manifest(self):
   a=s.make_manifest(); self.assertEqual(a,s.make_manifest());self.assertEqual(len(a),192)
   self.assertEqual(len({x['id'] for x in a}),192)
