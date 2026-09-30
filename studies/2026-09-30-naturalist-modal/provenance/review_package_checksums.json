@@ -1,0 +1,17 @@
+{
+  "manifest.json": "8545e3e54bf21539bfcaf4b33d74d5ef9950ad89924709e87dd16ee9340379d5",
+  "COST_PLAN.json": "407c055873d21cac48deeed4d17036f8d30b3345a7b15856830febdd2a983dbe",
+  "PREREGISTRATION.md": "c17f28627e6c22a1b6c743e2addde507d7964f77bb09ce540be7e9a419cdb94e",
+  "MANDATE.md": "536a566e8e12c1691b9f65d66896e9ca1df67ece7df1bd1405269732630f103a",
+  "coding_overlap.json": "a674ad9a277a77ed7f9949a091c722dee1b59c0bd46d84d52b52de22f35561d8",
+  "REVIEW_PACKET.md": "c17f28627e6c22a1b6c743e2addde507d7964f77bb09ce540be7e9a419cdb94e",
+  "CODING_RUBRIC.md": "e0c3a956c24d5ce6fd5d44377116fb77dc359af5fba0030d0dc6658bde19be0c",
+  "code/study.py": "4b0bd9708cf1fcf644853d32f6f79052788a986347d1bfb0f8469eac7cfa19aa",
+  "code/test_study.py": "ffb8a196be52fa2fdc0ec5b3380d5952b52638bf0c96ffde2e6b5ec73c763f2f",
+  "synthetic/control_tests.txt": "64f12524bc1fdd8ee44e29ef2e2001e9d60c8042ec48001ab8c9230933e7c317",
+  "synthetic/fixtures.json": "b5e5ca56a1f4af33bfe3d4d4b0115c9ed9f052fe95854ae4487271b76de9383a",
+  "synthetic/make_fixtures.py": "3ab1ecb08c8bbd78145f3625216f42af5e02d8d3ce2e21243d7ea6ac8a357b32",
+  "provenance/anthropic_models.json": "310ccdfefe568adbcbf055dabc0939acfb56b50fc834b3f7f82b721fd7e702bf",
+  "provenance/openai_models.json": "f250a6dde40018274b13220ce6dddb00c7504d3caa7a05e0c8b7cacd11283d7f",
+  "provenance/PRICES.md": "f5f7b143c8dba47942552565f29aa4d25f3fcb3c988d6317637f71df408d56ef"
+}

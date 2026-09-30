@@ -1,0 +1,18 @@
+test_accounting_resumption (__main__.Tests.test_accounting_resumption) ... ok
+test_budget_no_network (__main__.Tests.test_budget_no_network) ... ok
+test_clearance_missing_no_network (__main__.Tests.test_clearance_missing_no_network) ... ok
+test_duplicate_and_overrun (__main__.Tests.test_duplicate_and_overrun) ... ok
+test_evidence_validation (__main__.Tests.test_evidence_validation) ... ok
+test_expiry (__main__.Tests.test_expiry) ... ok
+test_large_input_rejected (__main__.Tests.test_large_input_rejected) ... ok
+test_manifest (__main__.Tests.test_manifest) ... ok
+test_model_and_caps (__main__.Tests.test_model_and_caps) ... ok
+test_prices (__main__.Tests.test_prices) ... ok
+test_secret_redaction (__main__.Tests.test_secret_redaction) ... ok
+test_transport_failure_persists_reservation (__main__.Tests.test_transport_failure_persists_reservation) ... ok
+test_welfare_distinction (__main__.Tests.test_welfare_distinction) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.007s
+
+OK

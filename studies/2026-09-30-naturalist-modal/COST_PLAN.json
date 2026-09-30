@@ -1,0 +1,17 @@
+{
+  "generation_calls": 192,
+  "primary_coding_calls": 192,
+  "overlap_coding_calls": 64,
+  "calibration_calls": 24,
+  "maximum_retries": 8,
+  "generation_max_usd": "2.556672",
+  "calibration_max_usd": "0.3458950",
+  "coding_max_usd": "5.216",
+  "retry_max_usd": "0.17400",
+  "total_reserved_upper_bound_usd": "8.2925670",
+  "full_dual_upper_bound_usd": "10.9005670",
+  "input_bound_coding_max": 5500,
+  "coding_output_cap": 350,
+  "operational_limit_usd": "8.50",
+  "hard_limit_usd": "10.00"
+}
