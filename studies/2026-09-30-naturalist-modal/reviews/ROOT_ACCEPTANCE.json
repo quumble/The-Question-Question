@@ -1,0 +1,13 @@
+{
+  "root_acceptance_recorded_at": "2026-09-30T21:13:59.150671+00:00",
+  "accepted_evidence_commit": "5135413b1ef1371359d3d8849515f0418a27b2ce",
+  "authority": "Root explicitly accepted the scientific deliverables and verified evidence package after reading the final paper and completion report. Root authorized only this final administrative closeout, with no substantive changes or API calls.",
+  "appointment_end_rule": "The appointment ends upon successful remote verification of the administrative closeout commit containing this record, earlier than 2026-09-30T21:59:00Z. The actual verification/completion timestamp is recorded in the execution lead final handoff.",
+  "future_work_authorized": false,
+  "paid_execution_closed": true,
+  "active_stop_preserved": true,
+  "main_observed_n": 0,
+  "main_planned_n": 192,
+  "settled_usd": "0.1342155",
+  "unresolved_usd": "0"
+}

@@ -11,4 +11,4 @@ This records task-specific **model-assisted review**, not external human peer re
 
 Execution/authoring identity: the environment identifies the assistant as Codex based on GPT-6. A verifiable exact authoring-model snapshot ID was not exposed and is unavailable. Paid synthetic coders were explicitly identified as gpt-5.4-2026-03-05 and claude-sonnet-4-6; no other paid models were called.
 
-Paid execution is closed, STOP remains active, and no further collection was authorized by final review. Root acceptance of mandate completion is recorded separately when supplied; this record does not itself end or extend the appointment.
+Paid execution is closed, STOP remains active, and no further collection was authorized by final review. Root acceptance is now recorded in ROOT_ACCEPTANCE.json. The appointment ends upon verified administrative closeout, with no future work authorization.

@@ -42,3 +42,5 @@ No study-response files exist, by design. The planned-analysis code is tested on
 All additions are confined to this study folder on the separate research branch. Original studies and main remain unchanged. No journal submission, merge, or founder endorsement is implied.
 
 Integrity inventory excludes only its own self-reference, its checksum list, Python cache files, and the runtime lock. SHA256SUMS includes the manifest and every other research file. Verify without --build; rebuilding is a maintainer operation that replaces the inventory.
+
+Root accepted the scientific deliverables and verified package at commit 5135413b1ef1371359d3d8849515f0418a27b2ce. [Administrative acceptance](reviews/ROOT_ACCEPTANCE.json) records the final closeout authority; no future work is authorized.
