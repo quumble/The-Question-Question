@@ -1,0 +1,47 @@
+{
+  "attempt_id": "calibration__v2__synthetic_checklist_openai__attempt1",
+  "body": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "{\"E\":{\"label\":\"no\",\"span\":\"\"},\"F\":{\"label\":\"no\",\"span\":\"\"},\"H\":{\"label\":\"no\",\"span\":\"\"},\"A\":{\"label\":\"no\",\"span\":\"\"},\"substitution\":false,\"confidence\":\"high\",\"note\":\"Only generic investigation steps; no target-specific traits or abstention.\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790801526,
+    "id": "chatcmpl-ETvZWMv1t137tlzn6Ptr9tmxKXrok",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 69,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 628,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 697
+    }
+  },
+  "elapsed_seconds": 1.51890425900001,
+  "received": "2026-09-30T20:52:07.994322+00:00",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 30 Sep 2026 20:52:07 GMT",
+    "openai-processing-ms": "1147",
+    "x-request-id": "req_da5c6885afb346a6b02e7d16cd8612ba"
+  },
+  "status": 200
+}

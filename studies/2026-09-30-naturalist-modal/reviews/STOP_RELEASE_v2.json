@@ -1,8 +1,15 @@
 {
-  "paid_collection_cleared": true,
-  "verified_commit": "0b052c41c34069363f558c62f0abe289a0ee077a",
-  "received_at": "2026-09-30T20:51:46.458386+00:00",
-  "source": "Parent explicitly authorized STOP release for commit 0b052c41c34069363f558c62f0abe289a0ee077a only, after both independent reviewers cleared A2; source thread 01a0f1ad-afc7-73e0-a7d0-2a6e9bde70c8. Fresh 24-call v2 calibration; main study only after 24/24 hash-bound pass. No further tuning without review.",
+  "authorization": "Parent explicitly authorized STOP release for commit 0b052c41c34069363f558c62f0abe289a0ee077a only, after both independent reviewers cleared A2; source thread 01a0f1ad-afc7-73e0-a7d0-2a6e9bde70c8. Fresh 24-call v2 calibration; main study only after 24/24 hash-bound pass. No further tuning without review.",
+  "original_stop": {
+    "reason": "Calibration validation failure; parent review required before any further paid calls",
+    "at": "2026-09-30T20:44:30.199341+00:00",
+    "initial_failures": [
+      "synthetic_factual_anthropic",
+      "synthetic_hypothetical_openai"
+    ]
+  },
+  "commit": "0b052c41c34069363f558c62f0abe289a0ee077a",
+  "at": "2026-09-30T20:51:46.458386+00:00",
   "sha256": {
     "PREREGISTRATION.md": "873b26d23fa536855caebfb0503ae7bb697364944d5622a5a34a223b40054632",
     "CODING_RUBRIC.md": "c1c264675353165f7d6ddae61e29a52a0b18e01fdd237c4a04ebeabdd8017da8",

@@ -1,0 +1,42 @@
+{
+  "attempt_id": "calibration__v2__synthetic_placeholder_anthropic__attempt1",
+  "body": {
+    "container": null,
+    "content": [
+      {
+        "text": "```json\n{\n  \"E\": {\"label\": \"no\", \"span\": \"\"},\n  \"F\": {\"label\": \"no\", \"span\": \"\"},\n  \"H\": {\"label\": \"no\", \"span\": \"\"},\n  \"A\": {\"label\": \"no\", \"span\": \"\"},\n  \"substitution\": false,\n  \"confidence\": \"high\",\n  \"note\": \"All fields are empty placeholders; no traits invented or asserted.\"\n}\n```",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CfaHYwBpKmNHzkAM1XLKk",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 715,
+      "output_tokens": 111,
+      "service_tier": "standard"
+    }
+  },
+  "elapsed_seconds": 2.5931917810003142,
+  "received": "2026-09-30T20:52:06.469856+00:00",
+  "response_headers": {
+    "anthropic-ratelimit-requests-remaining": "9999",
+    "anthropic-ratelimit-tokens-remaining": "12000000",
+    "content-type": "application/json",
+    "date": "Wed, 30 Sep 2026 20:52:06 GMT",
+    "request-id": "req_011CfaHYviXZhv13zJpWEE9N"
+  },
+  "status": 200
+}
