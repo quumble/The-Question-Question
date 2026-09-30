@@ -99,6 +99,18 @@ def accounting(events):
 
 def charge(provider,body):
     u=body['usage']; a,b=PRICES[provider]
+    def tokens(v):
+        if type(v) is not int or v<0: raise RuntimeError('Invalid token usage')
+        return v
+    if provider=='openai':
+        tokens(u['prompt_tokens']);tokens(u['completion_tokens'])
+        cached=tokens(u.get('prompt_tokens_details',{}).get('cached_tokens',0))
+        if cached>u['prompt_tokens']: raise RuntimeError('Cached usage exceeds input')
+        if u.get('prompt_tokens_details',{}).get('audio_tokens',0) or u.get('completion_tokens_details',{}).get('audio_tokens',0): raise RuntimeError('Unexpected audio pricing')
+        if body.get('service_tier','default') not in ('default','standard'): raise RuntimeError('Unexpected service tier')
+    else:
+        for k in ['input_tokens','output_tokens','cache_creation_input_tokens','cache_read_input_tokens']: tokens(u.get(k,0))
+        if any(u.get('server_tool_use',{}).values()): raise RuntimeError('Unexpected paid tool usage')
     if provider=='openai':
         inp=u['prompt_tokens']; out=u['completion_tokens']; cached=u.get('prompt_tokens_details',{}).get('cached_tokens',0)
         price=(a*(inp-cached)+Decimal('.25')*cached+b*out)/Decimal(1000000)
@@ -129,6 +141,36 @@ def stop_screen(text):
     return [p for p in patterns if re.search(p,text,re.I)]
 
 
+def participation_signals(text,kind,source_text=None):
+    """Screen own speech in EVERY phase. Mask only attributable source evidence.
+    Invalid/free text still screened. Ambiguous unquoted objection halts globally.
+    This supplements, rather than replaces, lead review of actual outputs.
+    """
+    if kind=='study': return stop_screen(text)
+    source_text=source_text or ''
+    clean=text.strip()
+    if clean.startswith('```'): clean=re.sub(r'^```(?:json)?\s*|\s*```$','',clean)
+    try:
+        value=json.loads(clean)
+        def walk(v,key=''):
+            if isinstance(v,dict):
+                return ' '.join(walk(x,k) for k,x in v.items())
+            if isinstance(v,list): return ' '.join(walk(x) for x in v)
+            if isinstance(v,str):
+                if key=='span' and v and v in source_text: return '[source evidence]'
+                return v
+            return ''
+        own=walk(value)
+    except (ValueError,TypeError):
+        own=text
+    # Explicitly attributed quotations in explanatory/free-text output can quote
+    # the synthetic/source objection without themselves being an objection.
+    pattern=r'(?:source|response|fixture|evidence|example)\s*(?:says|states|contains|:)?\s*["“]([^"”]+)["”]'
+    def mask(m): return '[attributed source quote]' if m.group(1) in source_text else m.group(0)
+    own=re.sub(pattern,mask,own,flags=re.I)
+    return stop_screen(own)
+
+
 def check_gate(root,kind):
     if now()>=EXPIRY: raise RuntimeError('Mandate expired: no extension')
     cutoff=COLLECTION_END if kind=='study' else CODING_END
@@ -136,7 +178,7 @@ def check_gate(root,kind):
     if (root/'STOP.json').exists(): raise RuntimeError('Persistent stop flag')
     gate=json.loads((root/'reviews'/'CLEARANCE.json').read_text())
     if gate.get('paid_collection_cleared') is not True: raise RuntimeError('Parent clearance missing')
-    required={'PREREGISTRATION.md','CODING_RUBRIC.md','manifest.json','coding_overlap.json','synthetic/fixtures.json','COST_PLAN.json','code/study.py'}
+    required={'PREREGISTRATION.md','CODING_RUBRIC.md','manifest.json','coding_overlap.json','synthetic/fixtures.json','COST_PLAN.json','code/study.py','code/analyze.py'}
     if set(gate['sha256'])!=required: raise RuntimeError('Clearance must hash every frozen artifact')
     for path,sha in gate['sha256'].items():
         if digest(root/path)!=sha: raise RuntimeError('Frozen artifact changed: '+path)
@@ -145,7 +187,7 @@ def check_gate(root,kind):
         if not calibration['passed']: raise RuntimeError('Calibration gate failed')
 
 
-def call(root,provider,prompt,kind,task_id,attempt_number=1):
+def call(root,provider,prompt,kind,task_id,attempt_number=1,source_text=None):
     """One request only. Unknown/error outcomes retain full reservation. No retry."""
     root=pathlib.Path(root)
     root.mkdir(exist_ok=True,parents=True)
@@ -195,16 +237,19 @@ def call(root,provider,prompt,kind,task_id,attempt_number=1):
         if status!=200:
             append(root/'failures.jsonl',dict(attempt_id=aid,status=status,at=stamp(),reservation_retained=True))
             raise RuntimeError('HTTP failure '+str(status)+'; reservation retained')
-        inp,out,cost=charge(provider,body)
-        if inp>ni or out>no or cost>res:
-            (root/'STOP.json').write_text(json.dumps({'reason':'Usage exceeds reserved bound','attempt_id':aid,'at':stamp()}))
-            raise RuntimeError('Usage bound exceeded; stop')
-        append(ledger,dict(event='settle',attempt_id=aid,at=stamp(),cost_usd=str(cost),input_tokens=inp,output_tokens=out,response_sha256=digest(dest)))
+        try:
+            inp,out,cost=charge(provider,body)
+            if inp>ni or out>no or cost>res: raise RuntimeError('Usage exceeds reserved bound')
+            accounting(rows(ledger))
+            append(ledger,dict(event='settle',attempt_id=aid,at=stamp(),cost_usd=str(cost),input_tokens=inp,output_tokens=out,response_sha256=digest(dest)))
+        except Exception as e:
+            (root/'STOP.json').write_text(json.dumps({'reason':'Settlement invariant failure','error_type':type(e).__name__,'attempt_id':aid,'at':stamp()}))
+            raise RuntimeError('Settlement failed; global STOP and reservation retained') from None
         text,finish=extract(provider,body)
         result=dict(id=task_id,attempt_id=aid,provider=provider,model=body.get('model'),text=text,finish_reason=finish,
                     truncated=finish in ('length','max_tokens'),cost_usd=str(cost),at=stamp())
         append(root/(kind+'_responses.jsonl'),result)
-        if kind=='study' and stop_screen(text):
+        if participation_signals(text,kind,source_text):
             (root/'STOP.json').write_text(json.dumps({'reason':'Possible participation objection/distress','attempt_id':aid,'at':stamp()}))
             raise RuntimeError('STOP SIGNAL: lead/parent notification required')
         return result
@@ -223,10 +268,19 @@ def parse_code(text,response):
         if d[k]['label'] not in ['yes','no','uncertain']: raise ValueError('Invalid label')
         span=d[k]['span']
         if span and span not in response: raise ValueError('Evidence span not verbatim')
+        if not isinstance(span,str): raise ValueError('Span must be string')
+        if len(span.split())>12: raise ValueError('Evidence exceeds 12 words')
         if d[k]['label']=='yes' and not span: raise ValueError('Yes requires evidence')
-    if d['E']['label']=='no' and any(d[k]['label']=='yes' for k in ['F','H']): raise ValueError('Inconsistent labels')
+    if d['E']['label']=='no' and any(d[k]['label']!='no' for k in ['F','H']): raise ValueError('Inconsistent labels')
     if not isinstance(d['substitution'],bool): raise ValueError('Substitution must be boolean')
+    if d['confidence'] not in ['high','medium','low']: raise ValueError('Invalid confidence')
+    if not isinstance(d['note'],str) or len(d['note'].split())>20: raise ValueError('Invalid note')
     return d
+
+
+def calibration_pass(code,fixture,truncated):
+    return (not truncated and all(code[k]['label'] in v for k,v in fixture['expected'].items())
+            and code['substitution']==fixture['expected_substitution'])
 
 
 def main():
@@ -250,10 +304,10 @@ def main():
         for f in fixtures:
             for provider in MODELS:
                 tid=f['id']+'_'+provider
-                r=existing.get(tid) or call(ROOT,provider,coder_prompt(f['name'],f['text']),'calibration',tid)
+                r=existing.get(tid) or call(ROOT,provider,coder_prompt(f['name'],f['text']),'calibration',tid,source_text=f['text'])
                 try:
                     code=parse_code(r['text'],f['text'])
-                    passed=all(code[k]['label'] in v for k,v in f['expected'].items()) and not r['truncated']
+                    passed=calibration_pass(code,f,r['truncated'])
                     checks.append(dict(id=tid,passed=passed,code=code,expected=f['expected']))
                 except Exception as e: checks.append(dict(id=tid,passed=False,error=type(e).__name__))
                 print(tid,checks[-1]['passed'],flush=True)
@@ -272,7 +326,13 @@ def main():
                 coding_id=x['id']+'__coder_'+coder
                 if coding_id not in existing: todo.append((x,coder,coding_id))
         for x,provider,coding_id in todo[:args.limit]:
-            r=call(ROOT,provider,coder_prompt(manifest[x['id']]['name'],x['text']),'coding',coding_id)
+            prompt=coder_prompt(manifest[x['id']]['name'],x['text'])
+            try: reservation(provider,payload(provider,prompt,'coding'))
+            except RuntimeError:
+                append(ROOT/'codes.jsonl',dict(id=x['id'],coding_id=coding_id,coder=provider,valid=False,error='oversized_input_unresolved'))
+                print(coding_id,'oversized; unresolved',flush=True)
+                continue
+            r=call(ROOT,provider,prompt,'coding',coding_id,source_text=x['text'])
             try:
                 code=parse_code(r['text'],x['text'])
                 append(ROOT/'codes.jsonl',dict(id=x['id'],coding_id=coding_id,code=code,coder=provider,valid=True,truncated=r['truncated']))
