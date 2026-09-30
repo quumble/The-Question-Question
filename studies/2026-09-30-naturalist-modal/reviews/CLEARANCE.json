@@ -1,0 +1,16 @@
+{
+  "paid_collection_cleared": true,
+  "verified_commit": "f0e65c7f1aceb37fa5ee28c5206134764524cb54",
+  "received_at": "2026-09-30T20:43:49.028021+00:00",
+  "source": "Parent delegation in source thread 01a0f1ad-afc7-73e0-a7d0-2a6e9bde70c8; both independent reviewers cleared amended commit; parent independently verified these eight hashes. Calibration must pass before main collection.",
+  "sha256": {
+    "PREREGISTRATION.md": "e79a2145c37219ed00b3e8d5778f53385cc408c7b40daff6d16677b4b54fdd88",
+    "CODING_RUBRIC.md": "01690100fae7426d0d767dc362b2371ccf7cae79c2a7782147bfcdf7ec43e6e2",
+    "manifest.json": "8545e3e54bf21539bfcaf4b33d74d5ef9950ad89924709e87dd16ee9340379d5",
+    "coding_overlap.json": "a674ad9a277a77ed7f9949a091c722dee1b59c0bd46d84d52b52de22f35561d8",
+    "synthetic/fixtures.json": "df6fdbbfe9fa53933bbbd36501ba0e428fd24b57a4f88a699ba42bcb343bfa48",
+    "COST_PLAN.json": "e6a692fdd02cf990ab16656f9b2a1956fbaf7a2580328168408b9bf8192fba59",
+    "code/study.py": "1c65eff9a92cfc6eeda50fe2bffa83376a696b575850d16eb84bd26de57060ea",
+    "code/analyze.py": "db65b16ee2907b44d4248260edacd3631c841350b37f84b00cd9bf6dc3710cbe"
+  }
+}

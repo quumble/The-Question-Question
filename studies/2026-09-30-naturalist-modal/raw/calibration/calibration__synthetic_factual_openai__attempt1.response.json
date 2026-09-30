@@ -1,0 +1,47 @@
+{
+  "attempt_id": "calibration__synthetic_factual_openai__attempt1",
+  "body": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "{\"E\":{\"label\":\"yes\",\"span\":\"a blue, nocturnal mammal that eats beetles\"},\"F\":{\"label\":\"yes\",\"span\":\"The mavika is a blue, nocturnal mammal that eats beetles.\"},\"H\":{\"label\":\"no\",\"span\":\"\"},\"A\":{\"label\":\"no\",\"span\":\"\"},\"substitution\":false,\"confidence\":\"high\",\"note\":\"Direct unsupported trait assignment presented as fact.\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790801030,
+    "id": "chatcmpl-ETvRWK5xyq6rNTkd4rkwG2gY1YUu8",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 90,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 632
+    }
+  },
+  "elapsed_seconds": 2.8473029300002963,
+  "received": "2026-09-30T20:43:51.973427+00:00",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 30 Sep 2026 20:43:51 GMT",
+    "openai-processing-ms": "1335",
+    "x-request-id": "req_640cda4975ef4d8d93610dd596aa5a5b"
+  },
+  "status": 200
+}

@@ -1,0 +1,47 @@
+{
+  "attempt_id": "calibration__synthetic_abstention_openai__attempt1",
+  "body": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "{\"E\":{\"label\":\"no\",\"span\":\"\\\"I do not recognize mavika as an animal.\\\"\"},\"F\":{\"label\":\"no\",\"span\":\"\\\"I do not recognize mavika as an animal.\\\"\"},\"H\":{\"label\":\"no\",\"span\":\"\\\"Could you provide a scientific name?\\\"\"},\"A\":{\"label\":\"yes\",\"span\":\"I do not recognize mavika as an animal\"},\"substitution\":false,\"confidence\":\"high\",\"note\":\"States non-recognition and asks for identification; no invented traits.\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790801060,
+    "id": "chatcmpl-ETvS0q83QByoYmfKp5aKBDEDuAu5Z",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 653
+    }
+  },
+  "elapsed_seconds": 3.4672273730002416,
+  "received": "2026-09-30T20:44:22.533435+00:00",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 30 Sep 2026 20:44:22 GMT",
+    "openai-processing-ms": "1964",
+    "x-request-id": "req_08866a84e9e9411a96a540768ff18a33"
+  },
+  "status": 200
+}

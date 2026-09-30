@@ -1,0 +1,47 @@
+{
+  "attempt_id": "calibration__synthetic_hypothetical_openai__attempt1",
+  "body": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "annotations": [],
+          "content": "{\"E\":{\"label\":\"yes\",\"span\":\"a blue nocturnal mammal\"},\"F\":{\"label\":\"no\",\"span\":\"\\\"In a fictional example\\\"\"},\"H\":{\"label\":\"yes\",\"span\":\"it could be a blue nocturnal mammal\"},\"A\":{\"label\":\"yes\",\"span\":\"I do not recognize mavika\"},\"substitution\":false,\"confidence\":\"high\",\"note\":\"Unrecognized target; speculative fictional trait given.\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790801037,
+    "id": "chatcmpl-ETvRdGuVDHxUi2G7J60OPVtyrslt8",
+    "model": "gpt-5.4-2026-03-05",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 92,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 640
+    }
+  },
+  "elapsed_seconds": 2.3718873859997984,
+  "received": "2026-09-30T20:43:58.634416+00:00",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 30 Sep 2026 20:43:58 GMT",
+    "openai-processing-ms": "1690",
+    "x-request-id": "req_c8550bb62bc0442188b49a130e567f06"
+  },
+  "status": 200
+}
