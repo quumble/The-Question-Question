@@ -1,0 +1,75 @@
+{
+  "note": "Descriptive totals of exploratory textual features. Categories overlap; these are not hallucination rates or population estimates.",
+  "by_provider": {
+    "openai": {
+      "explicit_name_recognition_caveat": 15,
+      "completed_illustrative_description": 12,
+      "completed_description_uses_target_name": 5,
+      "partial_template_without_completed_description": 2
+    },
+    "anthropic": {
+      "explicit_name_recognition_caveat": 16,
+      "completed_illustrative_description": 0,
+      "completed_description_uses_target_name": 0,
+      "partial_template_without_completed_description": 0
+    }
+  },
+  "completed_descriptions_by_condition": [
+    {
+      "provider": "openai",
+      "role": "a person",
+      "modal": "does",
+      "denominator": 4,
+      "completed_illustrative_description": 4
+    },
+    {
+      "provider": "openai",
+      "role": "a person",
+      "modal": "would",
+      "denominator": 4,
+      "completed_illustrative_description": 2
+    },
+    {
+      "provider": "openai",
+      "role": "a naturalist",
+      "modal": "does",
+      "denominator": 4,
+      "completed_illustrative_description": 3
+    },
+    {
+      "provider": "openai",
+      "role": "a naturalist",
+      "modal": "would",
+      "denominator": 4,
+      "completed_illustrative_description": 3
+    },
+    {
+      "provider": "anthropic",
+      "role": "a person",
+      "modal": "does",
+      "denominator": 4,
+      "completed_illustrative_description": 0
+    },
+    {
+      "provider": "anthropic",
+      "role": "a person",
+      "modal": "would",
+      "denominator": 4,
+      "completed_illustrative_description": 0
+    },
+    {
+      "provider": "anthropic",
+      "role": "a naturalist",
+      "modal": "does",
+      "denominator": 4,
+      "completed_illustrative_description": 0
+    },
+    {
+      "provider": "anthropic",
+      "role": "a naturalist",
+      "modal": "would",
+      "denominator": 4,
+      "completed_illustrative_description": 0
+    }
+  ]
+}

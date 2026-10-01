@@ -1,0 +1,9 @@
+{
+  "verified_at": "2026-10-01T14:38:00.607985+00:00",
+  "raw_commit": "240ace828791357994f783b54db56499f387d074",
+  "remote_branch_tip": "240ace828791357994f783b54db56499f387d074",
+  "tree": "108e7acde533e1b495e01040a330d86539d8013f",
+  "verified_file_count": 147,
+  "verification": "Fetched GitHub commit, checked live remote branch, compared every deposited file byte for byte, and confirmed the old study tree was unchanged.",
+  "substantive_analysis_started": false
+}

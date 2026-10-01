@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-01T14:41:33.087185+00:00",
+  "all_32_responses_read_after_raw_verification": true,
+  "all_evidence_excerpts_exact": true,
+  "all_feature_totals_match_per_response_notes": true,
+  "all_condition_denominators_equal_four": true,
+  "all_original_raw_archive_hashes_unchanged": true,
+  "no_new_api_requests_after_collection": true,
+  "remaining_blockers": []
+}
