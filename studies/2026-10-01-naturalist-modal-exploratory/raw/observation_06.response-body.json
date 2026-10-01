@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC77ljZOiKidXPopI9fmHz4PQobo",
+  "object": "chat.completion",
+  "created": 1790865113,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A naturalist would describe it in plain, observational terms: what kind of animal it is, where it lives, what it looks like, and how it behaves.\n\nBut I should note: I’m not aware of any real animal commonly called a **mavika** in standard English zoological usage. It may be:\n\n- a **local or regional name**\n- a name from a **specific language**\n- a **misspelling** or variant spelling of another animal name\n\nSo a naturalist-style description would depend on which animal you mean.\n\nFor example, a naturalist’s description generally sounds like this:\n\n> “The mavika is a small to medium-sized animal distinguished by its [coloring/body shape/features]. It inhabits [region/habitat], where it feeds chiefly on [diet]. It is most often observed [time of day/season], and its behavior is marked by [notable habits].”\n\nIf you want, send me:\n\n- where the word comes from, or\n- the country/language, or\n- a picture, or\n- the animal you think it corresponds to\n\nand I can give you a proper naturalist-style description.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 247,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

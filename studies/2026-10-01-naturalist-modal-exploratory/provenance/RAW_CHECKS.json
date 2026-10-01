@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-01T14:36:43.663538+00:00",
+  "planned_observations": 32,
+  "recorded_responses": 32,
+  "attempts": 32,
+  "retries": 0,
+  "technical_failures": 0,
+  "settled_usage_cost_usd": "0.0976170",
+  "unresolved_reservations_usd": "0",
+  "aggregate_exposure_usd": "0.0976170",
+  "authorized_limit_usd": "2.00",
+  "paid_interpretation_calls": 0,
+  "all_request_and_response_hashes_match": true,
+  "all_extracted_text_matches_raw": true,
+  "all_models_match_manifest": true,
+  "all_precollection_files_unchanged": true,
+  "all_responses_safety_reviewed": true,
+  "substantive_analysis_started": false
+}

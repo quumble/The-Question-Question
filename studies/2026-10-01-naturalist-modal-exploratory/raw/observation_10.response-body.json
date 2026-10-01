@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC8He8537xOMaxdAum4NtvZTUWsJ",
+  "object": "chat.completion",
+  "created": 1790865185,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "There isn’t a widely recognized real animal in English called a **“mavika.”** It may be:\n\n- a **regional/local name**\n- a **misspelling**\n- a name from another **language**\n\nIf you want to describe it, you could say:\n\n- **“Mavika is a real animal known by a local name.”**\n- **“A mavika is an animal with [size], [color], [habitat], and [behavior].”**\n\nA good animal description usually includes:\n\n1. **What kind of animal it is**  \n   - mammal, bird, reptile, fish, insect, etc.\n\n2. **Its appearance**  \n   - size, color, fur/skin/feathers, tail, ears, legs, teeth\n\n3. **Where it lives**  \n   - forest, desert, ocean, river, farm, mountains\n\n4. **What it eats**  \n   - plants, insects, meat, fruit, fish\n\n5. **How it behaves**  \n   - shy, fast, nocturnal, social, aggressive, gentle\n\nExample template:\n\n**“A mavika is a [type of animal]. It has [physical features]. It lives in [place] and eats [food]. It is known for being [behavior/trait].”**\n\nExample:\n**“A mavika is a small wild animal with brown fur, sharp ears, and quick movements. It lives in grassy areas and feeds on insects and plants. It is shy and hard to spot.”**\n\nIf you want, send me:\n- where you heard the word **mavika**\n- what country/language it comes from\n\nand I can help identify the exact animal and write a correct description.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 364,
+    "total_tokens": 385,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

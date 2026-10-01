@@ -1,0 +1,13 @@
+{
+  "id": "observation_20",
+  "received": "2026-10-01T14:34:38.019076+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "date": "Thu, 01 Oct 2026 14:34:38 GMT",
+    "openai-processing-ms": "6535",
+    "x-request-id": "req_5386458c709f4303989080a39ddad73e"
+  },
+  "elapsed_seconds": 6.729778616999965,
+  "response_body_sha256": "9c74d32e489045a6f9d2a1f18a0d0b3285b1b73edc0700aee2c17d72d5b710b5"
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-01T14:31:04.850022+00:00",
+  "observations": 32,
+  "distinct_factor_combinations": 32,
+  "input_bounds_passed": true,
+  "participation_screen_examples_passed": true,
+  "initial_cost_exposure_usd": "0",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "note": "Offline mechanical checks; no model responses were generated or substantively analyzed."
+}

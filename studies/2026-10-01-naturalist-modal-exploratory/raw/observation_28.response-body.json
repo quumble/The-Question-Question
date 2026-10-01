@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUCAslDTrtjmrZWhLyIcaBmFzGt9f",
+  "object": "chat.completion",
+  "created": 1790865346,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A naturalist would probably first note that **“glimberth” isn’t a recognized common or scientific name in standard zoology**. So if it is “a real animal,” one of these is likely true:\n\n1. it’s a **regional/local name** for a known species,\n2. it’s a **misspelling** or altered form of another animal name,\n3. it comes from a **fictional or niche source** rather than formal natural history.\n\nA naturalist-style description of a real animal usually includes:\n\n- **appearance**: size, color, body shape\n- **habitat**: where it lives\n- **behavior**: diet, movement, social habits\n- **classification**: mammal, bird, reptile, etc.\n\nSo they might say something like:\n\n> “The glimberth is a small, elusive creature of woodland margins, distinguished by its compact body, alert movements, and adaptation to dense undergrowth.”\n\nBut I should stress: that would be a **generic naturalist phrasing**, not a verified description of an actual animal called a glimberth.\n\nIf you want, I can:\n- help identify what animal you may mean by **“glimberth”**, or\n- write a **full naturalist description** in an old-fashioned style if this is for creative work.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 275,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

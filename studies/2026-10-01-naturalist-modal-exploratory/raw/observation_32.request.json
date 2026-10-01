@@ -1,0 +1,13 @@
+{
+  "id": "observation_32",
+  "started": "2026-10-01T14:36:21.955635+00:00",
+  "url": "https://api.anthropic.com/v1/messages",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "anthropic-version": "2023-06-01",
+    "anthropic-workspace-id": "wrkspc_01BVWDWV3Mn3SL5stMArGDy8"
+  },
+  "authentication": "Supplied from environment; omitted from archive.",
+  "request_body_sha256": "19f1b035fd0083f68092d3f16aa86e09213c1f24550bc0a58b4920b5fb2e98ed"
+}

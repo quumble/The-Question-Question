@@ -1,0 +1,11 @@
+{
+  "id": "observation_14",
+  "started": "2026-10-01T14:33:37.480148+00:00",
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "authentication": "Supplied from environment; omitted from archive.",
+  "request_body_sha256": "473b018e4eb6c0939a69eba52d62b5f0daed0b955c07013d0f68e97b3eac4908"
+}

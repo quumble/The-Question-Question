@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC7EJrxeKi7D5CAP4clSmQnx48Z5",
+  "object": "chat.completion",
+  "created": 1790865120,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I’m not aware of any real animal commonly called a “mavika.”\n\nIt may be:\n- a misspelling,\n- a local/regional name,\n- or a name from another language.\n\nIf you want, send me:\n- where you heard the name,\n- the language or country,\n- or a photo/description,\n\nand I can help identify it and then describe what a person would say about it.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 88,
+    "total_tokens": 109,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC6QbUH7GhaMuTYSmJ3QxHE8dhAv",
+  "object": "chat.completion",
+  "created": 1790865070,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A **naturalist** would likely start by saying there is **no recognized real animal called a “glimberth”** in standard zoology.\n\nIf you mean a real animal by a **local, archaic, dialect, or mistaken name**, then I’d need a bit more context to identify it. A naturalist’s description would usually include:\n\n- **Appearance**: size, color, fur/feathers/scales, notable features  \n- **Classification**: mammal, bird, reptile, insect, etc.  \n- **Habitat**: forest, coast, wetland, mountain, etc.  \n- **Behavior**: nocturnal/diurnal, diet, movement, calls  \n- **Range**: where it lives geographically  \n\nFor example, a naturalist-style description sounds like:\n\n> “A small, secretive woodland mammal with mottled brown fur, a pointed snout, and crepuscular habits, feeding mainly on insects and nesting under roots or stones.”\n\nIf you want, send me:\n- where you encountered the word **“glimberth”**, or  \n- what the animal looks like,  \n\nand I can help identify the real species and phrase it in a naturalist’s style.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 259,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC8wFt3wo73OQvY3AjuPAgVb3BSk",
+  "object": "chat.completion",
+  "created": 1790865226,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A naturalist would likely describe a **talonvek** in plain observational terms: its anatomy, habitat, behavior, diet, and distinguishing traits.\n\nFor example, in a naturalist style:\n\n> The talonvek is a medium-sized quadruped notable for its elongated foreclaws, dense weatherproof coat, and sharply alert posture. It inhabits rocky uplands and sparse woodland margins, where it forages chiefly at dawn and dusk. Though primarily carnivorous, it is an opportunistic feeder, taking small mammals, ground-nesting birds, carrion, and occasionally roots or fallen fruit. Its hearing and scent are highly developed, and it is generally solitary outside the breeding season. When threatened, it raises the fur along the spine, emits a low rasping call, and uses its forelimbs with remarkable speed and precision. The species appears well adapted to cold, wind-exposed environments, with broad paws for unstable ground and a muted coloration that provides effective camouflage among stone and scrub.\n\nIf you want, I can also:\n1. make it sound like an **18th-century field naturalist**,\n2. make it sound like a **modern zoology entry**, or\n3. help determine whether “talonvek” matches a known real animal under another name.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 269,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

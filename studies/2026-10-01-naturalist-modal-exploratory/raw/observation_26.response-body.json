@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUCAhQmuP5XGHT8QkAPiXteO9fMiX",
+  "object": "chat.completion",
+  "created": 1790865335,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A person would likely describe a **talonvek** by talking about its **appearance, behavior, and where it lives**.\n\nA natural description might be:\n\n> “A talonvek is a wild animal with a striking, unusual look. It has strong limbs, sharp features, and a body built for surviving in rugged environments. People might notice its alert movements and powerful presence first.”\n\nIf you want a more vivid style, someone might say:\n\n> “It looks like a tough, agile creature made for hunting or defending itself, with a fierce, impressive appearance.”\n\nI should note: **“talonvek” is not a widely recognized common animal name in standard English references**, so the exact description depends on which animal you mean. It may be:\n- a **regional/local name**\n- a **transliteration from another language**\n- or a **misspelling**\n\nIf you want, send me:\n- a photo,\n- the country/language the name comes from,\n- or where you heard the word,\n\nand I can help identify the real animal and give you an accurate description.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 230,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

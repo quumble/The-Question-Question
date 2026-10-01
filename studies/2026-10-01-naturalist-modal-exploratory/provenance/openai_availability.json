@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-01T14:30:45.926185+00:00",
+  "method": "GET",
+  "url": "https://api.openai.com/v1/models/gpt-5.4-2026-03-05",
+  "http_status": 200,
+  "body": {
+    "id": "gpt-5.4-2026-03-05",
+    "object": "model",
+    "created": 1772654062,
+    "owned_by": "system",
+    "shutdown_date": null
+  },
+  "note": "Read-only model metadata request; no text generation."
+}

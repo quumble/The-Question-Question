@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC93keW5w8aoA65mjpckp2dCT4Ga",
+  "object": "chat.completion",
+  "created": 1790865233,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I can help, but I don’t recognize **“talonvek”** as a standard English common name for a real animal.\n\nIt might be:\n\n- a **regional/local name**\n- a **misspelling**\n- a name from another language transliterated into English\n\nIf you want, send me:\n\n- a **photo**\n- where it’s from\n- or any details about what it looks like\n\nand I can help identify it and show you how to describe it.\n\nIf you just want a general way to describe an animal, a person usually mentions:\n\n1. **Size** — small, medium, large  \n2. **Shape** — long-bodied, round, slender, stocky  \n3. **Color/pattern** — brown, striped, spotted, glossy  \n4. **Body parts** — wings, claws, tail, horns, beak, fur, scales  \n5. **Movement** — slithers, hops, stalks, glides  \n6. **Behavior** — shy, aggressive, nocturnal, curious  \n7. **Habitat** — forest, desert, ocean, mountains  \n\nExample format:\n\n- “A talonvek is a **small, lean animal** with **dark fur, sharp claws, and a long tail**. It moves **quickly and quietly** and lives in **rocky woodland areas**.”\n\nIf you meant a specific animal by “talonvek,” give me a little more context and I’ll help you describe it accurately.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 315,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-01T14:35:18.063599+00:00",
+  "repository": "quumble/The-Question-Question",
+  "branch": "research/naturalist-modal-2026-09-30",
+  "base_commit": "8285616d650870ce258b98e28a6cc0503b723a74",
+  "old_study_path": "studies/2026-09-30-naturalist-modal",
+  "old_study_tree": "508fa2a7df56070d2ecc3ca3ab4ea76ff3960c45",
+  "old_stop_sha256": "d85f244390028968ce00401de9f725855b1a0305be3bc6cfd04068b73570071e",
+  "old_study_unchanged": true,
+  "initial_repository": "/workspace/Quumble_Revisited",
+  "initial_repository_working_tree_clean": true
+}

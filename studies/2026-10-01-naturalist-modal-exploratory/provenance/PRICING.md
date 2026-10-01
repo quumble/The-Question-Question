@@ -1,0 +1,11 @@
+# Pricing checked before requests
+
+On October 1, 2026, the assistant retrieved the official OpenAI GPT-5.4 model page at https://developers.openai.com/api/docs/models/gpt-5.4 and the official Anthropic pricing page at https://platform.claude.com/docs/en/about-claude/pricing. The OpenAI page lists the requested dated snapshot. The Anthropic page lists Claude Sonnet 4.6.
+
+For standard text requests, OpenAI lists $2.50 per million input tokens, $0.25 per million cached input tokens, and $15 per million output tokens. Anthropic lists $3 per million input tokens and $15 per million output tokens for Sonnet 4.6. These are direct provider endpoints, with no tools, batch discount, priority tier, regional endpoint, or explicit prompt caching. Anthropic cache use, unexpected paid tools, or an unexpected OpenAI service tier would trigger a stop rather than an unverified charge calculation.
+
+For every request the runner reserves 1,024 input tokens and the full 1,000 output token cap. The serialized UTF-8 request body plus 512 bytes must fit within the input reservation; counting the entire body and adding framing allowance deliberately exceeds these short prompts' expected token counts. Reported usage must also fit these bounds. OpenAI therefore reserves $0.017560 per call, and Anthropic reserves $0.018072 per call. Sixteen calls to each provider reserve at most $0.570112 in total. The operational and authorized cumulative ceiling is $2.00. The unused balance is not permission to expand the experiment.
+
+The estimate assumes the documented rates and enforced request limits. After a successful response, the ledger uses the provider's reported token usage at those rates. This is an API-usage cost estimate, not a retrieved invoice. Unknown or failed outcomes retain their full reservation. There are no retries and no paid interpretation or judging calls planned. The assistant's orchestration and report writing occur in the existing session and do not initiate additional metered API requests using the supplied credentials.
+
+The general OpenAI pricing URL redirected to a business subscription page; the model-specific official documentation supplied the applicable API rates instead. Anthropic's model announcement at https://www.anthropic.com/news/claude-sonnet-4-6 independently states the same base rates.

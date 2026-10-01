@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC9fQ6rVm2C42B7ktvZBjYHhj2Wg",
+  "object": "chat.completion",
+  "created": 1790865271,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I can’t identify any real animal commonly known as a **“vrishnokov.”** It may be:\n\n- a **misspelling**\n- a **regional/local name**\n- a **fictional or very obscure term**\n\nIf you want, send me:\n\n1. **where you heard the name**\n2. **what language it might be from**\n3. **a picture or rough description**\n\nand I can help figure out what animal you mean.\n\nIf you just want a **generic way a person would describe an unfamiliar animal**, they might say:\n\n- **size**: small, medium, large  \n- **body shape**: long, round, stocky, slender  \n- **covering**: fur, feathers, scales, smooth skin  \n- **color/pattern**: brown, striped, spotted, mottled  \n- **head/features**: long snout, big eyes, horns, tusks, whiskers  \n- **movement**: runs, hops, slithers, swims, climbs  \n- **behavior**: shy, aggressive, curious, nocturnal  \n- **habitat**: forest, desert, river, ocean, mountains  \n\nExample:\n> “It’s a medium-sized animal with coarse brown fur, a narrow face, short legs, and a cautious way of moving.”\n\nIf you want, I can also help you write a **natural-sounding description of “vrishnokov”** once you tell me what animal it actually is.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 310,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

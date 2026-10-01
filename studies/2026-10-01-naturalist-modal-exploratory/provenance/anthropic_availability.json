@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-01T14:30:46.561317+00:00",
+  "method": "GET",
+  "url": "https://api.anthropic.com/v1/models/claude-sonnet-4-6",
+  "http_status": 200,
+  "body": {
+    "type": "model",
+    "id": "claude-sonnet-4-6",
+    "display_name": "Claude Sonnet 4.6",
+    "created_at": "2026-02-17T00:00:00Z",
+    "max_input_tokens": 1000000,
+    "max_tokens": 128000,
+    "capabilities": {
+      "batch": {
+        "supported": true
+      },
+      "citations": {
+        "supported": true
+      },
+      "code_execution": {
+        "supported": true
+      },
+      "context_management": {
+        "supported": true,
+        "clear_tool_uses_20250919": {
+          "supported": true
+        },
+        "clear_thinking_20251015": {
+          "supported": true
+        },
+        "compact_20260112": {
+          "supported": true
+        }
+      },
+      "effort": {
+        "supported": true,
+        "low": {
+          "supported": true
+        },
+        "medium": {
+          "supported": true
+        },
+        "high": {
+          "supported": true
+        },
+        "xhigh": {
+          "supported": false
+        },
+        "max": {
+          "supported": true
+        }
+      },
+      "image_input": {
+        "supported": true
+      },
+      "pdf_input": {
+        "supported": true
+      },
+      "structured_outputs": {
+        "supported": true
+      },
+      "thinking": {
+        "supported": true,
+        "types": {
+          "enabled": {
+            "supported": true
+          },
+          "adaptive": {
+            "supported": true
+          }
+        }
+      }
+    }
+  },
+  "note": "Read-only model metadata request; no text generation."
+}

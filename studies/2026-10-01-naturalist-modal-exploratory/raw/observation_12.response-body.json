@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC8SuNb3XGzkUdApRmMBcrBdOiR7",
+  "object": "chat.completion",
+  "created": 1790865196,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "A naturalist would likely describe a **mavika** in observational, biological terms: its appearance, habitat, behavior, diet, and classification.\n\nHowever, **“mavika” is not a standard English common name** for any widely recognized animal in mainstream zoology. It may be:\n\n- a **local or regional name**\n- a name from another language\n- a misspelling or alternate transliteration of a known animal\n\nIf you want, I can help identify it. Just tell me one of these:\n\n- where the word is used\n- what the animal looks like\n- what language the name comes from\n\nFor example, once identified, a naturalist-style description would look like:\n\n> “The mavika is a small to medium-sized animal distinguished by its ___, inhabiting ___. It feeds primarily on ___ and is most active during ___. Its movements are ___, and it is noted for ___.”\n\nIf you want, I can also help by **guessing which real animal “mavika” refers to**.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 221,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

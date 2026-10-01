@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUC8o1CHAhUavZFKiqOrSoNimUb6C",
+  "object": "chat.completion",
+  "created": 1790865218,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "I don’t recognize **“glimberth”** as the standard English name of a real animal.\n\nA few possibilities:\n- It may be a **misspelling** or regional name.\n- It could be a **rare/common-name variant** for another species.\n- It might be from a **different language** transliterated into English.\n\nIf you want to describe an animal whose exact name you’re unsure of, a person would usually describe it by:\n- **Size**: small, medium, dog-sized, mouse-sized\n- **Body shape**: long-bodied, round, slender\n- **Covering**: fur, scales, feathers, smooth skin\n- **Color/pattern**: brown with stripes, spotted, plain gray\n- **Head features**: long snout, big ears, horns, beak\n- **Limbs/tail**: short legs, webbed feet, bushy tail\n- **Movement**: hops, slithers, climbs, glides, swims\n- **Habitat**: forest, desert, ocean, river\n- **Behavior**: nocturnal, shy, social, predatory\n- **Sound**: chirps, growls, clicks\n\nExample format:\n> “It’s a small, furry animal with a long tail, large eyes, and sharp claws. It lives in trees and moves quickly at night.”\n\nIf you want, send me:\n1. where you heard “glimberth,” or  \n2. a picture / description of the animal,\n\nand I can help identify the real animal name.",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 325,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,774 @@
+{
+  "fixed_at": "2026-10-01T14:29:09.843881+00:00",
+  "randomization_seed": 20261001142450,
+  "observations": [
+    {
+      "name": "mavika",
+      "role": "a person",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a person describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 1,
+      "id": "observation_01"
+    },
+    {
+      "name": "glimberth",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a naturalist describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 2,
+      "id": "observation_02"
+    },
+    {
+      "name": "talonvek",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a naturalist describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 3,
+      "id": "observation_03"
+    },
+    {
+      "name": "talonvek",
+      "role": "a person",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a person describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 4,
+      "id": "observation_04"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a naturalist describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 5,
+      "id": "observation_05"
+    },
+    {
+      "name": "mavika",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a naturalist describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 6,
+      "id": "observation_06"
+    },
+    {
+      "name": "mavika",
+      "role": "a person",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a person describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 7,
+      "id": "observation_07"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a person",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a person describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 8,
+      "id": "observation_08"
+    },
+    {
+      "name": "glimberth",
+      "role": "a person",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a person describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 9,
+      "id": "observation_09"
+    },
+    {
+      "name": "mavika",
+      "role": "a person",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a person describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 10,
+      "id": "observation_10"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a naturalist describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 11,
+      "id": "observation_11"
+    },
+    {
+      "name": "mavika",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a naturalist describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 12,
+      "id": "observation_12"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a person",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a person describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 13,
+      "id": "observation_13"
+    },
+    {
+      "name": "glimberth",
+      "role": "a person",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a person describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 14,
+      "id": "observation_14"
+    },
+    {
+      "name": "talonvek",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a naturalist describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 15,
+      "id": "observation_15"
+    },
+    {
+      "name": "talonvek",
+      "role": "a person",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a person describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 16,
+      "id": "observation_16"
+    },
+    {
+      "name": "talonvek",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a naturalist describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 17,
+      "id": "observation_17"
+    },
+    {
+      "name": "glimberth",
+      "role": "a person",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a person describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 18,
+      "id": "observation_18"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a naturalist describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 19,
+      "id": "observation_19"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a person",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a person describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 20,
+      "id": "observation_20"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a person",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a person describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 21,
+      "id": "observation_21"
+    },
+    {
+      "name": "glimberth",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a naturalist describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 22,
+      "id": "observation_22"
+    },
+    {
+      "name": "glimberth",
+      "role": "a person",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a person describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 23,
+      "id": "observation_23"
+    },
+    {
+      "name": "talonvek",
+      "role": "a person",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a person describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 24,
+      "id": "observation_24"
+    },
+    {
+      "name": "mavika",
+      "role": "a person",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a person describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a person describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 25,
+      "id": "observation_25"
+    },
+    {
+      "name": "talonvek",
+      "role": "a person",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a person describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a person describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 26,
+      "id": "observation_26"
+    },
+    {
+      "name": "vrishnokov",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How does a naturalist describe a vrishnokov? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a vrishnokov? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 27,
+      "id": "observation_27"
+    },
+    {
+      "name": "glimberth",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "openai",
+      "model": "gpt-5.4-2026-03-05",
+      "prompt": "How would a naturalist describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "gpt-5.4-2026-03-05",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_completion_tokens": 1000,
+        "reasoning_effort": "none",
+        "service_tier": "default",
+        "store": false
+      },
+      "order": 28,
+      "id": "observation_28"
+    },
+    {
+      "name": "mavika",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a naturalist describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 29,
+      "id": "observation_29"
+    },
+    {
+      "name": "mavika",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a naturalist describe a mavika? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a mavika? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 30,
+      "id": "observation_30"
+    },
+    {
+      "name": "glimberth",
+      "role": "a naturalist",
+      "modal": "would",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How would a naturalist describe a glimberth? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How would a naturalist describe a glimberth? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 31,
+      "id": "observation_31"
+    },
+    {
+      "name": "talonvek",
+      "role": "a naturalist",
+      "modal": "does",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "prompt": "How does a naturalist describe a talonvek? It is a real animal.",
+      "payload": {
+        "model": "claude-sonnet-4-6",
+        "messages": [
+          {
+            "role": "user",
+            "content": "How does a naturalist describe a talonvek? It is a real animal."
+          }
+        ],
+        "temperature": 1,
+        "max_tokens": 1000,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "order": 32,
+      "id": "observation_32"
+    }
+  ]
+}

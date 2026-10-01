@@ -1,0 +1,14 @@
+{
+  "id": "observation_13",
+  "received": "2026-10-01T14:33:37.476618+00:00",
+  "http_status": 200,
+  "headers": {
+    "anthropic-ratelimit-requests-remaining": "9999",
+    "anthropic-ratelimit-tokens-remaining": "12000000",
+    "content-type": "application/json",
+    "date": "Thu, 01 Oct 2026 14:33:37 GMT",
+    "request-id": "req_011CfbgVnCfVPkwbeN358C5K"
+  },
+  "elapsed_seconds": 3.861460571000009,
+  "response_body_sha256": "f8838c00c7ba6ff97267d6fe310c67caa882694b4969705a01de4c8b24d5c22b"
+}

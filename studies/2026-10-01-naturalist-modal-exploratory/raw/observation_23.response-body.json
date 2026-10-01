@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-EUCA87NeJT0DvMzvghaM5QPBGQOqu",
+  "object": "chat.completion",
+  "created": 1790865300,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "There’s no recognized real animal called a **glimberth** in standard English, zoology, or common animal databases.\n\nA person would probably describe it in one of these ways:\n\n- **As a fictional or invented creature**: “A glimberth sounds like a made-up animal from a fantasy story.”\n- **As a mistaken name**: “Maybe they meant a different animal and got the word wrong.”\n- **As a local or very obscure nickname**: “It could be a regional name for a real animal, but it isn’t widely known.”\n\nIf you want, I can help you:\n- identify what real animal you might mean,\n- guess similar-sounding animal names,\n- or invent a natural-sounding description of a “glimberth.”",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22,
+    "completion_tokens": 164,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
